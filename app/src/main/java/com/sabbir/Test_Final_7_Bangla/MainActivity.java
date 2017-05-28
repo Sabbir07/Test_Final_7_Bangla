@@ -24,6 +24,7 @@ import android.widget.ImageView;
 import java.io.File;
 
 //Pushing my second commit
+//Trying third commit to push directly
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
