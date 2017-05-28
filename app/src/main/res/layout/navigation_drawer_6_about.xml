@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f40000"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/l_design_top_corners_rounded_2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scrollview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/l_rectangle_round_corner_container_for_about_page"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="এই অ্যাপটির সব কন্টেন্ট বিভিন্ন ওয়েবসাইট, ব্লগ, পত্রিকা ইত্যাদি থেকে সংগ্রহ করা হয়েছে। অ্যাপটি বানানোর উদ্দেশ্য হলো বাংলাদেশের স্বাধারন মানুষকে নানান ধরনের বিপদ সংকুল পরিস্থিতিতে সাহায্য করা।\n\nডেভেলপারঃ\nমোঃ ওমর ফারুক খান\nরাজশাহী বিশ্ববিদ্যালয়\nকম্পিউটার সায়েন্স এন্ড ইঞ্জিনিয়ারিং বিভাগ\nomarfaruk007ofs@gmail.com"
+                        android:textAllCaps="false"
+                        android:textColor="@color/textColorWhite"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

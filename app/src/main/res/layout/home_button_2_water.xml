@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back_back_color_221"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_2_water_cover"/>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="পানি দ্বারা যেসকল দুর্ঘটনা ঘটতে পারে সেগুলো এই আলোচনার অন্তর্ভূক্ত। পানি সম্পর্কিত বা এর দ্বারা প্রচুর দুর্ঘটনা ঘটে থাকে; যেগুলোর মধ্যে বেশীরভাগ ক্ষেত্রে শুধুমাত্র অবহেলাই মূলত দায়ী। এসকল দুর্ঘটনায় পতীত হলে করনীয় নিচে দেয়া হলো।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+        <Button
+            android:id="@+id/drowning"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/drowning1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ডুবন্ত ব্যাক্তিকে উদ্ধার"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/boat"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/boat1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      লঞ্চ/নৌকা ডুবির ক্ষেত্রে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/flood"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/flood1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      বন্যার সময়"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/storm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/storm1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ঝরের সময়"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/drought"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/drought1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      অনাবৃষ্টিতে করনীয়"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+        <!--
+
+        <Button
+            android:id="@+id/tsunami"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/tsunami1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      সুনামি"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_background_color_250"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:gravity="left|center_vertical"
+                android:text="জিজ্ঞাসা"
+                android:textColor="@drawable/l_text_color_99"
+                android:textSize="@dimen/font_size_internal_buttons"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="পানি সম্পর্কিত দুর্ঘটনা রোধে কি কি সতর্কতা অবলম্বন করা উচিৎ?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="- নিয়মিত আবহাওয়ার খবর রাখুন।\n- নেশা করেন এমন কাউকে বোট চালকের দায়িত্ব দেবেন না।\n- আপনার বাচ্চাদের দিকে বিশেষ নজর দেবেন এবং হাতের কাছে রাখবেন।\n- যদি সাঁতার কাটতে হয় তবে অন্য কারো পাশাপাশি সাঁতার কাটুন।\n- সবসময় লাইফ জ্যাকেট পরিধান করুন।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="কেন দুজন দুজন করে সাঁতার কাটা উচিৎ?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="দুজন করে কাজ করলে একজনের বিপদে অন্যজন হাত বাড়াতে পারবে সহজেই। তাছাড়া বিপদের সময় মানসিক সাহায্যের জন্যেও সঙ্গির দরকার পরবে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="বাচ্চাদেরকে কেন সাঁতার সেখানো গুরুত্বপূর্ন?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="প্রচুর বাচ্চা প্রতিবছর পানিতে ডোবার মতো দুর্ঘটনার স্বীকার হয়ে মারা যায়। তাই বাচ্চাদের এধরনের দুর্ঘটনা এড়াতে সাঁতার কাটতে পারাটা অত্যন্ত গুরুত্বপূর্ণ জীবন রক্ষাকারী বিষয়।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="লাইফ জ্যাকেট দেখতে কেমন?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_2_water_life_jacket"/>
+            <!--<TextView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>-->
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:background="@drawable/l_background_color_250"/>
+        <!--<ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fire_image_1"/>-->
+    </LinearLayout>
+</ScrollView>
+

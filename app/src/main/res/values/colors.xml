@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f40000</color>
+    <color name="colorPrimaryDark">#dc0000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="buttonBackground">#fafafa</color>
+    <color name="textColorWhite">#ffffff</color>
+    <color name="frontButtonTextColor">#212121</color>
+
+    <!-- previously it was #dddddd d2d2d2-->
+    <color name="backgroundDeepColor">#000000</color>
+
+    <color name="endLayoutTextBackgroundColor">#fafafa</color>
+
+
+    <color name="iconTintColorAboutPageEnd">#004666</color>
+
+    <!-- previous colors 0097db, and
+         0187d0 is from mobiles contacts action bar color -->
+    <!-- inside layout button color and button pressed indicating color is same,
+         similarly navigation icon color and navigation button text color is same -->
+    <color name="iconTintColorFrontPageButton">#0187d0</color>
+    <color name="iconTintColorInsideLayoutButton">#0187d0</color>
+    <color name="iconTintColorInsideLayoutButtonPressed">#007bb4</color>
+    <color name="iconTintColorNavigationButton">#0187d0</color>
+</resources>

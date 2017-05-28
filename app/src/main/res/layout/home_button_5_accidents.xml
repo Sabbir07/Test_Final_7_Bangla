@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back_back_color_221"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_5_accidents_cover"/>
+
+
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="একটু অসতর্কতাই এধরনের দুর্ঘটনার কারন হয়ে দাড়াতে পারে। কোন ধরনের দুর্ঘটনার স্বীকার হলে নিচে দেয়া পদ্ধতিগুলি দ্রুত অনুসরন করুন এবং ইমার্জেন্সী অবস্থায় জাতীয় হেল্প লাইনের (৯৯৯) সাহায্য নিতে নিচের বাটনে ক্লিক করুন।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:background="@drawable/l_background_color_250">
+
+            <Button
+                android:id="@+id/call"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/l_button_design_5_call"
+                android:drawableTint="@drawable/l_drawable_tint_color_call_button"
+                android:gravity="center"
+                android:text="৯৯৯ এ কল করুন"
+                android:textColor="@drawable/l_button_color_call_button"
+                android:textSize="@dimen/font_size_internal_buttons"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/object"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/eye1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      চোখে ময়লা পড়লে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/senseless"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/senseless1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      অজ্ঞান হয়ে পড়লে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/broken_bone"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/broken_bone1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      হাত বা পা ভেঙ্গে গেলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/cut"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/cut1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      কোথাও কেটে গেলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/electric_shock"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/electric_shock1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      বৈদ্যুতিক শক খেলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/throat"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/throat1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      গলায় কিছু আটকে গেলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/ear_problem"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/ear_problem1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      কানে পানি অথবা পোকা ঢুকলে করনীয়"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/quicksand"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/quicksand1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      চোরাবালিতে কেউ পড়ে গেলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/earthquake"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/earthquake1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ভূমিকম্প"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+
+        <!--
+        <Button
+            android:id="@+id/call"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_5_call"
+            android:drawableLeft="@drawable/call1"
+            android:drawableTint="@drawable/l_drawable_tint_color_call_button"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      কল  ৯৯৯"
+            android:textColor="@drawable/l_button_color_call_button"
+            android:textSize="16sp"/>
+        -->
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_background_color_250"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:gravity="left|center_vertical"
+                android:text="জিজ্ঞাসা"
+                android:textColor="@drawable/l_text_color_99"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="আগুন কি?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="আগুন (ইংরেজি: Fire) হলো দ্রুত প্রজ্জ্বলনশীল পদার্থের রাসায়নিক বিক্রিয়াবিশেষ। এর মাধ্যমে উত্তাপ, আলোসহ বহুবিধ রাসায়নিক ভাবে উৎপাদিত প্রতিক্রিয়া সৃষ্টি হয়। ধীরগতিতে অম্লজাত প্রক্রিয়ায় সংগঠিত মরিচা পড়া বা পরিপাকতন্ত্রের বিক্রিয়ায় সৃষ্ট আগুন এ সংজ্ঞায় ধর্তব্য নয়।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="আগুনের ভেতরের তাপমাত্রা কতো?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="আগুনের রঙ তার তাপমাত্রা নির্দেশ করে। গভীর লাল রং ৬০০ ডিগ্রি সেলসিয়াস (১১১২ ডিগ্রী ফারেনহাইট) এবং কমলা - হলুদ রং ১১০০ ডিগ্রি সেলসিয়াস (২০১২ ডিগ্রী ফারেনহাইট) তাপমাত্রার হয়ে থাকে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="অগ্নি নির্বাপক যন্ত্র কি এবং সেটা কিভাবে ব্যাবহার করতে হয়?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="অগ্নিনির্বাপক যন্ত্র একটি মজবুত মেটাল সিলিন্ডার যার ভেতর পানি বা অদাহ্য অন্য কোন পদার্থ (তরল কার্বন-ডাই-অক্সাইড উদাহরন স্বরূপ) উচ্চ চাপে সংরক্ষিত থাকে। যখন লিভার চেপে সিলিন্ডারের ভালব খোলা হয় তখন ভিতরে রক্ষিত তরল সজোড়ে বাইরে বেরিয়ে আসে যেমনটা হয় এ্যারোসলের ক্ষেত্রে।\n\nঅগ্নিনির্বাপক যন্ত্রের মুখে একটি সেফটিপিন দিয়ে আটকানো থাকে। যন্ত্র ব্যবহার করার সময় এই সেফটি পিন টান দিয়ে খুলে নিতে হয়। তারপর অপারেটিং লিভার নিচের দিকে চাপ দিলেই নল দিয়ে বেরিয়ে আসে গ্যাস অথবা ফোম। নির্গত গ্যাস শুধু আগুনের শিখা লক্ষ করে ছড়িয়ে দিলে কাজে আসবেনা। সবচেয়ে ভাল ফল পেতে হলে জ্বালানী (যা জ্বলছে) লক্ষ করে গ্যাস ছাড়তে হবে। এবং অবশ্যই গ্যাস নির্গমন পাইপ ডানে-বায়ে নাড়াতে হবে (ঝাড়ু দেয়ার মত) যাতে করে চারপাশ থেকে বাষ্প উড়ে চলে যায়। আর এই কাজটা করতে হবে নিরাপদ দূরত্বে থেকে এবং আস্তে আস্তে সামনে এগিয়ে যেতে হবে যখন আগুন নিভতে শুরু করবে।\n\nঅগ্নিনির্বাপক যন্ত্রের গায়ে ব্যবহার নির্দেশিকা দেয়া থাকে। এই নির্দেশিকা দুর্ঘটনা ঘটার আগেই ভালভাবে পড়ে রাখা  উচিত।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="অগ্নি নির্বাপক যন্ত্র কেমন দেখতে?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fire_image_1"/>
+        -->
+    </LinearLayout>
+</ScrollView>
+

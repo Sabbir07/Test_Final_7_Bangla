@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f40000"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/l_design_top_corners_rounded_2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:paddingTop="17dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_drawer_3_target"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="\nফার্স্ট এইডের উদ্দেশ্য"
+                android:textColor="#ff0000"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff0000"/>
+
+            <ScrollView
+                android:id="@+id/scrollview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="যিনি ফার্স্ট এইডের চিকিৎসা দিচ্ছেন তার মূলত নিচে দেয়া লক্ষ গুলো পূরন করাই উদ্দেশ্য। ফার্স্ট এইডের উদ্দেশ্য প্রধানত তিনটিঃ"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="25dp">
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="১"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView201"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView20"
+                            android:paddingTop="2dp"
+                            android:text="প্রথম উদ্দেশ্য হলো জীবন বাঁচানো। ফার্স্ট এইড কখনোই পুরো ট্রিটমেন্ট সেবাকে বোঝায় না, তবে প্রোফেশনাল মেডিকেল টিম পৌছানোর পূর্বের দেয়া সেবাকে নির্দেশ করে। কখনো কখনো জীবন বাঁচানোর জন্য এর কোন বিকল্প থাকে না।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="২"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView211"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView21"
+                            android:paddingTop="2dp"
+                            android:text="দ্বিতীয়তো, আহত ব্যাক্তির আরো বেশি ক্ষতি যাতে না হয়ে যায় অথবা তিনি যাতে আরো বেশি অসুস্থ হয়ে না পড়েন সেটা নিশ্চিত করা। যেমনঃ আহত ব্যাক্তিকে বিপদ সংকুল এলাকা থেকে দ্রুত দূরে সরিয়ে নেয়া, অথবা কাটা জায়গায় হাত দিয়ে চেপে ধরে রক্ত পড়া বন্ধ করা।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="৩"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView311"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView31"
+                            android:paddingTop="2dp"
+                            android:text="তৃতীয়তো, আক্রান্ত ব্যাক্তিকে ফার্স্ট এইড দেবার মাধ্যমে তার অবস্থার উন্নতি ঘটানো এবং চিকিৎসকের দেয়া ট্রিটমেন্ট ঠিক মতো পালন করা, যেমনঃ ছোট ক্ষত যায়গায় প্লাস্টার লাগানো।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

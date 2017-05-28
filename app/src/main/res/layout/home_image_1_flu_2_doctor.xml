@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="@dimen/flu_padding_top"
+            android:text="নিম্নক্ত পরিস্থিতিতে ডাক্তার ডাকুন"
+            android:textColor="@drawable/l_text_color_99"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="@string/flu_doctor_icon"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textView20"
+                android:paddingTop="2dp"
+                android:text="শ্বাস প্রশ্বাস ঘন হয়ে আসলে, শ্বাস নিতে কষ্ট হলে অথবা চামড়ার রং নীল হয়ে গেলে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textView21"
+                android:paddingTop="2dp"
+                android:text="বুকে অথবা তলপেটে ব্যাথা অথবা চাপ অনুভূত হওয়া।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textView31"
+                android:paddingTop="2dp"
+                android:text="দ্বিধাগ্রস্থ অবস্থা অথবা হঠাৎ ঝিমুনি আসা।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+
+            <TextView
+                android:id="@+id/textView1_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textView1_1"
+                android:paddingTop="2dp"
+                android:text="যথেষ্ট তরল খাবার না খাওয়া, কোন কিছু খেতে না পারা অথবা ঘনঘন খারাপ মাত্রায় বমি করা।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView3111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textView3112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textView3111"
+                android:paddingTop="2dp"
+                android:text="ফ্লুর মতো লক্ষন দেখা দিয়ে সেরে গিয়ে আবার জ্বর এবং আরো বেশি কাশির সাথে ফিরে আসা।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textViewa20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textViewa201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textViewa20"
+                android:paddingTop="2dp"
+                android:text="ঘুম থেকে জেগে না ওঠা, বাচ্চার গায়ে হাত দিতে না দেয়া কিংবা শারীরিক স্পর্শে বিরক্ত হওয়া (বাচ্চাদের ক্ষেত্রে)।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textViewa21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textViewa211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textViewa21"
+                android:paddingTop="2dp"
+                android:text="জ্বরের সাথে সাথে ফুসকুড়ি ওঠা (বাচ্চাদের ক্ষেত্রে)।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/flu_padding_top"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textViewa31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/flu_doctor_icon"
+                android:paddingBottom="2dp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_very_big"/>
+
+            <TextView
+                android:id="@+id/textViewa311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/textViewa31"
+                android:paddingTop="2dp"
+                android:text="কান্নার সময় চোখ দিয়ে পানি না পড়া অথবা স্বাভাবিকের তুলনায় ডাইপার খুব কম ভেজা পাওয়া (বাচ্চাদের ক্ষেত্রে)।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

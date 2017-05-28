@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/l_design_top_corners_rounded_2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/l_rectangle_round_corner_container_navigation_drawer"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="17dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_drawer_2_why"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="\nকেনো শেখা উচিৎ"
+                android:textColor="#ff0000"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff0000"/>
+
+            <ScrollView
+                android:id="@+id/scrollview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="প্রত্যেকেরই ফার্স্ট এইডের ব্যাসিক শিখে রাখা উচিৎ। আপনি স্কুল, অফিস যেখানেই থাকুন না কেন, আপনি নিজেও জানেন না কখন আপনার এই জ্ঞানের দরকার পরে যাবে। তাছাড়া অন্যান্য কারনের মধ্যে রয়েছেঃ"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="25dp">
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="১"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView201"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView20"
+                            android:paddingTop="2dp"
+                            android:text="প্রয়োজনের সময় কাজে লাগানোর জন্য যথেষ্ট জ্ঞানার্জন করা।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="২"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView211"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView21"
+                            android:paddingTop="2dp"
+                            android:text="ফার্স্ট এইডের জ্ঞানের মাধ্যমে পরিবারের অন্যান্য সদস্য অথবা এলাকার যেকারো সহযোগিতায় মুহূর্তেই এগিয়ে আসা সম্ভব।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="৩"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView311"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView31"
+                            android:paddingTop="2dp"
+                            android:text="একবার শিখে রাখা ফার্স্ট এইডের জ্ঞান ধীরে ধীরে ভূলে যাওয়াটাই স্বাভাবিক, তাই নিয়মিত চর্চার মাধ্যমে নিজেকে সবসময় আপডেটেড রাখাটা অতি জরুরী।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView1_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="৪"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView1_11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView1_1"
+                            android:paddingTop="2dp"
+                            android:text="কর্মক্ষেত্রে নিরাপদ থাকতে এবং কর্মক্ষেত্রের নিরাপত্তা ব্যাবস্থা ঠিক আছে কিনা সে ব্যাপারে সহযোগিতা করতে ফার্স্ট এইডের জ্ঞান একান্ত প্রয়োজন। বিপদ এবং এক্সিডেন্ট যেকোন জায়গায় যেকোন মুহূর্তে ঘটে যেতে পারে।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textView3111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="৫"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textView3112"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textView3111"
+                            android:paddingTop="2dp"
+                            android:text="স্বাস্থ্য সেবা সংক্রান্ত ক্যারিয়ার গড়ে তুলতে ফার্স্ট এইডের জ্ঞান অনেক কাজে আসতে পারে। এটি পরবর্তিতে আপনাকে এই সংক্রান্ত জবে এপ্লিকেশনের ব্যাপারে সিদ্ধান্ত নিতে সাহায্য করবে।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/flu_padding_top">
+
+                        <TextView
+                            android:id="@+id/textViewa21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/l_circle_shape_2"
+                            android:gravity="center"
+                            android:paddingBottom="3dp"
+                            android:text="৬"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/flu_font_big_big"/>
+
+                        <TextView
+                            android:id="@+id/textViewa211"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/textViewa21"
+                            android:paddingTop="2dp"
+                            android:text="কোন আক্রান্ত ব্যাক্তির জীবন বাঁচাতে যেকোন মুহূর্তে আপনাকে এগিয়ে আসতে হতে পারে।"
+                            android:textColor="@drawable/l_text_color_33"
+                            android:textSize="@dimen/last_layout_primary_text"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

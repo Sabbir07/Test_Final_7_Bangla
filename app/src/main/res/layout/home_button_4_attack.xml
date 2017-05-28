@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back_back_color_221"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_4_attack_cover"/>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="জীব/জন্তুর দ্বারা আক্রান্ত হওয়া একটি অতি স্বাধারন ঘটনা। আমেরিকায় ৫ মিলিয়নের মতো মানুষ বিড়াল এবং কুকুরের আক্রমনের স্বীকার হয়েছেন। আবহাওয়ার তারতম্যের সাথে সাথে এই ধরনের আক্রমনের মাত্রা এবং পরিমান বদলে থাকে।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+        <Button
+            android:id="@+id/snake"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/snake1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      সাপে কাটলে"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/dog"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/dog1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      কুকুর কামড়ালে"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/insect"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/insect1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      বিষাক্ত পোকা কামড়ালে"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/bee"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/bee1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      মৌমাছি দ্বারা আক্রান্ত হলে"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <!--<Button
+            android:id="@+id/mosquito"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/mosquito1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      মশার কামড় খেলে"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_background_color_250"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:gravity="left|center_vertical"
+                android:text="জিজ্ঞাসা"
+                android:textColor="@drawable/l_text_color_99"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="র‍্যাবিজ কি?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="এটি একটি ভাইরাস ইনফেকশন যেটা প্রানীর থুথু বা লালার মাধ্যমে ছড়ায়। এই ভাইরাসটি আক্রান্ত প্রানীর সেন্ট্রাল নার্ভাস সিস্টেমের মধ্যে প্রবেশ করে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="কামড় দেবার পরে প্রানীটির কি ঘটে?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="ইউরোপিয়ান কান্ট্রিতে রিপোর্টের পরে এই ধরনের প্রানীর মধ্যে কুকুর, বিড়াল জাতীয় প্রানীকে কামড়ের দিন থেকে পরবর্তী ১০ দিন আটকে রেখে পর্যবেক্ষন এবং পরীক্ষা করা হবে যে প্রানীটি সুস্থ আছে কিনা। সুস্থ থাকলে এই সময়ের পরে তাকে রিলিজ করা হবে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="এই ধরনের আটকে রাখা বা কুয়ারান্টীন অবস্থা বলতে কি বোঝায়?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="কুয়ারান্টীন অবস্থার মানে হলো প্রানীটি অন্য কোন প্রানীর বা মানুষের সাথে সংস্পর্শে যেতে পারবে না, শুধু মাত্র তার কেয়ারটেকার ছাড়া।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="প্রানীটি যদি পোষা না হয়ে থাকে তাহলে?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="বুনো প্রানীদের ক্ষেত্রে র‍্যাবিজ টেস্টের আগে দেখে নেয়া হবে যে প্রানীটি কোন প্রজাতীর।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+        </LinearLayout>
+<!--
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fire_image_1"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:background="@drawable/l_background_color_250"/>
+    </LinearLayout>
+</ScrollView>
+

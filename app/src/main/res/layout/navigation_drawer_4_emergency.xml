@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f40000"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/l_design_top_corners_rounded_2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:paddingTop="17dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_drawer_4_emergency"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="\nসমস্যা গুরূতর হলে করনীয়"
+                android:textColor="#ff0000"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff0000"/>
+
+            <ScrollView
+                android:id="@+id/scrollview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="ইমার্জেন্সি পরিস্থিতিতে খুব দ্রুত প্রয়োজনীয় ব্যাবস্থা নেয়াটা অত্যাবশ্যক। আগে থেকেই যদি ইমার্জেন্সী পরিস্থিতিতে পরলে কি করতে হবে তার ব্যাপারে পরিস্কার একটা প্ল্যানিং থাকে তবে সেটা অনেক সহায়ক হতে পারে। আপনি যদি আপনার প্ল্যানকে বিভিন্ন ধাপে ভেঙ্গে নিতে পারেন তাহলে জরুরী পরিস্থিতিতে আপনি সহজেই বুঝতে পারবেন আপনার কি করা উচিৎ এবং কোনটার পরে কোনটা করা উচিৎ।"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="যেমন উদাহরন স্বরুপঃ আপনার ফ্যামিলির জন্য বাড়িতে আগুন লাগলে কি করতে হবে তার একটা রূপরেখা আগে থেকেই তৈরি করে রাখতে পারেন। প্রথমে সাবধানে কোন রাস্তা দিয়ে বাড়ি থেকে বের হওয়া যাও সেটা খুঁজে বের করবেন। তারপর সবাই বাড়ি থেকে একটা নিরাপদ দূরত্বে জড়ো হবেন এবং ফায়ারব্রিগেডে অথবা ইমার্জেন্সি নাম্বারে ফোন দেবেন।"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

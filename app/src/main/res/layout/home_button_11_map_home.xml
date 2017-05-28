@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/l_back_back_color_221"
+            android:orientation="vertical"
+            android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/map_show"/>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="ইমার্জেন্সি অবস্থায় (যেমনঃ কোন স্থান থেকে আপনাকে উদ্ধার করার জন্য) সাহায্য চেয়ে আপনার অবস্থানের কোওর্ডিনেট, মেসেজ আকারে পাঠানোর জন্য নিচের বাটনে ক্লিক করুন। ৯১১ এ ডিফল্টভাবে অথবা অন্য যে কোন নাম্বারে আপনার অবস্থানের কোওর্ডিনেট মেসেজ আকারে পাঠাতে পারবেন। অপর প্রান্তের মেসেজ গ্রহনকারী মেসেজ ওপেন করে তাতে ক্লিক করলেই গুগল ম্যাপে আপনার অবস্থান লাল আইকনের সাহায্যে দেখতে পাবেন। [তবে এই সার্ভিসটি চালু করতে প্রথমেই আপনার মোবাইলের ডাটা কানেকশন (Data Connection) এবং লোকেশন (Location) অন করে নিন]"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+
+        <Button
+            android:id="@+id/map"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/map1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      মেসেজ পাঠাতে ম্যাপ ওপেন করুন"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_background_color_250"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:gravity="left|center_vertical"
+            android:text="আনুষাঙ্গিক সার্চ"
+            android:textColor="@drawable/l_text_color_99"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:text="আপনার আশেপাশে সবচেয়ে কাছাকাছি থাকা গুরূত্বপূর্ন জায়গাগুলোর (যেমনঃ হাসপাতাল) অবস্থান এবং তথ্য গুগল ম্যাপে (Google Map) দেখতে নিচে দেয়া বাটন গুলোতে ক্লিক করুন।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+
+        <Button
+            android:id="@+id/hospital"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/hospital1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      হাসপাতাল"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+        <Button
+            android:id="@+id/pharmacies"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/pharmacies1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ফার্মেসি / মেডিসিন স্টোর"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/fire_station"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/fire_station1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ফায়ার স্টেশন"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/atm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/atm1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      এটিএম মেশিন"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/car_repair"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/car_repair1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      মোটরগারী/কার মেরামতের দোকান"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/railway_station"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/railway_station1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      রেইল স্টেশন"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/bus_station"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/bus_station1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      বাস স্টেশন"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/food"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/food1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      খাবার দোকান / রেস্টুরেন্ট"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/police_station"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/police_station1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      পুলিশ স্টেশন"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/hardware_store"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_4_map_home"
+            android:drawableLeft="@drawable/hardware_store1"
+            android:drawableTint="@drawable/l_drawable_tint_color_2_red"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      হার্ডওয়্যার দোকান"
+            android:textAllCaps="false"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+    </LinearLayout>
+</ScrollView>

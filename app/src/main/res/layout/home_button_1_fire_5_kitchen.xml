@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_1_fire_5_kitchen_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="রান্নাবান্না একটি পরিবারের জন্য অত্যন্ত গুরূত্বপূর্ন অংশ কিন্তু যত্নবান না হলে এ থেকে অনেক বড় ধরনের দুর্ঘটনার সূত্রপাত ঘটতে পারে। বেশিরভাগ বাড়িতে আগুন লাগার সূত্রপাত রান্নাঘর থেকেই হয়ে থাকে। রান্নাঘরের আগুন রোধের উপায় জানা থাকলে তা বাসাবাড়িতে আগুন লাগার হাত থেকে রক্ষা করতে পারে।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/one1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one1t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="১"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one1t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one1t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="আপনি যতক্ষন চুলা জ্বালিয়ে রাখবেন রান্নাঘর ছেড়ে যাবেন না। যদি অল্প সময়ের জন্যও যাওয়া প্রয়োজন মনে করেন তবে চুলা নিভিয়ে যান। চুলা জ্বালিয়ে রান্নাঘর ছেড়ে যাবার কারনে অনেক সময়েই আগুনের সূত্রপাত ঘটে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one2i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_5_kitchen_1"/>
+
+            <TextView
+                android:id="@+id/one2t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one2i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="২"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one2t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one2i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one2t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="রান্না করার সময় হাত দিয়ে চুলার ওপরে কাজ করছেন এমতাবস্থায় হাতে ঢোলা কাপড় পরবেন না, অথবা হাতা গুটিয়ে নেবেন যাতে কাপড়ে আগুন ধরে যেতে না পারে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one3t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৩"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one3t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one3t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="আগুন ধরে যেতে পারে এমন সমস্ত কাপড় এবং অন্যান্য বস্তু চুলার কাছ থেকে দূরে সরিয়ে রাখুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one4i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_5_kitchen_2"/>
+
+            <TextView
+                android:id="@+id/one4t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one4i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৪"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one4t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one4i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one4t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="চুলার কাছে যদি কোন জানালা থাকে তবে জানালার কাপড় সরিয়ে রাখুন অথবা কাপড় বাদে অন্য অদাহ্য কিছু জানালার পর্দা হিসাবে ব্যাবহার করুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/one5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one5t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one5i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৫"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one5t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one5i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one5t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="চুলার যন্ত্রপাতি যেমনঃ ওভেন, গ্যাসের সিলিন্ডার ইত্যাদি কেনার আগে কোন ত্রুটি আছে কিনা সেটা ভালোভাবে চেক করিয়ে নিন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one6t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one6i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৬"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one6t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one6i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one6t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="ওভেন, স্টোভ ইত্যাদি ব্যাবহারের আগে প্রস্তুতকারকের কাছ থেকে পাওয়া ব্যবহার বিধি ভালো করে পড়ে নেবেন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one7i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_5_kitchen_3"/>
+
+            <TextView
+                android:id="@+id/one7t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one7i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৭"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one7t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one7i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one7t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="ইলেকট্রিক্যাল তার নিয়মিত চেক করুন, ঠিক আছে কিনা! যদি পুড়ে বা ভেঙ্গে গিয়ে থাকে তাহলে তা বদলে ফেলুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one8t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৮"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one8t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one8t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="স্টোভের চারপশে থাকা গ্রিজ এবং তেল নিয়মিত পরিষ্কার করুন, কারন এগুলোতে দ্রুত আগুন ধরে যায়।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/one9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one9t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৯"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one9t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one9t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="বাসায় পোষা প্রানী যেমনঃ কুকুর, বিড়াল ইত্যাদি থাকলে তাদেরকে রান্নার চুলার আশেপাশে যেতে দেবেন না।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top"
+            android:paddingBottom="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one10t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="১০"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one10t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/text_ceiling"
+                android:layout_toRightOf="@+id/one10t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="মাইক্রোওয়েভে খাবার বা অন্য তরল জাতীয় কিছু গরম করার সময় কাঁচ কিংবা প্লাস্টিক জাতিয় ধাতুবিহীন পাত্র ব্যাবহার করুন। এলুমিনিয়াম ফয়েল ব্যাবহার করবেন না, কারন মাইক্রোওয়েভে ধাতু বা মেটাল ব্যবহার করলে আগুন ধরে যেতে পারে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

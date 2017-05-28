@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_1_fire_4_wildfire_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="শুষ্ক এবং গরম এলাকায় দাবানল একটা অতি স্বাধারন দুর্ঘটনা, তবে এটি যেকোন জায়গাতেই ঘটতে পারে। বেশিরভাগ সময় মানুষ সৃষ্ট কারন থেকেই আগুনের সূত্রপাত হয়ে থাকে এবং তা খুব দ্রুত ছড়িয়ে পরে। দাবানল থেকে সৃষ্ট ধোঁয়া মাটির কাছাকাছি থাকে এবং আসল আগুনের সামনে প্রায় মাইলখানেক এলাকা জুড়ে বয়ে যায়। যদি কখনো দাবানলের মুখে পড়ে যান তাহলে নিজেকে এবং নিজের পরিবারকে বাঁচাতে কি করা উচিৎ সেটা জানা অতি জরুরী।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_image_top"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="হাঁটতে থাকা অবস্থায়"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার প্রথম পদক্ষেপ হলো নিজেকে শান্ত রাখা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="নিজের ওপরে ভরসা রাখুন, আপনার আত্মবিশ্বাসই আপনাকে বেঁচে থাকতে সহায়তা করবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_1"/>
+
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এরপরের কাজ হলো নিরাপদ শ্বাস প্রস্বাস চালু রাখা। ধোঁয়া এবং কার্বন মনোক্সাইড ফুসফুসে গেলে পরে আপনি অজ্ঞান হয়ে যেতে পারেন অথবা মৃত্যুবরনও করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মাটির কাছাকাছি নিচু হয়ে থাকুন। নাক এবং মুখ ভেজা কাপড় দিয়ে ঢেকে রাখুন যতক্ষন না নিরাপদ স্থানে পৌঁছুচ্ছেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_2"/>
+
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি মানসিক ভাবে শক্তি পান এবং হাতে সময় থাকে তাহলে ২-৩ টি ব্যাকাপ প্লান করুন যাতে পরিস্থিতির পরিবর্তনের সাথে সাথে কোন পালানোর পথটা তুলনামূলক ভাবে বেশি ভালো হবে সেটা নির্ধারন করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বাতাসকে গাইড হিসেবে ব্যাবহার করুন। বাতাস যদি আপনাকে পার হয়ে আগুনের দিকে বয়ে যেতে থাকে তাহলে বাতাস যেদিক থেকে আসছে সেদিকে দৌড় দিন। আর যদি বাতাস আগুনের পেছন দিক থেকে আপনার দিকে বয়ে আসতে থাকে তাহলে আগুনের দিকের সাথে সমকোনে ৯০ ডিগ্রী এঙ্গেলে দৌড় দিন যাতে করে আগুন যেদিক থেকে আসছে এবং যেদিকে আগুন যাচ্ছে দুইদিকই এড়িয়ে যেতে পারেন। মনে রাখবেন আগুনের স্ফুলিঙ্গ মূল আগুনের সামনে ১ মাইল এলাকা জুড়ে ছড়িয়ে পড়তে পারে এবং আরো ছোট ছোট আগুনের সূত্রপাত করতে পারে। নিজেকে এরকম আগুনের বৃত্তের মধ্যে আটকে পড়ার হাত থেকে বাঁচিয়ে রাখবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এমন এলাকার দিকে যাবার চেষ্টা করুন যেখানে আগুন ধরার মতো গাছ, বড় ঘাস, ঝোঁপঝাড় ইত্যাদি নেই।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি একান্তই অন্য কোন উপায় না পান তাহলে যেই এলাকা ইতিমধ্যেই পুড়ে গেছে সেই এলাকার দিকে এগুতে পারেন কারন সেখানে আর আগুন ধরার উপায় নেই। তবে সেখানকার নিভু নিভু আগুন এবং ধোঁয়ার দিকে খেয়াল রাখতে হবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_3"/>
+
+                <TextView
+                    android:id="@+id/one5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কোথাও পালানোর রাস্তা না পান তাহলে কোন বিল্ডিং অথবা গাড়ির ভেতরে আশ্রয় নিতে পারেন যেটা পোড়ার সম্ভাবনা কম।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি কোন পুকুর অথবা নদী পান তাহলে তাতে নেমে পড়ুন, তাতে করে আগুন থেকে রক্ষা পাবেন। আগুন পানির ওপর দিয়ে আসতে পারবেনা যদি না তা খুব সরু হয়ে থাকে অথবা পানির ওপরে ঝুলে থাকা আগুনে পোড়ার মতো কোন গাছ পায়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one5t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি আগুন আর আপনার মধ্যে কোন রাস্তা থাকে তাহলে আগুন সেই রাস্তা পার হতে সময় নেবে। যদি একান্তই অন্য কোন পথ খোলা না থাকে তাহলে হাত দিয়ে মাথা আড়াল করে রাস্তার সাথে একেবারে উপুর হয়ে শুয়ে পড়ুন। এমতাবস্থায় আগুনের তাপ থেকে রক্ষা পেতে ভেজা কাপড় এমনকি ধুলোও কাজে দিতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="গাড়িতে আশ্রয় নেয়া"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার নিজের যদি গাড়ি না থাকে এবং কারো ছেড়ে যাওয়া পরিত্যাক্ত গাড়ি দেখতে পান তবে তাতে আশ্রয় নিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি গাড়িতে প্রবেশের সময় জানালার কাঁচ ভাঙ্গতে হয় তবে পেছনের জানালার কাঁচ ভাঙ্গবেন, যাতে করে সামনের সীটে বসা অবস্থায় পাশের জানালা অক্ষত এবং আটকানো থাকে এবং ধোঁয়া না ঢুকতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি যখন কোন গাড়িতে অবস্থান করছেন তখন যাতে তার ভেতরে আগুনের ধোঁয়া না ঢুকতে পারে সেটা নিশ্চিত করতে হবে, নয়ত কার্বন মনোক্সাইডের কারনে আপনি অজ্ঞান হয়ে যেতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="জানালা তুলে দিন এবং বাতাসের ভেন্টগুলোও বন্ধ করে দিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_4"/>
+
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি গাড়ি চালানো সম্ভব হয় তবে চালাবেন কিন্তু সেটা সাবধানে এবং হেডলাইট অন করে। যাতে করে রাস্তায় কিছু পড়ে আছে কিনা দেখতে পান এবং রাস্তায় থাকা অন্য মানুষও আপনার গাড়ি দেখতে পায়।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি গাঢ় ধোঁয়ার কারনে সামনে কিছু দেখতে না পান তবে সেক্ষেত্রে গাড়ি না চালানোই বেশি নিরাপদ হতে পারে। তখন গাড়ি সাইডে পার্ক করে ধোঁয়া পরিষ্কার হওয়া পর্যন্ত অপেক্ষা করুন। গাড়ি পার্ক করার ক্ষেত্রে গাছপালা কিংবা ঝোঁপঝার থেকে যতটা সম্ভব দূরে পার্ক করবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="কোন কারনে যদি গাড়ি চালাতে না পারেন তবে গাড়ির ভেতরেই শুয়ে পড়ুন। হাটার চাইতে এটা অনেক নিরাপদ।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="গ্যাস ট্যাঙ্ক নিয়ে দুঃশ্চিন্তা করবেন না। গাড়ির মেটাল গ্যাস ট্যাংক এক্সপ্লোডের ঘটনা খুবই কম ঘটে থাকে। ফ্লোরের উপরে শুয়ে যদি সম্ভব হয় গায়ের ওপরে ব্লাংকেট অথবা কোট জড়িয়ে নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_5"/>
+
+                <TextView
+                    android:id="@+id/two5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এরকম অবস্থায় মনে রাখতে হবে আগুন যদি গাড়িকে ঘিরেও ফেলে তবুও গাড়ি ছেড়ে আপনার বের হওয়া উচিৎ হবে না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="গাড়ির ভেতরের তাপমাত্রা অনেক বেড়ে যাবে, কিন্তু চিন্তা করবেন না কারন বাইরের চাইতে গাড়ির ভেতরে থাকা, ঐ অবস্থাতেও অনেক নিরাপদ। মাথা ঠান্ডা রেখে গাড়ির ফ্লোরের উপরে শুয়ে থাকুন এবং ভেজা কাপড়ের মধ্যে দিয়ে শ্বাস নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="কোন বাড়িতে আশ্রয় নেয়া"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <RelativeLayout
+                android:id="@+id/three1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/three1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_6"/>
+
+                <TextView
+                    android:id="@+id/three1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="হাতে সময় থাকলে আপনার আশ্রয়স্থলকে নিরাপদ করতে কিছু পদক্ষেপ নিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সবধরনের জ্বালানীর লাইন বন্ধ করে দিন। দরজা জানালার সব পর্দা খুলে সরিয়ে ফেলুন। জানালার কাছে আগুন চলে এলেও যাতে পোড়ানোর মতো কিছু না পায়। বিল্ডিঙ্গের কাছ থেকে সমস্ত পোড়ানোর মতো বস্তু যত দূরে পারেন সরিয়ে ফেলুন। যদি হাতে আরো সময় থাকে তাহলে বাড়ির এবং উঠানে রাখা জ্বালানির (যদি থাকে) চারপাশের ঘাস কেটে কেটে ছোট করে ফেলুন যাতে আগুন সহজে এগুলার কাছে পৌঁছুতে না পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_7"/>
+                <TextView
+                    android:id="@+id/three2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি লাইনে পানি থাকে তাহলে চারপাশ পানি দিয়ে ভিজিয়ে ফেলুন এতে আগুন লাগা না থামলেও আগুন লাগার প্রক্রিয়া ধীর করে দেবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বাড়ির ছাদ, দেয়াল, উঠান সব পানি দিয়ে ভিজিয়ে ফেলুন। বড় কোন পাত্র থাকলে তাতে পানি ভরে বাড়ির চারিদিকে ছড়িয়ে রাখুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_1_fire_4_wildfire_8"/>
+
+                <TextView
+                    android:id="@+id/three3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="বাড়িতে আশ্রয় নেবার পর যাই ঘটুক ভেতরেই থাকুন। বাইরের তুলনায় ভেতরে থাকাটাই তখন নিরাপদ।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="দরজা আটকে দিলেও লক করবেননা। যদি অবস্থা খুবই খারাপ দিকে যায় এবং আপনাকে বের হতে হয় অথবা দমকল বাহিনীর কর্মিরা ভেতরে ঢোকার চেষ্টা করেন তার জন্য।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বাড়ির বাইরের দিকের দেয়ালের কাছ থেকে দূরে থাকুন, মাঝের কোন রুমে অবস্থান করুন যাতে বাইরের দেয়ালের থেকে আপনার অবস্থান সবচেয়ে দূরে হয়। আপনি যদি আরো অনেকের সাথে থেকে থাকেন তাহলে সবাই একত্রে থাকুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

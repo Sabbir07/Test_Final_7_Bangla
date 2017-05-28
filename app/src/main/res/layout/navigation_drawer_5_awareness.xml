@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f40000"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/l_design_top_corners_rounded_2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:paddingTop="17dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_drawer_5_awareness"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="\nজনসচেতনতা বাড়াতে করনীয়"
+                android:textColor="#ff0000"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ff0000"/>
+
+            <ScrollView
+                android:id="@+id/scrollview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/l_rectangle_round_corner_container"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="বিভিন্ন অফিসে ভূমিকম্পের সময় বা অন্যান্য বিপদাপদে কি করনীয় সেসব বিষয়ে নিয়মিত ট্রেইনিং দেবার ব্যাবস্থা করা। বিভিন্ন ইমার্জেন্সী সরঞ্জাম যেমনঃ আগুন নেভানোর যন্ত্র ইত্যাদি কিভাবে ব্যাবহার করতে হয় তা সবাইকে জানতে উৎসাহিত করা।"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="তাছাড়া স্কুল কলেজের শিক্ষার্থীদেরকে পড়াশুনার পাশাপাশি ফার্স্ট এইডের প্রশিক্ষন দেয়ার ব্যাবস্থা করা। এতে করে বিভিন্ন পরিস্থিতিতে কি ধরনের ব্যাবস্থা নিতে হবে সে ব্যাপারে তাদের ভালো জানাশোনা তৈরি হবে। এছাড়া বিভিন্ন কমিউনিটিতে, মসজিদে, হাসপাতালে ফার্স্ট এইড বা প্রাথমিক চিকিৎসা সেবার ব্যাপারে বিভিন্ন কর্মসূচির ব্যবস্থা করা যেতে পারে যাতে করে ছোট থেকে বড় সবার মাঝেই ফার্স্ট এইডের সম্বন্ধে পরিস্কার ধারনা তৈরি হয় এবং একে অন্যের সাহায্যে এগিয়ে আসতে পারেন।"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

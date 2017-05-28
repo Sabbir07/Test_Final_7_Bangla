@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sabbir.Test_Final_7_Bangla" >
+
+
+
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.sabbir.Test_Final_7_Bangla.MainActivity"
+            android:label="ফার্স্ট এইড বাংলা"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_1_what"
+                  android:label="ফার্স্ট এইড কি"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_2_why"
+                  android:label="কেনো ফার্স্ট এইড শেখা উচিৎ"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_3_target"
+                  android:label="ফার্স্ট এইডের উদ্দেশ্য"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_4_emergency"
+                  android:label="সমস্যা গুরূতর হলে করনীয়"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_5_awareness"
+                  android:label="জনসচেতনতা বাড়াতে করনীয়"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Navigation_6_about"
+                  android:label="অ্যাপ সম্পর্কিত"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_image_2_safe_water"
+                  android:label="নিরাপদ পানি"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu"
+                  android:label="Flu (ফ্লু/ইনফ্লুয়েঞ্জা)"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu_1_home"
+                  android:label="ফ্লু প্রতিরোধের টিপস"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu_2_doctor"
+                  android:label="ডাক্তার কখন ডাকতে হবে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_image_1_flu"/>
+        </activity>
+
+
+
+
+        <!--.....First Button of home all the fire related activities.....-->
+        <!--.....parentActivityName and meta-data is added for back arrow button in titlebar.....-->
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"
+                  android:label="আগুন থেকে ঘটা দুর্ঘটনা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire_1_burnt"
+                  android:label="আগুনে পুড়ে গেলে করনীয়"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire_2_home"
+                  android:label="বাসা-বাড়িতে আগুন লাগলে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire_3_car"
+                  android:label="গাড়িতে আগুন লাগা রোধে করনীয়"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire_4_wildfire"
+                  android:label="দাবানল থেকে বাঁচতে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire_5_kitchen"
+                  android:label="রান্নাঘরে আগুন লাগা রোধে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_1_fire"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_2_water"
+                  android:label="পানি সম্পর্কিত দুর্ঘটনা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_2_water_1_drowning"
+                  android:label="ডুবন্ত ব্যাক্তিকে উদ্ধার"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_2_water">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_2_water"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_2_water_2_boat"
+                  android:label="লঞ্চ/নৌকা ডুবির ক্ষেত্রে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_2_water">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_2_water"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_3_eye"
+                  android:label="চোখ সংক্রান্ত সমস্যা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_3_eye_1_object"
+                  android:label="চোখে ময়লা পড়লে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_3_eye">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_3_eye"/>
+        </activity>
+
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack"
+                  android:label="জীব/জন্তুর আক্রমণ"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack_1_snake"
+                  android:label="সাপে কাটলে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack_2_dog"
+                  android:label="কুকুর কামড়ালে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack_3_insect"
+                  android:label="বিষাক্ত পোকা কামড়ালে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack_4_bee"
+                  android:label="মৌমাছি দ্বারা আক্রান্ত হলে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_4_attack"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_5_accidents"
+                  android:label="স্বাধারন দুর্ঘটনা ও করনীয়"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_5_accidents_1_unconscious"
+                  android:label="অজ্ঞান হয়ে পড়লে"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_5_accidents">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_5_accidents"/>
+        </activity>
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_6_caution_daily_work"
+                  android:label="দৈনন্দিন জীবনে সতর্কতা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_7_common_disease"
+                  android:label="স্বাধারন রোগ ও পরামর্শ"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_8_fever"
+                  android:label="বিভিন্ন ধরনের জ্বর"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology"
+                  android:label="মানসিক সমস্যা ও প্রতিকার"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology_1_anger"
+                  android:label="রেগে যাওয়া"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology_2_depression"
+                  android:label="বিষন্নতা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_9_psychology"/>
+        </activity>
+
+
+
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_11_map_home"
+                  android:label="লোকেশন সংক্রান্ত সাহায্য"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_11_map_home_1_map_msg"
+                  android:label="ম্যাপ"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_11_map_home">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_11_map_home"/>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCJPDoNT_dfs-NkhXxGzZddZivZr-Uspy4"/>
+
+    </application>
+
+</manifest>

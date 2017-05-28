@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDeepColor"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_9_psychology_1_anger_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="বিভিন্ন কারনে নানান সময়ে সবাই রাগ করে। আপনি যদি প্রচণ্ড ক্রোধের সম্মুখীন হন, তবে এটি আপনার মানসিক এবং শারীরিক স্বাস্থ্য হানীর কারন হতে পারে এবং অন্যদের সাথে আপনার সম্পর্কও ক্ষতিগ্রস্ত হতে পারে। আপনার নিজের জন্য, এর পাশাপাশি আপনার চারপাশের লোকদের জন্যও আপনার আবেগ নিয়ন্ত্রণ করা এবং নিজেকে শান্ত করা অত্যন্ত গুরুত্বপূর্ণ।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="আপনার রাগকে বুঝতে পারা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/one1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_1"/>
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার যখন রাগ আসবে যদিও এটা মানসিক ব্যাপার তবুও আপনি শারীরিক কিছু লক্ষন টের পাবেন কারন এসময় এড্রেনালিন সারা শরীরে ছড়িয়ে পড়বে ফলে আপনার হার্ট রেট বেড়ে যাবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+               <!-- <TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ধীরে এবং শান্তভাবে সেই এরিয়া থেকে সরে পরুন"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+<!--
+                <TextView
+                    android:id="@+id/one1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Remain as calm as possible. Panic will increase your heart rate and if the snake is venomous, the increased heart rate will just spread the venom through your body faster. Try and stay as calm and quiet as possible."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_2"/>
+
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="২"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="অনেক সময়েই রাগের পেছনে অন্য কোন অনুভুতিকে লুকিয়ে রাখা উদ্দেশ্য হয়ে থাকতে পারে যেমনঃ দুঃখ, বেদনা, বিষন্নতা অথবা ভয়। এটা হবার কারন হলো, এই অনুভুতিগুলোকে অনুভব করার চাইতে রেগে যাওয়াটা অনেক সময় সহজ বলে মনে হয় আমাদের কাছে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি এটাই আপনার রেগে যাওয়ার কারন হয়ে থাকে তাহলে একজন থেরাপিস্টের সাথে যোগাযোগ করুন যিনি আপনাকে কিভাবে এই ব্যাপারটা হ্যান্ডেল করতে হবে অথবা ঐ সকল অনুভুতিকে কিভাবে এক্সেপ্ট করে নিতে হবে সে ব্যাপারে পরামর্শ দেবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!--<TextView
+                    android:id="@+id/one2t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Wasps will not leave any stingers in your skin."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <ImageView
+                    android:id="@+id/one3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_3"/>
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="রাগকে স্বাধারন আর ৫ টা অনুভুতির মতোই মনে করুন। কিছু নির্দিষ্ট পরিস্থিতিতে রাগাটা স্বাভাবিক এবং এটা আপনার রক্ষাকারী হিসেবে কাজ করে। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু মানুষকে শেখানো হয় যে রাগ খারাপ অথবা অভদ্র আচরন। কিন্তু স্বাভাবিক অনুভুতি রাগকে চেপে রাখলে আপনার মানসিক অবস্থার ওপরে এবং অন্যদের সাথে সম্পর্কের ক্ষেত্রেও এর বিরূপ প্রভাব পড়তে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+               <!-- <TextView
+                    android:id="@+id/one3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Try to remain as still as possible once you have reached a safer area."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/one3i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_3"/>
+                -->
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার রাগ নিয়ন্ত্রনের বাইরে চলে যাচ্ছে কিনা সেব্যাপারে খেয়াল রাখুন। রাগ স্বাধারন অনুভুতি হলেও অতিরিক্ত রাগ ক্ষতির কারন। যদি নিচের কোনটা লক্ষ করেন তাহলে প্রফেশনালদের সাহায্য নিনঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="খুবই তুচ্ছ ঘটনা যেমনঃ দুধ ছিটে পড়া অথবা দুর্ঘটনা বশত কোন কিছু পড়ে যাওয়াতেও আপনি রেগে যাচ্ছেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যখন আপনি রাগছেন তখন আক্রমনাত্মক ব্যাবহার করছেন যেমনঃ তীব্রস্বরে চিৎকার, চেচামেচি করা, বা শারীরিক আঘাত করা।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/one4t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="রাগটা বার বার তীব্র আকারে ফিরে আসা।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one4t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনি নেশাগ্রস্থ এবং যখন নেশা করেন তখন রাগটা আরো বেশি মারাত্মক আকার ধারন করে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <!--<RelativeLayout
+                android:id="@+id/one5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+&lt;!&ndash;
+
+                <ImageView
+                    android:id="@+id/one5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_2"/>
+&ndash;&gt;
+
+                <TextView
+                    android:id="@+id/one5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="পোকার কামড়ের স্বাভাবিক রিয়্যাকশন হলো ফুলে যাওয়া, চুলকানো অথবা ব্যাথা করা। আর মারাত্মক রিয়্যাকশনের মধ্যে রয়েছে বুকে ঘড়ঘড় শব্দ হওয়া, বিত্তৃষ্ণা বোধ, খাবার গিলতে অশুবিধা হওয়া অথবা শ্বাস নিতে সমস্যা হওয়া।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/one5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="স্বাধারন লক্ষনগুলির অনুভূতি খারাপ হলেও সেটা মারাত্মক কিছু নয়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one5t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আর সিরিয়াস লক্ষন দেখা দিলে দ্রুত মেডিকেলের সাহায্য নিতে হবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_3_insect_3"/>
+                <TextView
+                    android:id="@+id/one6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ক্ষত যায়গাটার দিকে খেয়াল রাখুন। যদি লক্ষনগুলো খারাপের দিকে যায় অথবা যদি কোন ধরনের ইনফেকশনের লক্ষন দেখা দেয় তাহলে দ্রুত ডাক্তারকে সেটা জানান।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="স্বাধারন লক্ষন গুলোর মাত্রা বেড়ে যেতে পারে, যেমন আরো বেশি ফুলে ওঠা, অথবা লাল হয়ে যাওয়া।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one6t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ঘাড়ে অথবা মুখে কামড়ের ক্ষেত্রে বিশেষ খেয়াল রাখবেন কারন সেখানে ফুলে গিয়ে শ্বাসরোধের ঘটনা ঘটতে পারে, এমতাবস্থায় দ্রুত চিকিৎসকের পরামর্শ নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>-->
+
+            <!--<RelativeLayout
+                android:id="@+id/one7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                &lt;!&ndash;
+                <ImageView
+                    android:id="@+id/one6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_2"/>
+&ndash;&gt;
+                <TextView
+                    android:id="@+id/one7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৭"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Wait for, or go for, medical help. The best you can do is find medical help as soon as possible. The good news is that once you have cleaned the wound and have removed any jewelry, if there is little or no swelling, the bite is less likely to be from a venomous snake. However, even if this is the case there is still a risk of infection or a serious reaction, including allergic reactions, so you still need medical attention as soon as possible."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                &lt;!&ndash;
+                                <TextView
+                                    android:id="@+id/one2t3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one2t2"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one2t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Don’t try to catch the snake- snakes are very fast and unless you are an experienced snake catcher, they have the advantage."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                                <TextView
+                                    android:id="@+id/one2t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one2t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one2t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Don't walk toward the snake or spend a lot of time trying to get a better look at it if you are still in harm's way. This is not safe. Simply look at the snake quickly and then move away."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                    &ndash;&gt;
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one8i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+
+                <TextView
+                    android:id="@+id/one8t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৮"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one8t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Avoid steps that will worsen your situation. There are a lot of myths about how to care for a snake bite and some of these myths could actually make your situation worse."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one8t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Don't try to cut or suck the venom out. Cutting the wound could cause more problems and increases the risk of infection. Anyone sucking out venom may actually swallow some and be poisoned themselves."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one8t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Don’t use a tourniquet or use ice on the wound. Experts believe that a tourniquet could potentially restrict blood flow too much and ice can increase the damage to the wound."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <TextView
+                    android:id="@+id/one8t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Don’t drink any alcohol or caffeine&#45;&#45; this can increase your heart rate and spread any venom that may be there. Instead, stay hydrated with water."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+&lt;!&ndash;
+                <ImageView
+                    android:id="@+id/one8i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+&ndash;&gt;
+                <TextView
+                    android:id="@+id/one9t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৯"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one9t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Understand the medical care you should receive. At the ER, you will be treated for swelling, pain and any symptoms of a venomous snake bite. These symptoms include nausea, dizziness, numbness and any difficulty breathing or swallowing. The ER will also observe you for drops in blood pressure, any signs of damage to the blood or nervous system, allergic reactions, and swelling."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one9t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="The treatment will depend on any symptoms you develop. If no symptoms develop, you may still be kept for a 24-hour observation period because in some cases it takes that long for symptoms to develop."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one9t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <TextView
+                    android:id="@+id/one9t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/one10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/one8i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/one10t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১০"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one10t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Follow recommendations for continued care of the bite. By the time you are released from the hospital, your main concern should be keeping the snake bite area cleaned and covered and following medical instructions for wound care. These instructions should include how often to change the dressing, how to clean the healing wound (usually warm water and soap), and how to recognize a possible infection."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one10t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one10t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Signs of possible infection include swelling, tenderness, redness, drainage, and heat coming from the infected area, or a new fever. If you experience any of these symptoms at the site of the snake bite, call your physician as soon as possible."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+&lt;!&ndash;
+                <TextView
+                    android:id="@+id/one10t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one10t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <TextView
+                    android:id="@+id/one10t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one10t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                    &ndash;&gt;
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/one8i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/one11t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one11t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one11t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Stay calm and wait it out if you cannot reach medical care. If you're out in the wilderness, with no hope of paramedics getting there soon, the best you can do is get as comfortable as possible and wait for the venom to leave your system. In most cases, snakes don't inject enough venom for the bite to be fatal. Treat the individual symptoms that may occur, and most importantly, stay calm and move as little as possible. Fear of snakes and the anxiety that follows being bitten are often what leads to fatalities, since a pounding heart makes the venom spread more quickly."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one11t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one11t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one11t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="If you're out hiking and see other people, ask if they can call or go for help, or if they have a snake-bite kit of pump suction device."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                &lt;!&ndash;
+                                <TextView
+                                    android:id="@+id/one10t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one10t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one10t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                                <TextView
+                                    android:id="@+id/one10t5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one10t4"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one10t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                    &ndash;&gt;
+            </RelativeLayout>-->
+
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="তীব্র রাগ নিয়ন্ত্রন করা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/two1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_4"/>
+
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="শারীরিক পরিশ্রম যেমন নিয়মিত এক্সারসাইজ করুন। এক্সারসাইজ করার সময় যে এন্ডোর্ফিন নির্গত হয় সেটা শান্ত হতে সাহায্য করবে। তাছাড়া নিয়ম মেনে করা ব্যায়াম, মানসিক নিয়ন্ত্রন ফিরে পেতে সাহায্য করে। ব্যায়াম করার সময় অন্যান্য সব চিন্তা মাথা থেকে ঝেড়ে ফেলুন এবং ব্যায়ামের দিকে মনোযোগ দিন। কিছু ব্যায়ামঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- দৌড়ানো\n- ভারোত্বোলন\n- সাইকেল চালানো\n- যোগ ব্যায়াম\n- বাস্কেটবল খেলা\n- মার্শাল আর্ট\n- সাঁতার কাটা\n- ড্যান্সিং\n- বক্সিং\n- মেডিটেশন"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                <TextView
+                    android:id="@+id/two1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনার যেই হাতে শক্তি বেশি সেই হাত বাড়িয়ে দেবেন, কারন কাউকে টেনে তুলতে যথেষ্ট শক্তির দরকার পরবে। যদি তীরের পাশে কোন কিছু পান তাহলে সেটা এক হাত দিয়ে ধরে অন্য হাত বাড়িয়ে দিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_5"/>
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="বেশিরভাগ প্রাপ্তবঃয়স্কদের ৭-৮ ঘন্টা ঘুমের প্রয়োজন। পর্যাপ্ত পরিমানে ঘুম আমাদের ইমোশন বা অনুভুতি, রাগ, মনের গতি এবং মেজাজের ওপরে নিয়ন্ত্রন রাখতে সাহায্য করে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/two2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনার যদি অনিদ্রাজনিত সমস্যা থেকে থাকে তাহলে ডাক্তারের সাথে পরামর্শ করে হার্বাল অথবা মেডিসিনের চিকিৎসা নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--<TextView
+                    android:id="@+id/two2t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনি যদিঃ বুকে চাপ অনুভব, গলা, চোখের পাতা অথবা ঠোট ফুলে যাওয়া, বমি, মাথা ঘোরা, অজ্ঞান হয়ে যাওয়া, দ্বিধাগ্রস্থ ভাব, হার্ট রেট বেড়ে যাওয়া, শ্বাস কষ্ট এই ধরনের মারাত্মক লক্ষন টের পান তাহলে এপিনেফ্রিন পেনটি ব্যাবহার করুন এবং দ্রুত ইমার্জেন্সিতে যোগাযোগ করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/two3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_6"/>
+-->
+
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি একটি রাগের-ডায়েরী রাখতে পারেন, যাতে রেগে যাবার ঘটনাগুলি বিস্তারিত লিখে রাখবেন। কার ওপরে রেগে গেছেন, কি কারনে রেগেছেন, আপনি ঠিক কেমন অনুভব করছিলেন, রাগার পরে কি করেছিলেন এবং তারপর আপনার কেমন লেগেছিলো। কিছুদিন এভাবে লিখে রাখার পরে আপনি ঘটনাগুলোর জায়গা, মানুষ এবং কোন ব্যাপারগুলা আপনার রাগের পেছনে কারন হিসাবে কাজ করছে তা বুঝতে পারবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="উদাহরন হিসেবে মনে করুন আপনি লিখলেনঃ আজকে অফিসের এক কলিগের ওপরে প্রচন্ড রাগ হয়েছে। সে আমাকে স্বার্থপর বলছে, কারন আমি সবাইকে লাঞ্চের অফার করিনি তাই। আসলে আমি তখন অনেক কাজ করে ক্লান্ত অবস্থায় পাশের রেস্টুরেন্টে একটা বার্গার খেতে গেছিলাম। আমি তার কথা শুনে প্রচন্ড রেগে গিয়ে তাকেও একটা গালি দিয়ে নিজের টেবিলে এসে একটা থাপ্পর দিলাম। পরে আমার খারাপ লাগলো ঘটনাটার কথা মনে পরাতে এবং সারা দিন মুখ গুজে পড়ে থাকলাম।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু সময় পার হবার পরে, আপনি আপনার ডায়েরী পড়ে হয়তো বুঝতে পারলেন যে আপনাকে গালি দেয়া (কিংবা স্বার্থপর শব্দটা) -টা আপনার রাগের পেছনে মূল কারন ছিলো।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--                <ImageView
+                    android:id="@+id/two4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_3_insect_6"/>-->
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি যখন বের করতে পারলেন যে কি কারনে আপনার রাগ হয় তখন আগে থেকে সেই সময়ে কি রেসপন্স করবেন তা ঠিক করে রাখতে পারেন, সেই সাথে আগের রাগ নিয়ন্ত্রনের পদ্ধতিগুলোও কাজে লাগাতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/two4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যেমনঃ আপনি জানেন আপনার শাশুড়ীর বাড়িতে গেলেই তিনি আপনার সমালোচনা করেন এবং তাতে আপনার রাগ হয়। তাই আপনি আগে থেকেই ঠিক করে রাখলেন এই পরিস্থিতিতে আপনি তাকে শান্ত ভাবে বলবেন যে- আপনি যা করেন সেটা কি কারনে করেন। যদি দেখেন তাতেও কাজ হচ্ছে না এবং রাগ বেড়ে যাচ্ছে তাহলে রুম থেকে ধীরে বের হয়ে যাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--<TextView
+                    android:id="@+id/two4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি বমি অথবা মুখ দিয়ে রক্ত বের হয় তাহলে ধরে সেইদিকে কাত হতে সাহায্য করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two4t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ক্ষত জায়গাটাকে হার্টের লেভেলের চেয়ে নিচের দিকে রাখুন যাতে বিষ হার্টে যেতে সময় নেয়। ইমার্জেন্সি নাম্বারে ফোন করুন এবং যদি তিনি অজ্ঞান হয়ে পরেন এবং শ্বাস বন্ধ হয়ে যায় আর আপনার সিপিআর এর ট্রেইনিং নেয়া থাকে তাহলে তাকে সিপিআর দেয়া শুরু করে দিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/two4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+                -->
+                <TextView
+                    android:id="@+id/two5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="রাগের ব্যাপারগুলি স্পষ্টভাবে কথা বলার মাধ্যমে নিয়ন্ত্রন করার চেষ্টা করুন। রাগের সময় একদম চুপচাপ রেগে গেলেন কিংবা অতিরিক্ত আবেগী হয়ে নিজের অনুভূতীর ওপরে নিয়ন্ত্রন হারিয়ে ফেললেন, এমনটা পরিহার করুন। শান্ত এবং ভদ্র ভাষা ব্যাবহার করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="উদাহরনস্বরুপঃ আপনার একজন সহকর্মী স্পিকারে প্রতিদিন জোরে গান দিয়ে শোনেন ফলে আপনার কাজে ব্যাঘাত হওয়ায় আপনি রেগে যাচ্ছেন। এই অবস্থায় তার কাছে গিয়ে আপনি বলতে পারেন - দেখুন আমি বুঝতে পারছি আপনি গান শুনতে ভালো বাসেন, তাই অনুগ্রহ করে যদি আপনি হেডফোনে গান শোনেন তাহলে অফিসের অন্য সহকর্মীদের কাজে সমস্যা তৈরি হবে না এবং সবাই মনোযোগ দিয়ে কাজ করতে পারবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_6"/>
+
+                <TextView
+                    android:id="@+id/two6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="রাগ নিয়ন্ত্রনের জন্য গ্রুপ করে কিছু প্রোগ্রাম করা হয় এগুলোকে -এঙ্গার ম্যানেজমেন্ট প্রোগ্রাম- বলা হয়। এর খোঁজ নিতে পারেন এবং আপনার অবস্থানের কাছাকাছি কোন গ্রুপের সাথে যোগ দিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="রাগের মুহূর্তে রাগ নিয়ন্ত্রন"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <RelativeLayout
+                android:id="@+id/three1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--<ImageView
+                    android:id="@+id/three1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_3_insect_7"/>-->
+                <TextView
+                    android:id="@+id/three1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="রাগের মুহূর্তে যদি সম্ভব হয় যে জিনিস বা ব্যাক্তি আপনার রাগের কারন সেখান থেকে দ্রুত দূরে সরে যান। রাগ ঠান্ডা হতে এটা সবচেয়ে বেশি কাজে দিবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/three1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মনে রাখবেন যেকোন পরিস্থিতিতে সাথে সাথেই উত্তর দেয়াটা আবশ্যক না। ফলে সময় নিন এবং এসময় বলতে পারেন যে- আপনি বিষয়টা নিয়ে ভেবে দেখবেন অথবা ১ থেকে ১০ পর্যন্ত গুনুন এবং তারপর উত্তর দিন। এতে রাগ ঠান্ডা হবার সময় পাবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/three1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনি যদি অফিসে থেকে থাকেন তাহলে একটু সময়ের জন্য বাইরে যান। আর যদি আপনি বাড়িতে থেকে থাকেন তাহলে বাথরুম বা অন্য কোন রুমে চলে যান অথবা বাইরে হাঁটতে বের হন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!--<ImageView
+                    android:id="@+id/three2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_3_insect_8"/>
+-->
+                <TextView
+                    android:id="@+id/three2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="রাগের ব্যাপারটাকে স্বাভাবিক হিসাবে গ্রহন করে নিন। এতে করে রাগ পড়ে গেলে বা ঠান্ডা হয়ে গেলে সেই ব্যাপারটাকে মেনে নিতে এবং ভবিষ্যতে সেই একই বিষয় এড়িয়ে চলতে সাহায্য করবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/three2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="রাগার সময় আপনার শরীরের কোথায় রাগের অস্তিত্ব টের পাচ্ছেন সেদিকে খেয়াল করুন। এটা কি পেটে নাকি মুঠিবদ্ধ হাতে? রাগকে খুজে বের করুন, সেখানেই থাকতে দিন এবং একসময় চলে যেতে দিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <ImageView
+                    android:id="@+id/three3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_7"/>
+                <TextView
+                    android:id="@+id/three3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="গভীর শ্বাস নিন। গভীর ভাবে শ্বাস নেয়াটা রাগ নিয়ন্ত্রন এবং মেডিটেশনে কাজে লাগে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="১ থেকে ৩ পর্যন্ত গুনতে গুনতে শ্বাস নিন, এভাবে আরো ৩ পর্যন্ত গুনতে গুনতে শ্বাস ধরে রাখুন। একই ভাবে ৩ পর্যন্ত গুনতে গুনতে শ্বাস ছাড়ুন। এই পুরোটা সময় সংখ্যার দিকেই নিজের মনোযোগ ধরে রাখুন। "
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="শ্বাস নেবার সময় খেয়াল রাখবেন যাতে করে আপনার ফুসফুস এবং পেট পুরোপুরি ফুলে ওঠে। এবং সেইসাথে পুরোপুরি ছাড়বেন শ্বাস। শ্বাস ছাড়ার পর আবার শ্বাস নেয়ার আগে বিরতী নেবেন।	যতোক্ষন নিজের ওপরে নিয়ন্ত্রন না ফিরে আসে এভাবে করতে থাকুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/three4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_8"/>
+
+                <TextView
+                    android:id="@+id/three4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এতেও যদি আপনার রাগ কমে না আসে তাহলে মনে মনে ছোট বেলার আপনার পছন্দের কোন জায়গার কথা মনে করুন কিংবা শান্ত কোন নিরিবিলি জায়গার কথা কল্পনা করুন। সেখানকার আলো, বাতাস, শব্দ, উষ্ণতা, ঘ্রান ইত্যাদির দিকে মনোযোগ দিন। এই শান্ত জায়গাতে মনে মনে বিচরন করতে থাকুন যতক্ষন না রাগ কমে যায় এবং আপনার মন শান্ত হয়ে আসে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!--<TextView
+                    android:id="@+id/three4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Snakes and snake bites are more common the closer you get to the equator because the snakes found in these areas don’t hibernate and are more active during the hotter days."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+                <!--<TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="All types of snakes have substances that can cause tissue destruction- if you get bitten by a snake, limiting this damage may be the most critical problem."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/three5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_8"/>
+-->
+
+                <TextView
+                    android:id="@+id/three5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ইতিবাচক স্ব-বক্তৃতা অনুশীলন করুন, নেতিবাচক চিন্তার থেকে ইতিবাচক চিন্তা করুন। এটা আপনার রাগ মোকাবেলা করতে সাহায্য করবে। আপনি নিজেকে শান্ত করার জন্য কিছু সময় দেওয়ার পরে, ইতিবাচকভাবে এবং নিজেকে কষ্ট না দিয়ে দুশ্চিন্তা মুক্ত ভাবে নিজের সাথে পরিস্থিতি নিয়ে আলোচনা করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="উদাহরণস্বরূপ, যদি আপনার রাস্তায় গাড়ি চালানোর সময় রাগের অভিজ্ঞতা হয়, তাহলে চিন্তাকে ঘুরিয়ে দেবার চেষ্টা করতে পারেন- ঐ ব্যাটা আমাকে প্রায় চাপা দিয়ে মেরেই ফেলতে লাগছিলো! ব্যাটাকে পাইলে দিতাম একটা! এভাবে না ভেবে ভাবুন যে- ঐ লোকটি আমাকে প্রায় ধাক্কা দিয়ে ফেলে দিছিলো, কিন্তু হয়তো সে কোন জরুরী পরিস্থিতির মুখোমুখি হয়েছে এবং তাছাড়া তার সাথে কোনদিন আর দেখা হবার সম্ভাবনাও নাই। আমি ভাগ্যবান যে আমি বেঁচে গেছি এবং আমার গাড়ি সুরক্ষিত আছে। আমার হাত পা ভাঙ্গে নাই এবং আমি নিজেকে শান্ত রাখতে পারছি এবং গাড়ি চালাচ্ছি।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!--<TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="All types of snakes have substances that can cause tissue destruction- if you get bitten by a snake, limiting this damage may be the most critical problem."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/three6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_9"/>
+-->
+
+                <TextView
+                    android:id="@+id/three6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="কখনও কখনও একটি ঘনিষ্ঠ বন্ধু বা বিশ্বস্ত কোন সঙ্গ আপনার উদ্বেগ বা রাগ নিরসনে সাহায্য করতে পারে। স্পষ্টভাবে তার কাছ থেকে আপনি কি চান সেটা প্রকাশ করুন। আপনি যদি শুধুই আপনার মনের কথা বলতে চান, তাহলে শুরুতেই বলে নিন যে আপনি কোন ধরনের সাহায্য বা উপদেশ চান না। আর যদি আপনি একটি সমাধান চান, তাহলে সেটাও তাকে জানান।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="প্রতিটা খারাপ ঘটনাকে একটা নির্দিষ্ট সময়ের জন্য মনে জায়গা দিন। এতে করে সেই সময় পার হয়ে যাবার পরে আপনি অন্য কাজে মন দিতে পারবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <!--<TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="All types of snakes have substances that can cause tissue destruction&#45;&#45; if you get bitten by a snake, limiting this damage may be the most critical problem."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/three7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three7i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_1_anger_9"/>
+
+                <TextView
+                    android:id="@+id/three7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three7i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৭"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/three7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three7i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি শান্ত হবার পর ঘটনাটির হালকা দিকটা দেখার চেষ্টা করতে পারেন। এটা যদি করেন এবং ঘটনাটার মধ্যে হাস্যরসাত্মক কিছু খুজে পান তাহলে আপনার শরীরের রাগের কেমিকেল বদলে গিয়ে হাসিতে পরিনত হবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three7t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three7t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="উদাহরণস্বরূপ, যদি কেউ আপনার গাড়িকে ধাক্কা দিয়ে চলে যায় তাহলে আপনি তাদের বোকামি নিয়ে হাসতে পারেন যে তারা এতোটা রিস্ক নিয়ে অন্য গাড়ি না দেখে আগে যাওয়াতে হয়তো আপনার চেয়ে ১৫ সেকেন্ড এগিয়ে থাকবে। তার বেশি নয়। এবং এটা ভেবে একটু হেসে তাদের কথা ভুলে যান।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!--<TextView
+                    android:id="@+id/three3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="All types of snakes have substances that can cause tissue destruction- if you get bitten by a snake, limiting this damage may be the most critical problem."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+<!--
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+-->
+
+    </LinearLayout>
+</ScrollView>

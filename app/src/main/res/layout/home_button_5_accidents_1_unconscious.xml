@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDeepColor"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_5_accidents_1_unconscious_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="অজ্ঞান হয়ে পরা হলো ১ থেকে দুই মিনিটের জন্যে জ্ঞান হারিয়ে ফেলা। আমাদের ব্রেইনে যথেষ্ট পরিমানে রক্তের সরবরাহ না হলে এই ধরনের দুর্ঘটনা ঘটতে পারে। স্বাধারনত পানিশূন্যতা অথবা অনেকক্ষন বসে থেকে কাজ করার পর হঠাৎ উঠে দাড়ালে এরকম হতে দেখা যায়।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="কেউ অজ্ঞান হয়ে পরলে"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/one1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_1"/>
+
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কাউকে অজ্ঞান হয়ে পড়তে দেখেন তাহলে যদি সম্ভব হয় তাকে ধরে ফেলুন এবং আস্তে করে শুইয়ে দিন, তবে আপনি নিজে আবার পড়ে না যান সেইদিকে খেয়াল রাখবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যিনি অজ্ঞান হয়ে পড়েছেন তিনি নিজেকে রক্ষা করার স্বাভাবিক প্রক্রিয়া কাজে লাগাতে পারেন না, তাই পড়ে গিয়ে ব্যাথা পেতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+<!--
+                <TextView
+                    android:id="@+id/one1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আবার কখনো কাউকে দেখে মনে হতে পারে তারা সাতার কাটতে পারছেন না বা কষ্ট হচ্ছে অথচ সাহায্যের জন্য ডাকছেন না, সেক্ষেত্রে এমন হতে পারে যে তার শ্বাস আটকে আসছে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/one2i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_2"/>
+                -->
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="২"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ভিক্টিমকে ধরে ঝাঁকি দিন, এবং দেখুন তার জ্ঞান ফিরে আসলো কিনা। বেশিরভাগ ক্ষেত্রে ২০ সেকেন্ড থেকে ২ মিনিটের মধ্যেই অজ্ঞান ব্যাক্তির জ্ঞান ফিরে আসে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মানুষ যখন জ্ঞান হারিয়ে ফেলেন তখন তারা পড়ে যান এবং এতে তাদের ব্রেইন এবং হার্ট একই লেভেলে চলে আসে। ফলে ব্রেইনে সহজেই রক্ত চলাচল করতে পারে এবং জ্ঞান হঠাৎ করেই ফিরে আসতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one2t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="জ্ঞান ফিরে আসার পরে তাকে জিজ্ঞেস করুন জ্ঞান হারাবার আগে কোন লক্ষন টের পেয়েছেন কিনা। মাথাব্যাথা, হৃদরোগ, বুকে ব্যাথা, শ্বাস কষ্ট ইত্যাদি। এসকল লক্ষনই চিন্তার কারন এবং এসব ক্ষেত্রে ইমার্জেন্সি সার্ভিসে কল দেয়া উচিৎ।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/one3i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_3"/>
+                -->
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৩"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="জ্ঞান ফিরে পাবার পর ব্যাক্তিটিকে বিশ্রাম নিতে সাহায্য করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="পরিষ্কার বাতাস যাতে পান সেই ব্যাবস্থা করুন। যদি রাস্তা ঘাটে ঘটনাটি ঘটে থাকে তবে স্বাভাবিক ভাবেই লোকজন জড়ো হয়ে যাবে। তাদের মধ্যে যারা এক্টিভলি হেল্পের কাজে জড়িত নন তাদেরকে দূরে সরে দাঁড়াতে বলুন। ব্যাক্তিটিকে কিছু খাবার বা পানি দিন যাতে দ্রুত সুস্থ হয়ে উঠতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="তাকে দ্রুত উঠে দাড়াতে বাধা দিন, এবং কিছুক্ষন বিশ্রাম নিতে বলুন। এসময়ে পর্যাপ্ত রক্ত ব্রেইনে সরবরাহ হবে। আর তাছাড়া খুব দ্রুত জ্ঞান ফিরে পেয়ে উঠে দাড়ালে আবার অজ্ঞান হয়ে পড়তে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_2"/>
+
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৪"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি তার জ্ঞান দ্রুত ফিরে না আসে তাহলে ডাক্তারকে খবর দিন এবং ঘাড়ের এক পাশে হাত রেখে পালস চেক করুন। একসাথে দুই পাশে হাত রেখে চেক করতে যাবেন না কারন এতে ব্রেইনে রক্ত চলাচলে বিঘ্ন ঘটতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি পালস পান তাহলে তার পা দুটাকে বুকের চেয়ে ওপরের দিকে কয়েক ফিট উচ্চতায় তুলে ধরুন। এতে করে মাথার দিকে রক্ত চলাচল বাড়বে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                <TextView
+                    android:id="@+id/one4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Do not let the person get up too quickly. Encourage him/her to stay lying down for a few minutes. This will allow blood flow to the brain to fully regain. Additionally, abrupt rise may precipitate another fainting episode. Once people have regained consciousness, they may try to brush it off by standing and trying to walk too soon after the incident. If the person has a head injury, additional symptoms (such as difficulty breathing, chest pain, severe headache, etc.) or a pre-existing condition (pregnancy, heart disease, etc.), he/she should consult a doctor."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                    -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_3"/>
+
+                <TextView
+                    android:id="@+id/one5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৫"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আর যদি কোন পালস না পান তাহলে CPR দেয়া শুরু করুন। আপনি যদি কিভাবে দিতে হয় তা না জানেন তাহলে আশেপাশে খোঁজ করুন কোন প্রোফেশনাল পান কিনা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- তার পাশে হাটু গেঁড়ে বসুন।\n- বয়স্ক এবং বাচ্চাদের জন্য, বুকের মাঝখানে আপনার হাত উপুর করে অথবা এক হাতের ওপরে অন্য হাত রাখুন।\n- এবার প্রতি ৬০ সেকেন্ডে একশ বার এই রেটে মোট ৩০ বার বুকে চাপ দিন।\n- চাপ দিয়ে ২ ইঞ্চি পরিমান নামাবেন।\n- দ্বিতীয় বার চাপ দেবার আগে বুকটাকে পুরোপুরি ওপরে উঠে আসার জন্য সময় দেবেন।\n- চেক করবেন যে ভিক্টিম শ্বাস নিতে শুরু করেছেন কিনা।\n- মেডিকেল টিম আসার আগ পর্যন্ত করতে থাকুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                                <TextView
+                                    android:id="@+id/one5t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one5t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one5t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Do not let the person get up too quickly. Encourage him/her to stay lying down for a few minutes. This will allow blood flow to the brain to fully regain. Additionally, abrupt rise may precipitate another fainting episode. Once people have regained consciousness, they may try to brush it off by standing and trying to walk too soon after the incident. If the person has a head injury, additional symptoms (such as difficulty breathing, chest pain, severe headache, etc.) or a pre-existing condition (pregnancy, heart disease, etc.), he/she should consult a doctor."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                    -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/one6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৬"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="মাথা ঠান্ডা রাখুন এবং ব্যাক্তিটিকে আশ্বাস দিন। পরিস্থিতি নিয়ন্ত্রনের বাইরে যেতে দেবেন না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="নিজের অজ্ঞান হওয়া"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--
+                                <ImageView
+                                    android:id="@+id/two1i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_4"/>
+                -->
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="নিজের অজ্ঞান হবার আগে দেখা দেয়া লক্ষনগুলি চিনে নেবার এবং মনে রাখার চেষ্টা করুন। দরকার হলে একটা নোটবুকে টুকে রাখুন। কিছু স্বাধারন লক্ষন হলোঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- বিতৃষ্ণাবোধ, মাথাঘোরা\n- হঠাৎ মাথা হালকা হয়ে যাওয়া\n- সাদা কালো স্পট দেখা অথবা দৃষ্টি ঝাপসা হয়ে আসা\n- খুব গরম লাগা অথবা ঘেমে যাওয়া\n- পেটের ভেতরে গুঢ়গুঢ় করা"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                <TextView
+                    android:id="@+id/two1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনার যেই হাতে শক্তি বেশি সেই হাত বাড়িয়ে দেবেন, কারন কাউকে টেনে তুলতে যথেষ্ট শক্তির দরকার পরবে। যদি তীরের পাশে কোন কিছু পান তাহলে সেটা এক হাত দিয়ে ধরে অন্য হাত বাড়িয়ে দিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_4"/>
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="২"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি আপনি বুঝতে পারেন যে অজ্ঞান হয়ে পড়তে যাচ্ছেন তাহলে কোথাও দ্রুত শুয়ে পড়ুন এবং আপনার পা ওপরের দিকে তুলে ধরুন। যাতে মাথার দিকে রক্ত প্রবাহ বাড়তে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <TextView
+                    android:id="@+id/two2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- যদি শুয়ে পড়া সম্ভব না হয় তাহলে বসে পড়ুন এবং দুই হাটুর মাঝে মাথা রাখুন।\n- এভাবে ১০- ১৫ মিনিট বিশ্রাম নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_5"/>
+
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৩"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="জোরে জোরে বুক ভর্তি করে নাক দিয়ে শ্বাস নিন এবং মুখ দিয়ে শ্বাস ছাড়ুন। এটি আপনাকে শান্ত হতে সাহায্য করবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+<!--
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সবসময় আলতো করে ওপর নিচ বরাবর কাপড় ব্যাবহার করবেন, কখনোই ডানে বামে টান দেবেন না। কর্নিয়াকে নিরাপদ রাখতে চোখের যেপাশে ময়লা আছে ময়লা পরিষ্কারের সময় তার ঠিক বিপরীত দিকে তাকাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="প্রতিবার ময়লা পরিষ্কারের চেষ্টা করার পর কাপড় চেক করে দেখুন ময়লা বের হয়েছে কিনা। কাপড় যদি সাদা হয়ে থাকে তবে খুব সহজেই ময়লা আপনার চোখে পরবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                    -->
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+                <ImageView
+                    android:id="@+id/two4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+-->
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৪"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="সাহায্যের জন ডাক দিন। এতে করে এগিয়ে আসা ব্যাক্তিটি, আপনি পড়ে যেতে লাগলে ধরতে পারবে এবং দরকার হলে ডাক্তারকে খবর দিতে পারবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/two5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৫"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="অজ্ঞান হয়ে পড়তে যাচ্ছেন বুঝতে পারলে নিজেকে নিরাপদ রাখতে বিপদজনক জায়গা থেকে নিজেকে দ্রুত সরিয়ে নিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="উদাহরন স্বরুপ এমন জায়গায় সরে দাড়ান যাতে কোন ধারালো বস্তুর ওপরে পড়ে না যান।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_6"/>
+
+                <TextView
+                    android:id="@+id/two6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৬"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="কিছু পরিকল্পনা মতো চলতে পারেন যাতে ভবিষ্যতে অজ্ঞান না হন। এই ধরনের কিছু পদক্ষেপ নিম্নরূপঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যথেষ্ট পরিমানে পানি পান করুন এবং সময় মতো খাবার খান। গরমের দিনে প্রচুর পানি বা তরল জাতীয় খাবার খাওয়াটা অনেক জরুরী। শারীরিক ভাবে সুস্থ এবং তাজা বোধ করতে সেইসাথে ঝিমঝিম করা ও শারীরিক দুর্বলতা রোধ করতে সময়মতো এবং নিয়মিত স্বাস্থ্যকর খাবার খাওয়াটা জরুরী।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two6t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="দুশ্চিন্তা যুক্ত পরিস্থিতি যতটা সম্ভব এড়িয়ে চলার চেষ্টা করুন। অনেকের ক্ষেত্রেই এই ধরনের পরিস্থিতি অজ্ঞান হয়ে পড়ার পেছনে দায়ী।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two6t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মদ, নেশার দ্রব্য, সিগারেট এই জাতীয় বস্তুতে প্রচুর টক্সিন থাকে যা অনেকের মাঝেই অজ্ঞান হবার প্রবনতা তৈরি করতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two6t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="হঠাৎ করে অনেকক্ষন একটা নির্দিষ্ট অবস্থায় থাকার পর অবস্থান বদলাতে গেলে, যেমনঃ বসে থাকা অবস্থা থেকে দ্রুত উঠে দাড়াতে গেলেও অজ্ঞান হবার ঘটনা ঘটতে পারে। তাই এসব কাজ ধীরেসুস্থে করার চেষ্টা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/two7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/two4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+                -->
+                <TextView
+                    android:id="@+id/two7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৭"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি অজ্ঞান হবার ঘটনা নিয়মিত ঘটতে থাকে তাহলে দ্রুত ডাক্তারের সাথে পরামর্শ করুন। এটা হয়তো অন্য কোন মারাত্মক রোগ যেমন হার্টের কোন বড় প্রবলেমের লক্ষন হিসেবে দেখা দিয়ে থাকতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>-->
+
+    </LinearLayout>
+</ScrollView>

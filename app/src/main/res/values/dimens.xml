@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- <dimen name="nav_header_vertical_spacing">16dp</dimen> -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_big_16">16sp</dimen>
+    <dimen name="font_size_big_18">18sp</dimen>
+
+
+
+    <!--collecting all fonts here-->
+    <dimen name="font_size_home_page">15sp</dimen>
+    <dimen name="font_size_internal_buttons">15sp</dimen>
+    <dimen name="last_layout_primary_text">15sp</dimen>
+    <dimen name="last_layout_secondary_text_blurred">13.5sp</dimen>
+
+
+
+
+    <dimen name="second_layout_button_dif_0.75">0.75dp</dimen>
+
+    <dimen name="flu_padding_top">25dp</dimen>
+    <dimen name="flu_padding_image_top">30dp</dimen>
+    <dimen name="inside_image_padding_top">20dp</dimen>
+    <dimen name="flu_padding_top_text">20dp</dimen>
+    <dimen name="flu_padding_top_small">10dp</dimen>
+    <dimen name="flu_padding_top_container">33dp</dimen>
+    <dimen name="flu_padding_drawer_top">7dp</dimen>
+    <dimen name="flu_padding_drawer_bottom">7dp</dimen>
+    <dimen name="flu_padding_left_right_common_2">15dp</dimen>
+    <dimen name="flu_padding_right">15dp</dimen>
+    <dimen name="flu_padding_left_right_square_icon">5dp</dimen>
+    <dimen name="flu_font_big_big">17sp</dimen>
+    <dimen name="flu_font_very_big">30sp</dimen>
+    <dimen name="flu_font_big">15sp</dimen>
+    <dimen name="text_ceiling">15dp</dimen>
+    <dimen name="front_page_button_image_size">50dp</dimen>
+    <dimen name="front_page_button_image_size_car_accident">60dp</dimen>
+    <dimen name="padding_of_title_bar">10dp</dimen>
+
+
+
+    <dimen name="end_layout_margin_top_padding">8dp</dimen>
+
+
+    <dimen name="padding_second_third_small_textView_top">4dp</dimen>
+    <dimen name="padding_top_text_right_to_circle">2dp</dimen>
+
+    <integer name="duration">250</integer>
+
+</resources>

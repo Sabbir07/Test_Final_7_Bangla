@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back_back_color_221"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_9_psychology_cover"/>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="মানসিক সমস্যা একজন মানুষের জীবনে নানা ভাবে ক্ষতির কারন হয়ে দাঁড়ায়। এই ধরনের সমস্যা, আক্রান্ত ব্যাক্তির জীবনে নিদারুণ বেদনা সৃষ্টি করে এবং সামাজিক সম্পর্কের ওপরে প্রভাব ফেলে।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+        <Button
+            android:id="@+id/anger"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/anger1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      অকারনে রেগে যাওয়া"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/depression"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/depression1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      বিষন্নতা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/fear"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/fear1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      দুশ্চিন্তা / আতঙ্কে থাকা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/lonely"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/lonely1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      নিঃসঙ্গতা / একাকিত্ব"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/obsession"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/obsession1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      আচ্ছন্নতা / আবিষ্টতা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+        <Button
+            android:id="@+id/sleepless"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/sleepless1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      অনিয়মিত ঘুম"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_background_color_250"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:gravity="left|center_vertical"
+                android:text="জিজ্ঞাসা"
+                android:textColor="@drawable/l_text_color_99"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="মানসিক অসুস্থতা বলতে কি বোঝায়?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="মানসিক অসুস্থতা হলো একধরনের মেডিকেল কন্ডিশন যেটা একজন মানুষের চিন্তাভাবনা, অনুভুতি, মেজাজ, অন্যদের সাথে মেশার ক্ষমতা এবং দৈনন্দিন কার্যক্ষমতার ওপরে প্রভাব ফেলে। ঠিক যেমন ডায়াবেটিক্স হলো অগ্নাশয়ের অসুখ, তেমনই মানসিক অসুস্থতা দৈনন্দিন জীবনের চাহিদা পূরনের সামর্থকে কমিয়ে দেয় এবং ক্ষতিগ্রস্থ করে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="গুরুতর মানসিক অসুস্থতা কোনগুলো?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="গুরুতর মানসিক অসুস্থতার মধ্যে রয়েছে মারাত্মক বিষন্নতা, সিজোফ্রেনিয়া (বিভক্ত ব্যাক্তিতা), বাইপোলার ডিসঅর্ডার (bipolar disorder), ওসিডি (obsessive compulsive disorder), পিটিএসডি (post traumatic stress disorder) এবং বর্ডারলাইন পার্সনালিটি ডিসঅর্ডার (borderline personality disorder)। সকল মানসিক সমস্যাই ধারাবাহিক ভাবে একপর্যায়ে গিয়ে তীব্র আকার ধারন করে।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="মানসিক অসুস্থতার পেছনে কারন কি?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="যদিও বেশিরভাগ মানসিক অসুস্থতার সঠিক কারণ জানা যায় না, তবে এটি গবেষণার মাধ্যমে স্পষ্ট হয়ে উঠছে যে এই ধরনের সমস্যার অনেকগুলি জৈবিক, মনস্তাত্ত্বিক, এবং পরিবেশগত উৎপাদকের সংমিশ্রণ দ্বারা সৃষ্টি হয়।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="19"
+                    android:gravity="left|center_vertical"
+                    android:text="কেউ কি মানসিক অসুস্থতা থেকে পুরোপুরি নিরাপদ?"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/font_size_internal_buttons"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="\u21E9"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="মানসিক অসুস্থতা যে কোন বয়সের, জাতির, ধর্ম বা আয়ের ব্যক্তিদের প্রভাবিত করতে পারে। এই অসুস্থতাগুলি বাছবিচার করে না। যদিও মানসিক অসুস্থতা যে কারো ক্ষেত্রেই ঘটতে পারে, তবে বিশেষ কিছু মানসিক সমস্যা যেমন অতিরিক্ত খাওয়ার সমস্যা বেশিরভাগ ক্ষেত্রে মহিলাদের মধ্যে দেখা যায় এবং অন্যান্য অসুস্থতা যেমন মনোযোগের ঘাটতি / hyperactivity disorder সাধারণত শিশুদের মধ্যে বেশি দেখা যায়।"
+                android:textColor="@drawable/l_text_color_120"
+                android:textSize="@dimen/font_size_14"/>
+        </LinearLayout>
+        <!--
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fire_image_1"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:background="@drawable/l_background_color_250"/>
+    </LinearLayout>
+</ScrollView>
+

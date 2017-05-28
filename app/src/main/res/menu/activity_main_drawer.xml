@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/what"
+            android:icon="@drawable/ic_what"
+            android:title="ফার্স্ট এইড কি?"/>
+
+        <item
+            android:id="@+id/why"
+            android:icon="@drawable/ic_why"
+            android:title="কেন ফার্স্ট এইড শেখা উচিৎ?"/>
+
+        <item
+            android:id="@+id/objective"
+            android:icon="@drawable/ic_objective"
+            android:title="ফার্স্ট এইডের উদ্দেশ্য"/>
+
+        <item
+            android:id="@+id/emergency"
+            android:icon="@drawable/ic_emergency"
+            android:title="সমস্যা গুরুতর হলে করনীয়" />
+        <item
+            android:id="@+id/awareness"
+            android:icon="@drawable/ic_awareness"
+            android:title="জনসচেতনতা বাড়াতে করনীয়" />
+    </group>
+
+    <item android:title="যোগাযোগ">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/app_share"
+                android:title="শেয়ার করুন"/>
+            <item
+                android:id="@+id/app_info"
+                android:icon="@drawable/app_info"
+                android:title="অ্যাপটি সম্পর্কে জানুন"/>
+            <item
+                android:id="@+id/more_apps"
+                android:icon="@drawable/more_apps"
+                android:title="আরো অ্যাপ্স পেতে"/>
+        </menu>
+    </item>
+
+</menu>

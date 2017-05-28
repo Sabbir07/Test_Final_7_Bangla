@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back_back_color_221"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_7_common_disease"/>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/l_background_color_250"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="17dp"
+            android:text="আমাদের দৈনন্দিন জীবনে নানাবিধ অসুখ দ্বারা আমরা আক্রান্ত হয়ে থাকি। এর মধ্যে কিছু স্বাধারন অসুখ আছে যেগুলি খুব ঘন ঘন আমাদেরকে আক্রান্ত করে। এখানে সেসব অসুখের ক্ষেত্রে প্রাথমিক চিকিৎসার ব্যাপারে বলা হলো।"
+            android:textColor="@drawable/l_text_color_120"
+            android:textSize="@dimen/font_size_14"/>
+
+        <Button
+            android:id="@+id/flu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/flu1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ফ্লু/ইনফ্লুয়েঞ্জা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/cold"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/cold1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ঠান্ডা কফ/সর্দি কাশি"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/breathing_problem"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/breathing_problem1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      দম বন্ধ হয়ে আসা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/vomit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/vomit1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      যানবাহনে বমিবমি ভাব"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/tooth_pain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/tooth_pain1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      দাঁত ব্যাথা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/muscle_pain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/muscle_pain1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      মাংসপেশীতে টান"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+        <Button
+            android:id="@+id/stomach_ache"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/stomach_ache1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      পেটে ব্যাথা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/hiccough"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/hiccough1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      হেঁচকি উঠলে"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/pimple"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/pimple1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ব্রন"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+        <Button
+            android:id="@+id/high_pressure"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/high_pressure1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      হাইপ্রেশার"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+        <Button
+            android:id="@+id/diabetic"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/diabetic1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ডায়াবেটিক্স"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+        <Button
+            android:id="@+id/hair_fall"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/hair_fall1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      চুল পড়া"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+    </LinearLayout>
+</ScrollView>
+

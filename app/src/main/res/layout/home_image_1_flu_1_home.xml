@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="@dimen/flu_padding_top"
+            android:text="কিভাবে কর্মক্ষেত্রে ফ্লুর সংক্রমণ এড়ানো যায়"
+            android:textColor="@drawable/l_text_color_99"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="১"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView20"
+                android:paddingTop="2dp"
+                android:text="কম্পিউটার, মাউস এবং ডেস্ক পরিষ্কার করার জন্য এক বাক্স ডিসইনফেক্টিং টিস্যু ডেস্কের উপরে রাখুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="২"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView21"
+                android:paddingTop="2dp"
+                android:text="প্রচুর পরিমানে তরল পান করুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView211"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/textView21"
+                android:text="আক্রান্ত হবার সম্ভাবনা কমাতে কর্মক্ষেত্রে চা কিংবা পানি নিয়ে রাখুন।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৩"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView31"
+                android:paddingTop="2dp"
+                android:text="অসুস্থ কর্মচারীদের সাথে সংস্পর্শ কমিয়ে ফেলুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView311"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/textView31"
+                android:text="আপনি যদি ফ্লুর লক্ষন গুলো জানেন তবে যারা অসুস্থ ফিল করছেন তাদের কাছ থেকে দূরত্ব বজায় রেখে চলতে পারবেন। এবং আপনি নিজে যদি অসুস্থ অনুভব করেন তবে অন্যদেরকে আক্রান্ত করার হাত থেকে বাঁচাতে বাসাতেই থাকুন।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৪"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView1_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView1_1"
+                android:paddingTop="2dp"
+                android:text="স্বাস্থ্যকর খাবার এনে খান এবং যত বেশি সম্ভব পরিষ্কার বাতাসের জন্য ঘন ঘন বাইরে বের হন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView3111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৫"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView3112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView3111"
+                android:paddingTop="2dp"
+                android:text="চেষ্টা করুন যাতে আপনার মুখমন্ডলে হাতের ছোঁয়া না লাগে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="@dimen/flu_padding_top"
+            android:text="কিভাবে স্কুলে ফ্লুর সংক্রমণ এড়ানো যায়"
+            android:textColor="@drawable/l_text_color_99"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textViewa20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="১"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textViewa201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textViewa20"
+                android:paddingTop="2dp"
+                android:text="সারাদিনে যখনই সময় পাবেন হাত ধুয়ে ফেলবেন এবং যেসব বস্তুতে অনেক মানুষ হাত দেয় (যেমন দরজার হাতল অথবা টেবিল) সেগুলোর ব্যাপারে সাবধান থাকতে হবে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textViewa21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="২"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textViewa211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textViewa21"
+                android:paddingTop="2dp"
+                android:text="নিজের জিনিসপত্র পরিষ্কার রাখুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textViewa212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewa211"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/textViewa21"
+                android:text="নিজের থাকার জায়গা থেকে ধুলা বালি পরিষ্কার করে রাখতে হবে, কাপড় চোপড় ধুয়ে রাখতে হবে।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textViewa31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৩"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textViewa311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textViewa31"
+                android:paddingTop="2dp"
+                android:text="পর্যাপ্ত পরিমানে ঘুমাতে হবে এবং মনে করে স্বাস্থকর খাবার খেতে হবে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textViewa312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewa311"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:paddingBottom="25dp"
+                android:layout_toRightOf="@+id/textViewa31"
+                android:text="কলেজ লাইফ স্টাইলে কাজটা যতই কঠিন হোক না কেন সুস্থ থাকার জন্য নিজের শরীর এবং মনের যত্ন নিতে হবে।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

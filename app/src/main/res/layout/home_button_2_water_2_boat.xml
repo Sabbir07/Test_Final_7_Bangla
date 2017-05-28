@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDeepColor"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_2_water_2_boat_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="এখনকার প্রযুক্তির যুগে এই ধরনের পরিস্থিতিতে যদিও পড়ার সম্ভাবনা অনেক কম তবুও জেনে নিন ডুবন্ত বোটে (নৌকা অথবা জাহাজে) থাকলে কি করে নিজেকে রক্ষা করবেন।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="বোট ছাড়ার আগে"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<ImageView
+                    android:id="@+id/one1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_1"/>
+-->
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="প্রতিটি বোটের গঠন ভিন্ন ভিন্ন হবার কারনে ডোবার সময় আলাদা আলাদা ভাবে ডোবে এবং পানি ঢোকে। তাই সবগুলোর জন্য কোন স্বাধারন নিয়ম নাই।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বেশিরভাগ বোটে পানি ঢোকে নিচের দিকের অংশ দিয়ে। এটাই স্বাভাবিক প্রক্রিয়া। তবে ভিন্ন ঘটনাও ঘটতে দেখা যায়। যখন দুটো বোটের সংঘর্ষ হয় অথবা বোটটি অন্য কিছুতে আঘাত করে তখন অন্য অংশ ক্ষতিগ্রস্থ হয় এবং সেখান থেকে পানি ঢুকতে পারে। পানির পরিমানের ওপরে নির্ভর করে বোটে থাকা পানি নিষ্কাশনের পাম্প কতটুকু কাজে লাগবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ছোট বোটগুলি বড় বোটের তুলনায় ভিন্নভাবে তৈরি হয়ে থাকে এবং খুব স্বাধারনভাবে তৈরি করা হয়। বোট ডোবার অন্যান্য কারনের মধ্যে আছেঃ ফুটো থাকা, ভাঙ্গা দরজা, ড্রেইন লাইনের সমস্যা ইত্যাদি।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                                <TextView
+                                    android:id="@+id/one1t5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one1t4"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one1t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="মারাত্মক রিয়্যাকশনের ক্ষেত্রেও আগের সব লক্ষন দেখা দেবে এবং তার সাথে সাথে কাশি, শ্বাস কষ্ট, জিহ্বা অথবা গলা ফুলে যাওয়া, ডায়রিয়া, দুর্বলতা এবং দ্রুত হার্টবিট, লো ব্লাড প্রেশার, জ্ঞান হারিয়ে ফেলা এবং অচিরেই মৃত্যুর মুখে পতিত হওয়া, যদি না সময় মতো চিকিৎসা দেয়া হয়। আপনি যদি এসব লক্ষনের কোন একটা খেয়াল করেন তাহলে দ্রুত ইমার্জেন্সি সার্ভিসে যোগাযোগ করুন।"
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_1"/>
+
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="বোটের ভারসাম্য একটা গুরুত্বপূর্ন বিষয়। বোট যদি খুব বেশি দোলে তাহলে যাত্রীরা সি- সিক হয়ে পড়তে পারেন। তাছাড়া বোটের মালপত্রের বাঁধনও ছুটে যেতে পারে। তাই সেন্টার অফ গ্রাভিটি ( center of gravity) ঠিক রাখাটা বাঞ্চনীয়। এক্ষেত্রে স্ট্যান্ডার্ড নিয়ম হলো বোট ১০ ডিগ্রীর বেশি কোন দিকে দুলবে না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!-- <TextView
+                     android:id="@+id/one2t3"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/one2t2"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/one2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="আপনার সাথে যদি কোন বাচ্চা থেকে থাকে তাহলে বাচ্চাদের লাইফ জ্যাকেট আছে কিনা সেটাও চেক করে নিন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                 <TextView
+                     android:id="@+id/one2t4"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/one2t3"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/one2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="ব্যাবহারবিধি দেখে নিন প্রয়োজন হলে বোটের ক্রু বা কর্মিদের কাছে শুনে নিন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_2"/>
+
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি বোটে ওঠার আগেই আপনার লাইফ জ্যাকেট এবং বড় বোটের ক্ষেত্রে লাইফ বোটের খোঁজ নিয়ে রাখুন। জরুরী পরিস্থিতিতে কোথায় খুঁজতে হবে তা জেনে রাখুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনার সাথে যদি কোন বাচ্চা থেকে থাকে তাহলে বাচ্চাদের লাইফ জ্যাকেট আছে কিনা সেটাও চেক করে নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ব্যাবহারবিধি দেখে নিন প্রয়োজন হলে বোটের ক্রু বা কর্মিদের কাছে শুনে নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+            <!--<RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_3"/>
+
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৪"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কামড়ের পরে সেই জায়গায় হুল থেকে যায় তাহলে সাবধানে আপনার হাত ধুয়ে আঙ্গুলের নখ দিয়ে হুলের মাথা ধরে বের করে আনুন। এই কাজে ক্রেডিট কার্ড জাতীয় কিছুর কোনা ব্যাবহার করতে পারেন। তবে চিমটা জাতীয় কিছু ব্যাবহার করতে যাবেন না তাতে করে হুলে থাকা বাকি বিষটুকুও ঢুকে যেতে পারে আপনার শরীরে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সাবান পানি দিয়ে জায়গাটা ভালোভাবে পরিষ্কার করে ফেলুন। কিছু বরফ একটা তয়লা বা অন্য কাপড়ে পেচিয়ে নিয়ে জায়গাটার ওপরে ২০ মিনিটের মতো প্রয়োগ করুন তাতে আরাম পাবেন এবং ঘন্টায় ঘন্টায় একই কাজ করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="চুলকানির জন্য ওভার দা কাউন্টার এন্টিহিস্টামিন ব্যাবহার করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+&lt;!&ndash;
+                <ImageView
+                    android:id="@+id/one5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_2_dog_2"/>&ndash;&gt;
+
+                <TextView
+                    android:id="@+id/one5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৫"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ফার্স্ট এইড এপ্লাই এর সাথে সাথে কিছু প্রচলিত চিকিৎসাও করা যেতে পারে। বেশিরভাগ ক্ষেত্রে কামড়ের চিহ্ন এবং লক্ষনগুলো কয়েকঘন্টা অথবা দুই একদিনের মধ্যেই চলে যাবার কথা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বেকিং সোডার সাথে পানি মিশিয়ে কামড়ের জায়গায় লাগান। চুলকানি এবং ফুলে যাওয়া রোধে এটি কার্যকরী।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one5t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু মধু লাগান, মধুতে এন্টিবায়োটিক গুনাবলী আছে তাছাড়া এতে কামড়ের যায়গায় আরাম পাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/one5t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু রসুনের কোয়া ছেঁচে রস বের করে নিন এবং সেটা কামড়ের জায়গায় লাগান। রসুনে প্রাকৃতিক এটিবায়োটিক গুন থাকে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/one5t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="লেভেন্ডারের তেল মৌমাছি বা ভিমরুলের কামড়ের ব্যাথা কমাতে ভালো কাজ করে, তাই এর কয়েক ফোঁটা সেখানে লাগাতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/one6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৬"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার লক্ষনগুলির দিকে সতর্ক দৃষ্টি রাখুন। বেশিরভাগ লক্ষনই কয়েক ঘন্টার মধ্যে তড়িৎ চিকিৎসার মাধ্যমে কমে আসবে। কিন্তু যদি রিয়্যাকশন মারাত্মক হয় তাহলে সেটা কমতে অনেক বেশি সময় লাগবে। নিচে দেয়া লক্ষনগুলো কামড়ের কয়েক মিনিট থেকে ঘন্টাখানেক পরেও দেখা দিতে পারে। যদি দেয় তাহলে বুঝতে হবে মারাত্মক রিয়্যাকশনের স্বীকার হয়েছেন, তখন দ্রুত ইমার্জেন্সী সার্ভিসের সাহায্য নেবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- তলপেটে ব্যাথা\n- অস্থিরতা\n- শ্বাস কষ্ট বা হাঁপানি\n- বুক ধরে আসা\n- কাশি\n- ডায়রিয়া\n- আচ্ছন্নবোধ\n- বেশি চুলকানি\n- কথা জড়িয়ে আসা\n- অনিয়মিত পালস\n- জিহ্বা, চোখ অথবা মুখমন্ডল ফুলে ওঠা\n- অচেতন হওয়া"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>-->
+
+            <!--
+                        <RelativeLayout
+                            android:id="@+id/one7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                            &lt;!&ndash;
+                            <ImageView
+                                android:id="@+id/one6i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_4_attack_1_snake_2"/>
+            &ndash;&gt;
+                            <TextView
+                                android:id="@+id/one7t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:text="৭"
+                                android:paddingBottom="3dp"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/flu_font_big_big"/>
+
+                            <TextView
+                                android:id="@+id/one7t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one7t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="আপনার শেষ টিটেনাসের ডোজ যদি ৫ বা তার চেয়ে বেশি বছর আগে নিয়ে থাকেন তাহলে আবার নিন।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+                            &lt;!&ndash;
+                                            <TextView
+                                                android:id="@+id/one2t3"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/one2t2"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_toRightOf="@+id/one2t1"
+                                                android:paddingRight="@dimen/flu_padding_right"
+                                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                                android:text="Don’t try to catch the snake- snakes are very fast and unless you are an experienced snake catcher, they have the advantage."
+                                                android:textColor="@drawable/l_text_color_60"
+                                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                                            <TextView
+                                                android:id="@+id/one2t4"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/one2t3"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_toRightOf="@+id/one2t1"
+                                                android:paddingRight="@dimen/flu_padding_right"
+                                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                                android:text="Don't walk toward the snake or spend a lot of time trying to get a better look at it if you are still in harm's way. This is not safe. Simply look at the snake quickly and then move away."
+                                                android:textColor="@drawable/l_text_color_60"
+                                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                                &ndash;&gt;
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/one8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                            <ImageView
+                                android:id="@+id/one8i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_4_attack_2_dog_3"/>
+
+                            <TextView
+                                android:id="@+id/one8t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one8i"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:text="৮"
+                                android:paddingBottom="3dp"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/flu_font_big_big"/>
+
+                            <TextView
+                                android:id="@+id/one8t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one8i"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one8t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="ক্ষতর দিকে খেয়াল রাখুন, যদি সেরে যাবার আগে কোন ধরনের ইনফেকশনের লক্ষন দেখতে পান তাহলে ডাক্তারের সাথে দ্রুত যোগাযোগ করুন। লক্ষন গুলো নিম্নরূপ হতে পারেঃ"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+
+                            <TextView
+                                android:id="@+id/one8t3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one8t2"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one8t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="- ব্যাথা বেড়ে যাওয়া\n- ফুলে যাওয়া\n- ক্ষত যায়গা লালচে হয়ে ওঠা অথবা গরম হয়ে ওঠা\n- জ্বর"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            &lt;!&ndash;
+                            <TextView
+                                android:id="@+id/one8t4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one8t3"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one8t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="Don’t use a tourniquet or use ice on the wound. Experts believe that a tourniquet could potentially restrict blood flow too much and ice can increase the damage to the wound."
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                            <TextView
+                                android:id="@+id/one8t5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one8t4"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one8t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="Don’t drink any alcohol or caffeine&#45;&#45; this can increase your heart rate and spread any venom that may be there. Instead, stay hydrated with water."
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/one9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+                            &lt;!&ndash;
+                                            <ImageView
+                                                android:id="@+id/one8i"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:adjustViewBounds="true"
+                                                android:paddingTop="@dimen/inside_image_padding_top"
+                                                android:scaleType="centerCrop"
+                                                android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                            &ndash;&gt;
+                            <TextView
+                                android:id="@+id/one9t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:text="৯"
+                                android:paddingBottom="3dp"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/flu_font_big_big"/>
+
+                            <TextView
+                                android:id="@+id/one9t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one9t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="যে কুকুর কামড়েছে সেটার র‍্যাবিস ভাক্সিন দেয়া আছে কিনা জানার ব্যাবস্থা করুন।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+
+                            <TextView
+                                android:id="@+id/one9t3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one9t2"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one9t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="যদি তা জানা সম্ভব না হয় তাহলে কুকুরটিকে ১৫ দিন লক্ষ রাখতে হবে যে কুকুরটা র‍্যাবিসে আক্রান্ত হয় কিনা, আর তা না করা গেলে ডাক্তারের সাথে আলোচনা করুন।"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                            &lt;!&ndash;<TextView
+                                android:id="@+id/one9t4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one9t3"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one9t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                            <TextView
+                                android:id="@+id/one9t5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one9t4"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one9t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:id="@+id/one10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+                            &lt;!&ndash;
+                                            <ImageView
+                                                android:id="@+id/one8i"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:adjustViewBounds="true"
+                                                android:paddingTop="@dimen/inside_image_padding_top"
+                                                android:scaleType="centerCrop"
+                                                android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                            &ndash;&gt;
+                            <TextView
+                                android:id="@+id/one10t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:text="১০"
+                                android:paddingBottom="3dp"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/flu_font_big_big"/>
+
+                            <TextView
+                                android:id="@+id/one10t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one10t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="অন্যান্য শারীরিক সমস্যাও দেখা দিতে পারে, যদি দেয় তাহলে ডাক্তারের শ্মরনাপন্ন হনঃ"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+
+                            <TextView
+                                android:id="@+id/one10t3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one10t2"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one10t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="- ডায়াবেটিস\n- লিভারের সমস্যা\n- ক্যান্সার\n- এইচ আই ভি"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                            &lt;!&ndash;
+                                            <TextView
+                                                android:id="@+id/one10t4"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/one10t3"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_toRightOf="@+id/one10t1"
+                                                android:paddingRight="@dimen/flu_padding_right"
+                                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                                android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                                                android:textColor="@drawable/l_text_color_60"
+                                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                                            <TextView
+                                                android:id="@+id/one10t5"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_below="@+id/one10t4"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_toRightOf="@+id/one10t1"
+                                                android:paddingRight="@dimen/flu_padding_right"
+                                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                                android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                                                android:textColor="@drawable/l_text_color_60"
+                                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                                &ndash;&gt;
+                        </RelativeLayout>-->
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="বোট ডুবতে শুরু করলে"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<ImageView
+                    android:id="@+id/two1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_4"/>
+-->
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি যদি চালকের দ্বায়িত্বে থেকে থাকেন তাহলে রেডিওতে মে-ডে বা বিপদ সংকেত দিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!--<TextView
+                    android:id="@+id/two1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="এদের মধ্যে আকৃতিগত পার্থক্য আছে যেমন মৌমাছি লম্বায় আড়াই সেন্টিমিটারের মতো লম্বা হয় এবং কালো রঙের হতে পারে। সেই সাথে বাদামি অথবা হলুদ ডোরাকাটাও হতে পারে। এদের গায়ে লোম থাকে। মৌমাছির ২ টা করে পাখা থাকে আর ভিমরুলের ৪ টা থাকে। ভিমরুল দেখতে চকচকে, লোম ছাড়া এবং কোমড়ের কাছে চিকন হয়ে থাকে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মৌমাছির কলোনিতে ৭৫,০০০ এর বেশি সদস্য থাকে, যেখানে ভিমরুলের থাকে ১০,০০০ এরো কম। ভিমরুল শীতের সময় হাইবারনেশনে যায় কিন্তু মৌমছি যায় না তবে এসময় মধু- কোষের ভেতরে থাকে। সব মৌমাছি মধু তৈরি করে কিন্তু ভিমরুল করেনা। মৌমাছিরা পরাগ- রেনু এবং গাছপালা খেয়ে বেঁচে থাকে আর ভিমরুল পরাগ- রেনুর সাথে সাথে অন্যান্য পোকা- মাকড়ও খায়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two1t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মধু- মাছি মাত্র একবারই হুল ফোটাতে পারে। এদের হুল কাঁটা আলা হয়, ফলে ফুটানোর সাথে সাথে মৌমাছির কাছ থেকে ছিড়ে চামড়ার সাথে লেগে যায়। একারনে মধু মাছি আক্রমনের কিছু পরে মারা যায়। কিন্তু একটা ভিমরুল অনেকবার হুল ফোটাতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_3"/>
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এমতাবস্থায় আপনি যাত্রী হয়ে থাকলে বোট খালি করার জন্য বাজানো সাইরেন বা হর্নের দিকে খেয়াল রাখুন। অনেক সময় হর্ন না বাজিয়ে মাইকে সাবধান করা হয় সেটা মনোযোগ দিয়ে শুনুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!-- <TextView
+                     android:id="@+id/two2t3"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/two2t2"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/two2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="- খুব দ্রুত তীক্ষ জ্বলার মতো ব্যাথা টের পাবেন হুল ফোটার জায়গায়।\n- জায়গাটা মিনিটের মধ্যেই লাল হয়ে যাবে।\n- ঠিক হুল ফোটার জায়গায় সাদা হয়ে থাকবে\n- চারপাশে লাল জায়গাটা সামান্য ফুলে উঠতে পারে।\n- কামড়ের মাঝ বরাবর হুল পান কিনা দেখুন তাতে বুঝতে পারবেন যে সেটা মৌমাছি ছিলো কিনা।\n- কামড়ের পরিস্থিতি এবং আপনার শরীরের রিয়্যাকশন অনুযায়ী চিকিৎসা করুন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!--<ImageView
+                    android:id="@+id/two3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_5"/>
+-->
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার ভেসে থাকার সরঞ্জাম পড়ে নিন। আর যদি হাতে সময় থাকে এবং আপনার জীবনের ওপরে ঝুঁকি তৈরি না হয় একমাত্র তবেই অন্যান্য প্রয়োজনীয় জিনিসপত্র নিতে যাবেন, অন্যথায় নয়।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="নিজেকে তৈরি করার পর সাথে সাথেই বাচ্চা, এবং পোষা কোন প্রানী থাকলে সেগুলোর দিকে নজর দিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!--<TextView
+                    android:id="@+id/two3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="খুব বেশি ঢিলা কাপড় পরবেন না তাতে মৌমাছি এবং ভিমরুল আটকে যেতে পারে; তাছাড়া হলুদ, সাদা বা ফুলের ছাপ আলা কাপড় পরবেন না কারন এগুলো তাদেরকে আকর্ষন করে। লাল কালার ব্যাবহার করতে পারেন কারন মৌমাছি এবং ভিমরুল এই রং দেখতে পায় না।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="খুব বেশি আকর্ষনীয় সুগন্ধী ব্যাবহার থেকে বিরত থাকবেন। খালি পায়ে হাটবেন না। বাড়ির বাইরের লাইট দরকারের বেশি সময় ধরে জ্বালিয়ে রাখবেননা কারন এতে পোকামাকড় লাইটের আলোতে আকৃষ্ট হবে এবং তাদের খাবার জন্য ভিমরুল সেখানে চলে আসবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিমরুলকে পিষে মারতে যাবেন না কারন এতে তার শরীর থেকে এক ধরনের কেমিকেল এলার্ম আসেপাশে থাকা অন্যান্য ভিমরুলকে আক্রমনের সংকেত দিবে। একইভাবে মৌমাছি যখন কামড় দেয় সেও একধরনের কেমিকেল রিলিজ করে যেটা আসে পাশে থাকা অন্যান্য মৌমাছিদের আকর্ষন করে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/two4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+                -->
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="বোটের ক্রুদেরকে ইমার্জেন্সী পরিস্থিতিতে কি করতে হবে তার ওপরে বিশেষ ট্রেইনিং দেয়া হয়, তাই তাদের কথা মতো চলুন। কি করতে হবে বুঝতে না পারলে তাদেরকে জিজ্ঞেস করে জেনে নিন। আর যদি কাউকে না পান একমাত্র তবেই নিজে নিজে বোট থেকে পালানোর পরিকল্পনা করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি ক্রুদের বলা নির্দেশনা আপনি শুনতে না পান অথবা কোন কারনে বুঝতে না পারেন তাহলে একটা কথা মেনে চলুন তা হলোঃ ওপরের দিয়ে উঠবেন এবং বোট ত্যাগ করবেন। যদিও প্যানিক বা আতংকের কারনে মানুষকে বোটের মাঝের দিকে অথবা ভেতরের দিকে যেতে দেখতে পারেন। কিন্তু সেটা করা বুদ্ধিমানের কাজ হবে না।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ক্যাপ্টেন যদি আপনার কাছে কোন কাজের জন্য সাহায্য চান তাহলে আপনি সেটা করতে না পারলে স্পষ্ট করে বলুন আর নয়তো যতটুকু পারেন সাহায্য করার চেষ্টা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/two5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="এই ধরনের পরিস্থিতিতে মাথা ঠান্ডা রাখাটা প্রধান কাজ। স্টাডিতে দেখা গেছে যে ৭০ ভাগ মানুষ আতঙ্ক গ্রস্থ হয়ে চিন্তা শক্তি হারিয়ে ফেলেন এবং ১৫ ভাগ হতবুদ্ধি হয়ে পরেন এবং বাকি মাত্র ১৫ ভাগ মানুষ মাথা ঠান্ডা রাখতে পারেন। তাই মাথা ঠান্ডা রাখাটা আপনার নিজেকে নিরাপদ রাখার জন্য এবং ঠিকভাবে বোট ত্যাগ করতে সহায়তা করবে। এবং সেই সাথে অন্যদেরকেও শান্ত করতে চেষ্টা করুন, কারন তা নাহলে মানুষ জন হুরোহুরিতে বোট থেকে পালানোর আগেই পায়ের চাপে বা অন্যভাবে একে অন্যকে আহত করে বসতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি দেখেন কেউ এক জায়গায় দাঁড়িয়ে ভয়ে জমে গেছেন তাহলে তাকে চিৎকার করে বোট থেকে নামতে বলুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two5t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনার শ্বাস প্রশ্বাসকে নিয়ন্ত্রন করুন। আপনার যদি যোগ ব্যায়াম করার অভ্যাস থেকে থাকে তাহলে আপনি জানবেন যে এতে করে দ্রুত মানসিক ভাবে স্থিরতা পাওয়া যায়। সাঁতারের সময়েও এই পদ্ধতি কাজে আসতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_4"/>
+
+                <TextView
+                    android:id="@+id/two6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="বোট থেকে পালানোর সময় যে রাস্তা দিয়ে দ্রুত পালাতে পারবেন সেই রাস্তায় যান, কম দূরত্বের অথচ বিপদজনক রাস্তা এড়িয়ে চলুন। বোট যদি ডানে বামে দুলতে থাকে তাহলে রেলিং বা অন্য যা কিছু হাতের কাছে পান সেটি ধরে ভারসাম্য বজায় রাখুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বোটে যদি এলিভেটর থাকে তাহলে সেটাতে কখনই উঠবেন না, এবং কারেন্ট চালিত যেকোন কিছু এভয়েড করবেন। যদি একান্তই সিড়ি ঘর পুরোটা পানিতে ডুবে গিয়ে থাকে এবং অন্য কোন উপায় না পান তাহলে শেষ ভরসা হিসেবে এলিভেটরে যেতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two6t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বোটের এদিক সেদিকে ছোটাছোটি- রত জিনিস পত্রের দিকে সতর্ক দৃষ্টি রাখুন, কারন এসব কিছু আপনার মাথায় আঘাত করলে আপনি অজ্ঞান হয়ে যেতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/two7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/two4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+-->
+
+                <TextView
+                    android:id="@+id/two7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৭"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি বোটের ওপরের দিকে ওঠার পর যদি ক্রু দেরকে লাইফ বোট সাজাতে দেখেন তবে সেদিকে যান। স্বাভাবিক নিয়ম হলো, সব যাত্রীরা নেমে যাবার পরে ক্রুরা বোট ত্যাগ করবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two7t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two7t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মুভিতে দেখা হিরোর মতো সবার পিছে থাকার চেষ্টা করবেন না। আপনার এবং আপনার পরিবারের নিরাপত্তার জন্য যা যা করার প্রয়োজন তা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+
+                                <ImageView
+                                    android:id="@+id/two4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+                -->
+
+                <TextView
+                    android:id="@+id/two8t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৮"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two8t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="নিজেকে না ভিজিয়ে বোটে উঠতে পারাটা সবচেয়ে ভালো। কারন আপনি ভিজে গেলে এবং পানি ঠান্ডা থাকলে আপনি হাইপোথার্মিয়ায় আক্রান্ত হতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two8t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two8t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি একান্তই কোন লাইফবোট না পান তাহলে টায়ার জাতীয় পানিতে ভাসে এমন কিছু খুজে পানিতে ছুঁড়ে দিন। কোন কিছু না পাওয়ার চাইতে সেটাই ভালো। তবে পানিতে নামতে বাধ্য হবার সাথে সাথে আপনার জন্য নিরাপদ থাকার সম্ভাবনা মারাত্মক ভাবে হ্রাস পাবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two9i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_5"/>
+
+                <TextView
+                    android:id="@+id/two9t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two9i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৯"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two9t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two9i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="লাইফবোটে উঠে নিয়ম মেনে চলুন এবং শান্ত থাকুন যতক্ষন পর্যন্ত না উদ্ধারকারীরা আসছেন, ধৈর্য ধরুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two9t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two9t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="লাইফবোটে থাকা অবস্থায় খাবার হিসাব করে খান। আকাশ এবং আবহাওয়া পরিষ্কার থাকলে ফ্লেয়ার গান ব্যাবহার করুন যাতে উদ্ধার কারীরা আপনাদেরকে দেখতে পান। শরীর গরম রাখতে একত্রিত হয়ে পরস্পরকে জড়িয়ে ধরে বসুন। বৃষ্টির পানি ধরে পান করুন, প্রশাব বা সমুদ্রের পানি পান করবেন না। কেউ আঘাত পেলে যতটা সম্ভব সেবা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two9t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two9t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="দৃঢ় সংকল্পের সাথে অপেক্ষা করুন। এই ধরনের পরিস্থিতিতে মানসিক বল খুবই জরুরী। যদি আপনি কোন লাইফবোট না পান তাহলে খুজে দেখুন বোটের কোন ভাসমান অংশ বিশেষ খুঁজে পান কিনা।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/two10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/two10i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_2_boat_5"/>
+-->
+
+                <TextView
+                    android:id="@+id/two10t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১০"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two10t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="সীমিত সংখ্যক লাইফবোট থাকলে সবাই সেগুলোতে ওঠার চেষ্টা করতে পারে, ফলে সবার জন্যেই সেটা ক্ষতিকর হতে পারে। পানিতে থাকতে বাধ্য হলে সেটা বিপদের কারন হতে পারে, কারন ঘন্টার পর ঘন্টা ধরে বড় বড় ঢেউয়ের মাঝে ভেসে থাকাটা একজন দক্ষ সাতারুর জন্যেও দারুন কষ্ট সাধ্য একটি বিষয়।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two10t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two10t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ঠান্ডা পানিতে বেশিক্ষন থাকলে সেটা আপনাকে হাইপোথার্মিয়াতে আক্রান্ত করবে ফলে আপনার ঘুমিয়ে পড়তে ইচ্ছা করবে এবং আপনি পানিতে ডুবে যাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two10t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two10t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="হঠাৎ করে ঠান্ডা পানিতে গেলে এবং অভ্যাস না থাকলে আপনি ঠান্ডা শকে পড়তে পারেন যেটা আপনার ব্লাড প্রেশার বাড়িয়ে দিতে পারে, ফলে মৃত্যুর মুখে পড়তে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two10t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two10t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="নিজেকে কোন ধরনের শকে পড়তে দেবেন না, মনোযোগ অন্য দিকে ব্যাস্ত রাখার ব্যাবস্থা করুন যেমনঃ অন্যদের কিছু সাহায্য লাগবে কিনা, মাইন্ড গেম, ১ থেকে ১০০ পর্যন্ত সংখ্যা গোনা ইত্যাদি।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two10t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two10t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সানস্ট্রোক থেকে বাঁচতে যতটা পারুন আপনার মাথাকে ঢেকে রাখার চেষ্টা করুন। আপনি যদি বেঁচেও যান তবুও আপনার সাথে লাইফবোটে থাকা অনেকেই মারা যেতে পারেন সেটা আপনাকে বুঝতে হবে এবং মেনে নিতে হবে। যদি দরকার হয় তাহলে দুর্ঘটনা পরবর্তি কাউন্সিলিং নিতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        -->
+
+    </LinearLayout>
+</ScrollView>

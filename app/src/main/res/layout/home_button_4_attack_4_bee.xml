@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDeepColor"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_4_attack_4_bee_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="মৌমাছির কামড়ে অস্বস্তি এবং ব্যাথার উদ্রেক হতে পারে তবে এর প্রভাব খুব বেশি সময় থাকে না। বেশিরভাগ ক্ষেত্রে বাসাতেই যথাযথ চিকিৎসা করলে কয়কঘন্টা থেকে দুইএক দিনের মধ্যেই শরীর সুস্থ হতে শুরু করবে। আর যদি মারাত্মক কোন লক্ষন দেখা দেয় তাহলে ডাক্তারের স্মরনাপন্ন হতে হবে।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="হুল ফোটার চিকিৎসা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/one1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_1"/>
+
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি যদি একাধিক কামড়ের শিকার হয়ে থাকেন তাহলে হুলের বিষে থাকা প্রোটিনের কারনে আপনার শরীরে এলার্জিক রিয়্যাকশন দেখা দিতে পারে। আপনার রিয়্যাকশনের উপরে নির্ভর করবে আপনার কি পরিমান মেডিকেল ট্রিটমেন্টের প্রয়োজন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="অল্প রিয়্যাকশন হলে সেটা হুল ফোটার জায়গার চারপাশেই দেখা দিবে। হাফ ইঞ্চি থেকে ২ ইঞ্চি ব্যাসের বৃত্তাকার লাল অংশ হুল ফোটার জায়গার চারপাশে ফুলে উঠবে এবং কেন্দ্রের ফুটাটা বেশিরভাগ সময় সাদা রঙের দেখাবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মাঝারি রিয়্যাকশনে অল্প রিয়্যাকশনের মতই লক্ষন দেখা দিবে তবে জায়গাটা ৪৮ ঘন্টা পরে ২ ইঞ্চি ব্যাসের চাইতেও বড়ো হতে পারে এবং ৫ থেকে ১০ দিন স্থায়ী হতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one1t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মারাত্মক রিয়্যাকশনের ক্ষেত্রেও আগের সব লক্ষন দেখা দেবে এবং তার সাথে সাথে কাশি, শ্বাস কষ্ট, জিহ্বা অথবা গলা ফুলে যাওয়া, ডায়রিয়া, দুর্বলতা এবং দ্রুত হার্টবিট, লো ব্লাড প্রেশার, জ্ঞান হারিয়ে ফেলা এবং অচিরেই মৃত্যুর মুখে পতিত হওয়া, যদি না সময় মতো চিকিৎসা দেয়া হয়। আপনি যদি এসব লক্ষনের কোন একটা খেয়াল করেন তাহলে দ্রুত ইমার্জেন্সি সার্ভিসে যোগাযোগ করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_2"/>
+
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="২"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="প্রথমেই নিশ্চিত করুন আপনাকে কিসে হুল ফুটিয়েছে, মৌমাছি নাকি ভিমরুল এবং সেই অনুসারে ফার্স্ট এইড দেবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিমরুল কামড়ের পরে কোন হুল রেখে যায় না কিন্তু মৌমাছি রেখে যায়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+               <!-- <TextView
+                    android:id="@+id/one2t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সাবান দিয়ে ধুতে গেলে আহত জায়গাটা জ্বলতে পারে, কিন্তু তবুও এটা করাটা জরুরী।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/one3i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_3"/>
+                -->
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৩"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কোন হুল না থাকে তাহলে সাবান পানি দিয়ে জায়গাটা ভালোভাবে পরিষ্কার করে ফেলুন। গরম পানি ব্যাবহার না করে ঠান্ডা পানি ব্যাবহার করুন তা- নাহলে জায়গাটা আরো ফুলে যেতে পারে। এরপর কিছু বরফ একটা তয়লা বা অন্য কাপড়ে পেচিয়ে নিয়ে জায়গাটার ওপরে ২০ মিনিটের মতো প্রয়োগ করুন, তাতে আরাম পাবেন এবং ঘন্টায় ঘন্টায় একই কাজ করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="জায়গাটা যদি খুব বেশি চুলকায় তাহলে ওভার দা কাউন্টার এন্টিহিস্টামিন ট্যাবলেট ব্যাবহার করতে পারেন। আর ব্যাথার জন্য  ibuprofen (Advil) অথবা acetaminophen (Tylenol) নিতে পারেন। বোতলে লেখা ইন্সট্রাকশন ফলো করবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <!--
+                                <TextView
+                                    android:id="@+id/one3t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one3t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one3t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Do not let the person get up too quickly. Encourage him/her to stay lying down for a few minutes. This will allow blood flow to the brain to fully regain. Additionally, abrupt rise may precipitate another fainting episode. Once people have regained consciousness, they may try to brush it off by standing and trying to walk too soon after the incident. If the person has a head injury, additional symptoms (such as difficulty breathing, chest pain, severe headache, etc.) or a pre-existing condition (pregnancy, heart disease, etc.), he/she should consult a doctor."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_3"/>
+
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৪"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কামড়ের পরে সেই জায়গায় হুল থেকে যায় তাহলে সাবধানে আপনার হাত ধুয়ে আঙ্গুলের নখ দিয়ে হুলের মাথা ধরে বের করে আনুন। এই কাজে ক্রেডিট কার্ড জাতীয় কিছুর কোনা ব্যাবহার করতে পারেন। তবে চিমটা জাতীয় কিছু ব্যাবহার করতে যাবেন না তাতে করে হুলে থাকা বাকি বিষটুকুও ঢুকে যেতে পারে আপনার শরীরে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="সাবান পানি দিয়ে জায়গাটা ভালোভাবে পরিষ্কার করে ফেলুন। কিছু বরফ একটা তয়লা বা অন্য কাপড়ে পেচিয়ে নিয়ে জায়গাটার ওপরে ২০ মিনিটের মতো প্রয়োগ করুন তাতে আরাম পাবেন এবং ঘন্টায় ঘন্টায় একই কাজ করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one4t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one4t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="চুলকানির জন্য ওভার দা কাউন্টার এন্টিহিস্টামিন ব্যাবহার করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+                <ImageView
+                    android:id="@+id/one5i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_2_dog_2"/>-->
+
+                <TextView
+                    android:id="@+id/one5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৫"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ফার্স্ট এইড এপ্লাই এর সাথে সাথে কিছু প্রচলিত চিকিৎসাও করা যেতে পারে। বেশিরভাগ ক্ষেত্রে কামড়ের চিহ্ন এবং লক্ষনগুলো কয়েকঘন্টা অথবা দুই একদিনের মধ্যেই চলে যাবার কথা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="বেকিং সোডার সাথে পানি মিশিয়ে কামড়ের জায়গায় লাগান। চুলকানি এবং ফুলে যাওয়া রোধে এটি কার্যকরী।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/one5t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু মধু লাগান, মধুতে এন্টিবায়োটিক গুনাবলী আছে তাছাড়া এতে কামড়ের যায়গায় আরাম পাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/one5t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কিছু রসুনের কোয়া ছেঁচে রস বের করে নিন এবং সেটা কামড়ের জায়গায় লাগান। রসুনে প্রাকৃতিক এটিবায়োটিক গুন থাকে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/one5t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one5t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="লেভেন্ডারের তেল মৌমাছি বা ভিমরুলের কামড়ের ব্যাথা কমাতে ভালো কাজ করে, তাই এর কয়েক ফোঁটা সেখানে লাগাতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/one6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৬"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার লক্ষনগুলির দিকে সতর্ক দৃষ্টি রাখুন। বেশিরভাগ লক্ষনই কয়েক ঘন্টার মধ্যে তড়িৎ চিকিৎসার মাধ্যমে কমে আসবে। কিন্তু যদি রিয়্যাকশন মারাত্মক হয় তাহলে সেটা কমতে অনেক বেশি সময় লাগবে। নিচে দেয়া লক্ষনগুলো কামড়ের কয়েক মিনিট থেকে ঘন্টাখানেক পরেও দেখা দিতে পারে। যদি দেয় তাহলে বুঝতে হবে মারাত্মক রিয়্যাকশনের স্বীকার হয়েছেন, তখন দ্রুত ইমার্জেন্সী সার্ভিসের সাহায্য নেবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- তলপেটে ব্যাথা\n- অস্থিরতা\n- শ্বাস কষ্ট বা হাঁপানি\n- বুক ধরে আসা\n- কাশি\n- ডায়রিয়া\n- আচ্ছন্নবোধ\n- বেশি চুলকানি\n- কথা জড়িয়ে আসা\n- অনিয়মিত পালস\n- জিহ্বা, চোখ অথবা মুখমন্ডল ফুলে ওঠা\n- অচেতন হওয়া"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+<!--
+            <RelativeLayout
+                android:id="@+id/one7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                &lt;!&ndash;
+                <ImageView
+                    android:id="@+id/one6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_1_snake_2"/>
+&ndash;&gt;
+                <TextView
+                    android:id="@+id/one7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৭"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার শেষ টিটেনাসের ডোজ যদি ৫ বা তার চেয়ে বেশি বছর আগে নিয়ে থাকেন তাহলে আবার নিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                &lt;!&ndash;
+                                <TextView
+                                    android:id="@+id/one2t3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one2t2"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one2t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Don’t try to catch the snake- snakes are very fast and unless you are an experienced snake catcher, they have the advantage."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                                <TextView
+                                    android:id="@+id/one2t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one2t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one2t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="Don't walk toward the snake or spend a lot of time trying to get a better look at it if you are still in harm's way. This is not safe. Simply look at the snake quickly and then move away."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                    &ndash;&gt;
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one8i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_2_dog_3"/>
+
+                <TextView
+                    android:id="@+id/one8t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৮"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one8t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ক্ষতর দিকে খেয়াল রাখুন, যদি সেরে যাবার আগে কোন ধরনের ইনফেকশনের লক্ষন দেখতে পান তাহলে ডাক্তারের সাথে দ্রুত যোগাযোগ করুন। লক্ষন গুলো নিম্নরূপ হতে পারেঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one8t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- ব্যাথা বেড়ে যাওয়া\n- ফুলে যাওয়া\n- ক্ষত যায়গা লালচে হয়ে ওঠা অথবা গরম হয়ে ওঠা\n- জ্বর"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+&lt;!&ndash;
+                <TextView
+                    android:id="@+id/one8t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Don’t use a tourniquet or use ice on the wound. Experts believe that a tourniquet could potentially restrict blood flow too much and ice can increase the damage to the wound."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <TextView
+                    android:id="@+id/one8t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one8t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one8t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="Don’t drink any alcohol or caffeine&#45;&#45; this can increase your heart rate and spread any venom that may be there. Instead, stay hydrated with water."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/one8i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/one9t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৯"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one9t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যে কুকুর কামড়েছে সেটার র‍্যাবিস ভাক্সিন দেয়া আছে কিনা জানার ব্যাবস্থা করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one9t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="যদি তা জানা সম্ভব না হয় তাহলে কুকুরটিকে ১৫ দিন লক্ষ রাখতে হবে যে কুকুরটা র‍্যাবিসে আক্রান্ত হয় কিনা, আর তা না করা গেলে ডাক্তারের সাথে আলোচনা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                &lt;!&ndash;<TextView
+                    android:id="@+id/one9t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                <TextView
+                    android:id="@+id/one9t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one9t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one9t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/one10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/one8i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_4_attack_1_snake_3"/>
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/one10t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১০"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/one10t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="অন্যান্য শারীরিক সমস্যাও দেখা দিতে পারে, যদি দেয় তাহলে ডাক্তারের শ্মরনাপন্ন হনঃ"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/one10t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one10t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one10t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- ডায়াবেটিস\n- লিভারের সমস্যা\n- ক্যান্সার\n- এইচ আই ভি"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                &lt;!&ndash;
+                                <TextView
+                                    android:id="@+id/one10t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one10t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one10t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="If the snake that bit you is venomous, you may get treated with antivenin (aka antivenom or antivenene). This is a combination of antibodies made to counteract snake toxins and has been shown to be safe and effective in both adults and children. Depending on symptoms, you may get more than one dose."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+
+                                <TextView
+                                    android:id="@+id/one10t5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one10t4"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one10t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="You will also likely be prescribed a broad-spectrum antibiotic to make sure the wound does not get infected. A tetanus shot may also be given. For very severe snake bites, surgery may be required."
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                                    &ndash;&gt;
+            </RelativeLayout>-->
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="বিষাক্ত হুল চেনা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/two1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_4_bee_4"/>
+
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="১"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="মৌমাছি আর ভিমরুলকে একই ভেবে ফেলাটা স্বাভাবিক ঘটনা কারন দুটার কামড়েই ব্যাথার সৃষ্টি হয়। কিন্তু এদের মধ্যে পার্থক্য ধরতে পারাটা চিকিৎসার জন্য অত্যন্ত গুরূত্বপূর্ন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="এদের মধ্যে আকৃতিগত পার্থক্য আছে যেমন মৌমাছি লম্বায় আড়াই সেন্টিমিটারের মতো লম্বা হয় এবং কালো রঙের হতে পারে। সেই সাথে বাদামি অথবা হলুদ ডোরাকাটাও হতে পারে। এদের গায়ে লোম থাকে। মৌমাছির ২ টা করে পাখা থাকে আর ভিমরুলের ৪ টা থাকে। ভিমরুল দেখতে চকচকে, লোম ছাড়া এবং কোমড়ের কাছে চিকন হয়ে থাকে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                <TextView
+                    android:id="@+id/two1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মৌমাছির কলোনিতে ৭৫,০০০ এর বেশি সদস্য থাকে, যেখানে ভিমরুলের থাকে ১০,০০০ এরো কম। ভিমরুল শীতের সময় হাইবারনেশনে যায় কিন্তু মৌমছি যায় না তবে এসময় মধু- কোষের ভেতরে থাকে। সব মৌমাছি মধু তৈরি করে কিন্তু ভিমরুল করেনা। মৌমাছিরা পরাগ- রেনু এবং গাছপালা খেয়ে বেঁচে থাকে আর ভিমরুল পরাগ- রেনুর সাথে সাথে অন্যান্য পোকা- মাকড়ও খায়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two1t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মধু- মাছি মাত্র একবারই হুল ফোটাতে পারে। এদের হুল কাঁটা আলা হয়, ফলে ফুটানোর সাথে সাথে মৌমাছির কাছ থেকে ছিড়ে চামড়ার সাথে লেগে যায়। একারনে মধু মাছি আক্রমনের কিছু পরে মারা যায়। কিন্তু একটা ভিমরুল অনেকবার হুল ফোটাতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+<!--
+
+                <ImageView
+                    android:id="@+id/two2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_4_attack_2_dog_5"/>
+-->
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="২"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="কিসে আপনাকে হুল ফুটিয়েছে যদি তা দেখতে না পান তাহলে দুটার মধ্যে পার্থক্য করতে পারাটা অনেক কঠিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- খুব দ্রুত তীক্ষ জ্বলার মতো ব্যাথা টের পাবেন হুল ফোটার জায়গায়।\n- জায়গাটা মিনিটের মধ্যেই লাল হয়ে যাবে।\n- ঠিক হুল ফোটার জায়গায় সাদা হয়ে থাকবে\n- চারপাশে লাল জায়গাটা সামান্য ফুলে উঠতে পারে।\n- কামড়ের মাঝ বরাবর হুল পান কিনা দেখুন তাতে বুঝতে পারবেন যে সেটা মৌমাছি ছিলো কিনা।\n- কামড়ের পরিস্থিতি এবং আপনার শরীরের রিয়্যাকশন অনুযায়ী চিকিৎসা করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!--<ImageView
+                    android:id="@+id/two3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_5"/>
+-->
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৩"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="মৌমাছি স্বাধারনত রাগানো না হলে কামড় দেয় না। কিন্তু ভিমরুল এমনিতেই আক্রমনাত্মক। এদের হাত থেকে বাঁচতে স্বাভাবিক থাকুন এবং এদের এলাকা ত্যাগ করুন। মারতে বা তাড়াতে যাবেন না, তাতে আক্রমনাত্মক হয়ে উঠতে পারে। সবচেয়ে ভালো উপায় হলো আপনার বাসাবাড়িতে যাতে ঢুকতে না পারে সে ব্যাবস্থা করা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মৌমাছি বা ভিমরুল মিষ্টির প্রতি আকৃষ্ট হয় বেশি, তাই পিকনিকে গেলে আপনার খাবার শুধুমাত্র খাবার আগেই বের করুন; আর খাবার শুরুর আগে খাবারটা ভালোভাবে দেখে নিন যাতে মুখে কামড় না খান। ডাস্টবিনে শক্ত এবং টাইট ঢাকনা ব্যাবহার করুন যাতে সেখানে মৌমাছি ভীর করতে না পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="খুব বেশি ঢিলা কাপড় পরবেন না তাতে মৌমাছি এবং ভিমরুল আটকে যেতে পারে; তাছাড়া হলুদ, সাদা বা ফুলের ছাপ আলা কাপড় পরবেন না কারন এগুলো তাদেরকে আকর্ষন করে। লাল কালার ব্যাবহার করতে পারেন কারন মৌমাছি এবং ভিমরুল এই রং দেখতে পায় না।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t4"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="খুব বেশি আকর্ষনীয় সুগন্ধী ব্যাবহার থেকে বিরত থাকবেন। খালি পায়ে হাটবেন না। বাড়ির বাইরের লাইট দরকারের বেশি সময় ধরে জ্বালিয়ে রাখবেননা কারন এতে পোকামাকড় লাইটের আলোতে আকৃষ্ট হবে এবং তাদের খাবার জন্য ভিমরুল সেখানে চলে আসবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/two3t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t5"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিমরুলকে পিষে মারতে যাবেন না কারন এতে তার শরীর থেকে এক ধরনের কেমিকেল এলার্ম আসেপাশে থাকা অন্যান্য ভিমরুলকে আক্রমনের সংকেত দিবে। একইভাবে মৌমাছি যখন কামড় দেয় সেও একধরনের কেমিকেল রিলিজ করে যেটা আসে পাশে থাকা অন্যান্য মৌমাছিদের আকর্ষন করে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+            <!--<RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/two4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৪"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি কোন ইনফেকশন দেখা দেয় তাহলে আপনাকে এন্টিবায়োটিক দেয়া হতে পারে যেটা নিয়মিত সেবন করবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                &lt;!&ndash;<TextView
+                    android:id="@+id/two4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="The most commonly used antibiotic is amoxicillin - clavulanate (Augmentin). It is a pill that is generally prescribed for three to five days. The most common side effect is GI upset."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <TextView
+                    android:id="@+id/two5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="৫"
+                    android:paddingBottom="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="চিকিৎসা শেষে ডাক্তার আপনাকে বলে দেবেন কত সময় পরপর ব্যান্ডেজ বদলাতে হবে আপনাকে। স্বাধারনত দিনে দুই থেকে একবার বদলাতে হতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+&lt;!&ndash;
+                <TextView
+                    android:id="@+id/two5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="For example, try to position your body such that you fall out of the path of sharp objects."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+            </RelativeLayout>-->
+
+            <!--<RelativeLayout
+                android:id="@+id/two6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_5_accidents_1_unconscious_6"/>
+
+                <TextView
+                    android:id="@+id/two6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Take some preventative steps to avoid fainting in the future. In some cases, it is possible to prevent a potential fainting spell by taking the proper precautions and avoiding possible triggers. Some preventative steps include:"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two6t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two6t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- Staying hydrated and eating regularly: It is essential to stay hydrated by drinking plenty of water and other fluids, especially on hot days. Eating regular, healthy meals can help ameliorate feelings of dizziness and weakness associated with hunger.\n- Avoiding stressful situations: For some people, fainting is brought on by stressful, upsetting or anxiety producing situations. Thus, it is important to stay calm by avoiding these kinds of situations as much as possible.\n- Avoiding drugs, alcohol and cigarettes: These items are full of toxins that are generally unhealthy and can induce fainting in some people.\n- Avoiding changing position quickly: Fainting is sometimes caused by sudden movement, such as standing up too quickly after sitting or lying down. Try to stand up slowly, and hold onto something stable for balance, if possible."
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>-->
+
+
+
+            <!--<RelativeLayout
+                android:id="@+id/two7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_3_eye_1_object_6"/>
+
+                <TextView
+                    android:id="@+id/two7t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/two7t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two7t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="Consult a doctor if the problem continues. If you find yourself fainting on a semi-regular or regular basis, it's important to consult your doctor. The fainting may be a symptom of a more serious underlying issue, such as heart problems or orthostatic hypotension."
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>-->
+
+        </LinearLayout>
+
+        <!--
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        -->
+
+    </LinearLayout>
+</ScrollView>

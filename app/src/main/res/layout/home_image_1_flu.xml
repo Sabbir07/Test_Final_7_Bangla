@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/flu_image_1"/>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="আমাদের হেল্পফুল তথ্যের সাহায্যে ইনফ্লুয়েঞ্জা মহামারির হাত থেকে বাঁচুন এবং রোগ ছড়িয়ে পরা প্রতিরোধ করুন।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="@dimen/flu_padding_top"
+            android:text="পূর্ববর্তী করনীয়"
+            android:textColor="@drawable/l_text_color_99"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView4"
+                android:text="নিয়মিত সাবান ও পানি দিয়ে হাত ধোয়া।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView41"
+                android:text="অসুস্থ ব্যাক্তির কাছ থেকে দূরে থাকার চেষ্টা করা (কমপক্ষে ৩ ফিট দূরত্ব বজায় রাখা উচিৎ)।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView42"
+                android:text="চোখ, নাক এবং মুখ হাত দিয়ে ছোঁয়া থেকে বিরত থাকা।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView43"
+                android:text="কাশি কিংবা হাঁচি দেবার সময় মুখ এবং নাক টিস্যু দিয়ে চেপে রাখা। টিস্যু না থাকলে কনুইয়ের ভাঁজ ব্যাবহার করে কাশি বা হাঁচি দেয়া।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView44"
+                android:text="অসুস্থ অবস্থায় অন্য ব্যাক্তিদের কাছ থেকে দূরত্ব বজায় রাখা।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/tick_mark"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:paddingTop="2dp"
+                android:layout_toRightOf="@+id/textView45"
+                android:text="প্রতিবছর ফ্লু ভ্যাকসীন নেয়া। সুস্থ থাকতে এবং মৃত্যুর হাত থেকে বাঁচতে এটা অন্যতম কার্যকরী উপায়।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/flu_font_big"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_image_top"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="ফ্লু হয়েছে কিনা নিশ্চিত করা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_filled_2"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_2"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image2"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView6"
+                    android:text="ভালোভাবে চিকিৎসা করার আগে প্রথমেই নিশ্চিত করুন যে আপনি সত্যিই ফ্লুতে আক্রান্ত হয়েছেন কিনা। ফ্লুর লক্ষনগুলির সাথে দৈনন্দিন সর্দি বা ঠান্ডার লক্ষনের মিল আছে কিন্তু এক্ষেত্রে সেগুলোর মাত্রা তুলনামূলক ভাবে বেশি এবং ঘন ঘন হয়ে থাকে। সেগুলো দুই থেকে তিন সপ্তাহ স্থায়ী হতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView61"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView6"
+                    android:text="ফ্লুর লক্ষনগুলি হলোঃ কাশি, গলা ব্যাথা, ১০০ ডিগ্রীর ওপরে জ্বর, শরীর ব্যাথা, মাথা ব্যাথা, সর্দি, ঠান্ডা ঠান্ডা ভাব এবং ঘেমে ওঠা, শারীরিক দুর্বলতা, অবসাদ, শ্বাস-প্রশ্বাস দ্রুত হওয়া, খাদ্যে অরুচি, বমিবমি ভাব, ডায়রিয়া (বাচ্চাদের ক্ষেত্রে বেশি দেখা যায়)"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_3"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image3"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:text="খারাপ পরিস্থিতিতে ফ্লুর কারনে একজন আক্রান্ত ব্যাক্তি পানিশূন্যতা এবং অন্যান্য মারাত্মক সমস্যায় ভুগতে পারেন যাতে করে তাকে হাসপাতালে ভর্তি করার দরকার হতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView71"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:text="নিম্নোক্ত লক্ষন দেখা দিলে দ্রুত ডাক্তারের স্মরনাপন্ন হনঃ নিঃশ্বাসের দুর্বলতা বা শ্বাস নিতে কষ্ট হওয়া, বুকে চাপ বা ব্যাথা, বারবার বমি হওয়া, মাথা ঘোরা বা বিভ্রান্তি, চামড়া নীল হয়ে যাওয়া অথবা ঠোঁট বেগুনী হয়ে যাওয়া, খিঁচুনি, পানিশূন্যতার লক্ষন দেখা দেয়া (যেমনঃ শুষ্ক ত্বক, ঝিমুনি, চোখ বুঝে আসা, প্রসাবের পরিমান কমে আসা অথবা গাড় প্রসাব), খুব মাথা বা ঘাড় ব্যাথা অথবা ঘাড় ধরে আসা"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="প্রাকৃতিক উপায়ে চিকিৎসা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_filled_2"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView8"
+                    android:text="ঠান্ডা লাগলে স্বাধারনত কাজকর্ম স্বাভাবিক ভাবে চালিয়ে যাওয়া যায়, তবে ফ্লু হলে বিশ্রাম নেয়াটা জরুরী। কয়েকদিনের ছুটি নিয়ে আপনার শরীরকে সুস্থ হয়ে উঠবার জন্য সময় দিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView81"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView8"
+                    android:text="রাতে বিশ্রামের সময় শ্বাস প্রশ্বাস স্বাভাবিক রাখতে বাড়তি বালিশ দিয়ে মাথা উচু করে রাখুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top_text">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView9"
+                    android:text="জ্বর পানিশূন্যতা তৈরি করে, তাই সুস্থ থাকতে স্বাভাবিক সময়ের চাইতে অতিরিক্ত তরল খাবার যেমন পানি পান করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView91"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView9"
+                    android:text="গরম তরল খাবার পানিশূন্যতার সাথে সাথে গলা পরিষ্কার রাখতে সহায়তা করে। ক্যাফেইনযুক্ত তরল খাবার, ড্রিঙ্কস, সোডা পরিহার করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_4"/>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image4"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image4"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:text="শরীরে ঘাড়ে কিংবা অন্য কোথাও ব্যাথা অনুভব করলে ইলেক্ট্রিকাল হিটিং প্যাড অথবা গরম পানি একটি বোতলে ভর্তি করে সেই স্থানের উপরে চেপে রাখুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top_text">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView11"
+                    android:text="বেশি করে ভিটামিন সি খাবেন, এটি শারীরিক প্রতিরক্ষা ব্যাবস্থাকে জোরদার করতে সহায়তা করে। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView111"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView11"
+                    android:text="অরেঞ্জ জুসে প্রচুর পরিমানে প্রাকৃতিক ভিটামিন সি পাওয়া যায়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top_text">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="শ্বাস প্রশ্বাস স্বাভাবিক রাখতে নাকে ভেতরে জমে থাকা সর্দি নিয়মিত পরিষ্কার করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView121"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:text="গরম পানি দিয়ে গোসল করুন, গরম বাষ্প সর্দি নরম করতে সাহায্য করে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_5"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image5"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image5"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView13"
+                    android:text="শরীরে ঘাড়ে কিংবা অন্য কোথাও ব্যাথা অনুভব করলে ইলেক্ট্রিকাল হিটিং প্যাড অথবা গরম পানি একটি বোতলে ভর্তি করে সেই স্থানের উপরে চেপে রাখুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_6"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image6"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৭"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView141"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image6"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView14"
+                    android:text="ফ্লুর কারনে তৈরি গলা ব্যাথা সারাতে এক কাপ গরম পানিতে এক টেবিল চামচ লবন মিশিয়ে গড়গড়া দিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView142"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView141"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView14"
+                    android:text="এক মিনিট ধরে গড়গড়া দিয়ে পানি কুলি করে ফেলে দিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flu_image_7"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image7"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৮"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image7"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView15"
+                    android:text="ইউক্যালিপ্টাসের বাষ্প বা ধোঁয়া কাশি সারতে সহায়তা করে। ৫ থেকে ১০ ফোঁটা ইউক্যালিপটাসের তেল দুই কাপ ফুটন্ত পানিতে মেশান। এক মিনিট ধরে ফুটতে দিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView151"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView15"
+                    android:text="পাত্রটি টেবিলের ওপরে রাখুন এবং গরম বাষ্পে ১০-১৫ মিনিট শ্বাস নিন। মুখ যাতে জ্বলে না যায় তাই পাত্র থেকে মুখ কমপক্ষে ১২ ইঞ্চি ওপরে রাখবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="মেডিসিনের মাধ্যমে চিকিৎসা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_filled_2"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView161"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView16"
+                    android:text="ফ্লু থেকে উৎপন্ন ব্যাথা কমানো জন্য Non-steroidal anti-inflammatory ঔষধ (NSAIDs) যেমন ibuprofen এবং aspirin অথবা জ্বর এবং ব্যাথা কমানোর ঔষধ যেমন Tylenol (acetaminophen) ব্যাবহার করা যেতে পারে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView162"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView161"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView16"
+                    android:text="১৮ বছরের কম বয়স্কদের Aspirin দেয়া যাবে না। ব্যাবহারের পূর্বে প্যাকেটের গায়ে লেখা ব্যাবহার বিধি ভালোভাবে পড়ে নিন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView17"
+                    android:text="চিকিৎসার জন্য যদি ডাক্তারের স্মরনাপন্ন হন তবে ফ্লুর অবস্থা দেখে তিনি নিম্নোক্ত ঔষধগুলি প্রেসক্রাইব করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView172"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView171"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView17"
+                    android:text="Oseltamivir (Tamiflu) গিলে খাবার জন্য। এটি ১ বছরের ছোট বাচ্চারা খেতে পারবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/textView173"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView172"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@+id/textView17"
+                    android:text="ইনহেলার হিসেবে Zanamivir (Relenza). ৭ বছর বা তার বেশি বয়সিরা এটি নিতে পারে। তবে হাঁপানি রোগী অথবা ফুসফুসের সমস্যা থাকলে এটি ব্যাবহার করা উচিৎ নয়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/textView174"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView173"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView17"
+                    android:text="১৮ এবং তার বেশি বয়সিরা Peramivir (Rapivab) ব্যাবহার করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView181"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView18"
+                    android:text="প্রথমেই একটা কথা মাথায় রাখতে হবে যে, এন্টিবায়োটিক্স ফ্লু সারায় না। ইনফ্লুয়েঞ্জা একটি ভাইরাস জনিত অসুখ। যদি প্রয়োজন পরে তবে আপনার চিকৎসক এন্টিভাইরাল ঔষধ যেমন Tamiflu   প্রেসক্রাইব করবেন। ফ্লুর জন্য কখনোই এন্টিবায়োটিক্স ব্যাবহার করতে যাবেন না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView182"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView181"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView18"
+                    android:text="আপনি কখনো কখনো ফ্লুর পাশাপাশি ব্যাকটেরিয়া জনিত ইনফেকশনে আক্রান্ত হতে পারেন তখন সেই পরিস্থিতিতে আপনার ডাক্তার এন্টিবায়োটিক প্রেসক্রাইব করতে পারেন। তখন প্রেসক্রিপশনের নিয়ম অনুযায়ী সেই ওষুধ খাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <TextView
+                    android:id="@+id/textView183"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView182"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:layout_toRightOf="@+id/textView18"
+                    android:text="প্রয়োজন ছাড়া এন্টিবায়োটিক খেলে যেসব ব্যাক্টেরিয়া বেঁচে যাবে সেইগুলা ঔষধের বিপক্ষে শক্তিশালী হয় ওঠে, ফলে তাদেরকে ঔষধ দিয়ে মেরে ফেলা ধীরে ধীরে অনেক কঠিন হয়ে পরে। তাই প্রেসক্রাইব করা না হলে কখনোই এন্টিবায়োটিক্স খাবেন না।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="@dimen/flu_padding_top"
+            android:text="আক্রান্ত অবস্থায় কিছু সতর্কতা"
+            android:textColor="@drawable/l_text_color_99"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/not_to_do"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:layout_toRightOf="@+id/textView20"
+                android:paddingTop="2dp"
+                android:text="জ্বর চলে যাবার পর ২৪ ঘন্টা পর্যন্ত বাসায় থাকুন এবং রেস্ট নিন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView201"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:layout_toRightOf="@+id/textView20"
+                android:text="যদি অসুস্থ হয়ে থাকেন তবে বের হবেন না।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/not_to_do"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:layout_toRightOf="@+id/textView21"
+                android:paddingTop="2dp"
+                android:text="ফ্লুর প্রথম লক্ষন দেখা দেয়া থেকে শুরু করে ভালো হয়ে যাওয়া পর্যন্ত প্রচুর পরিমানে তরল খাবার খান (পানি এবং অন্যান্য তরল)।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView211"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:layout_toRightOf="@+id/textView21"
+                android:text="পানিশূন্যতার হাত থেকে বাঁচতে ফ্লুতে আক্রান্ত ব্যাক্তিকে অতিরিক্ত তরল খাবার খেতে হবে।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/not_to_do"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:layout_toRightOf="@+id/textView31"
+                android:paddingTop="2dp"
+                android:text="আপনি কিংবা যে ব্যাক্তির ফ্লু হয়েছে তিনি যদি অতিরিক্ত অসুস্থ হয়ে পড়েন, কিংবা গর্ভবতী হয়ে থাকেন অথবা অন্য ধরনের অসুস্থতার কারনে চিকিৎসাধীন হয়ে থাকেন (যেমন হাঁপানি) তাহলে অতিসত্ত্বর ডাক্তারের স্মরনাপন্ন হন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView311"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:layout_toRightOf="@+id/textView31"
+                android:text="এমতাবস্থায় তাদের আরো পরীক্ষা নিরীক্ষার প্রয়োজন হতে পারে এবং ফ্লু সারাতে এন্টিভাইরাল ওষুধের দরকার হতে পারে।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_top">
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:text="@string/not_to_do"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView1_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:layout_toRightOf="@+id/textView1_1"
+                android:paddingTop="2dp"
+                android:text="আপনি কিংবা যে ব্যাক্তির ফ্লু হয়েছে তিনি যদি অতিরিক্ত অসুস্থ হয়ে পড়েন, কিংবা গর্ভবতী হয়ে থাকেন অথবা অন্য ধরনের অসুস্থতার কারনে চিকিৎসাধীন হয়ে থাকেন (যেমন হাঁপানি) তাহলে অতিসত্ত্বর ডাক্তারের স্মরনাপন্ন হন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView0_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="33dp"
+            android:text="সংশ্লিষ্ট ফার্স্ট এইড…"
+            android:textColor="@drawable/l_text_color_99"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_back_back_color_221"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/l_button_design_1"
+                android:drawableLeft="@drawable/home1"
+                android:drawableTint="@drawable/l_drawable_tint_color_1"
+                android:height="20dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="    বাসা বা অফিসে ফ্লু প্রতিরোধের টিপস"
+                android:textColor="@drawable/l_button_color_1"
+                android:textSize="@dimen/font_size_internal_buttons"/>
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/l_button_design_1"
+                android:drawableLeft="@drawable/doctor1"
+                android:drawableTint="@drawable/l_drawable_tint_color_1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="    ডাক্তার কখন ডাকতে হবে"
+                android:textColor="@drawable/l_button_color_1"
+                android:textSize="@dimen/font_size_internal_buttons"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

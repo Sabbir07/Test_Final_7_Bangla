@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_1_fire_3_car_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="গাড়িতে আগুন লাগা খুব খারাপ ধরনের দুর্ঘটনা। অনেক চালকই এই ব্যপারে অসচেতন থাকেন। গাড়িতে আগুন লাগা রোধে এক্সপার্টদের দেয়া বেশ কিছু পরামর্শ এখানে তুলে ধরা হলো।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <RelativeLayout
+            android:id="@+id/one1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one1t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="১"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one1t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one1t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="ড্রাইভিং অ্যাক্সিডেন্ট এবং গাড়ির কোনরূপ ক্ষতি এড়াতে বেপরোয়াভাবে গাড়ি চালানো কমাতে হবে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/one1t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one1t2"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/one1t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:text="যেই এলাকায় কিছু সময় আগেই ঝড় বয়ে গেছে সেই সমস্ত এলাকায় গাড়ি চালানোর সময় সতর্কতার সাথে রাস্তায় কিছু পড়ে আছে কিনা দেখে গাড়ি চালাবেন।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one2i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_3_car_1"/>
+
+            <TextView
+                android:id="@+id/one2t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one2i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="২"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one2t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one2i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one2t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="স্মোক ডিটেকটর, আগুন নেভানোর যন্ত্র ইত্যাদি গাড়িতে রাখবেন। সম্ভব হলে অটো ফায়ার সেফটি গাড়িতে ইমপ্লিমেন্ট করে নিন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one3t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৩"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one3t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one3t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="গাড়িতে কাগজ জাতীয় বস্তু না রাখার চেষ্টা করুন, কারন এগুলো খুবই দাহ্য পদার্থ এবং অগ্নুৎপাতের কারন হয়ে দেখা দিতে পারে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one4t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৪"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one4t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one4t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="অন্যান্য দাহ্য পদার্থ যেমনঃ গ্যাসলিন গাড়িতে বহন করা থেকে বিরত থাকুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one5t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one5i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৫"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one5t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one5i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one5t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="গাড়িতে নতুন যন্ত্রাংশ লাগানোর ক্ষেত্রে সতর্কতা অবলম্বন করুন। অনেক ক্ষেত্রেই দেখা গেছে যে গাড়িতে আগুন লাগার পেছনে এই ধরনের যন্ত্রাংশ ঠিক ভাবে না লাগানোই দায়ী।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/one5t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one5t2"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/one5t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:text="নিয়মিত ভালো মেকানিক দিয়ে আপনার গাড়ির ইলেকট্রনিক্সগুলো চেক করান।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one6i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_3_car_2"/>
+
+            <TextView
+                android:id="@+id/one6t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one6i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৬"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one6t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one6i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one6t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="ফুয়েল লাইন এবং গ্যাস ট্যাংক নিয়মিত চেক করুন, কোন লিক আছে কিনা। নয়তো আগুন লাগার সম্ভাবনা থেকে যাবে।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+
+            <TextView
+                android:id="@+id/one6t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one6t2"
+                android:layout_marginLeft="0dp"
+                android:layout_toRightOf="@+id/one6t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                android:text="পুরনো গাড়িতে এই ধরনের সমস্যা বেশি দেখা যায় তাই খেয়াল রাখুন জ্বালানী লাইনে কোন লিক আছে কিনা, ইঞ্জেকটর অক্ষুন্ন আছে কিনা।"
+                android:textColor="@drawable/l_text_color_60"
+                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top">
+
+            <TextView
+                android:id="@+id/one7t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৭"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one7t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one7t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="গাড়ির ব্যাটারির নিয়মিত যত্ন নিন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/one8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/flu_padding_image_top"
+            android:paddingBottom="@dimen/flu_padding_image_top">
+
+            <ImageView
+                android:id="@+id/one8i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingTop="@dimen/inside_image_padding_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_button_1_fire_3_car_3"/>
+
+            <TextView
+                android:id="@+id/one8t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one8i"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৮"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/one8t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/one8i"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/one8t1"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:text="অগ্নিসংযোগের মতো দুস্কৃতকার্যের হাত থেকে বাঁচাতে আপনার গাড়িকে নিরাপদ কোন স্থানে পার্ক করুন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

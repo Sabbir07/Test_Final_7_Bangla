@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/water_image"/>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="নিরাপদ পানি হলো সেই পানি যেটা পান করা এবং খাবার তৈরির কাজে নিরাপদে ও নিশ্চিন্তে ব্যাবহার করা যায়। সারা পৃথিবীতে ২০১৫ সালের হিসেব মতে ৯১% মানুষের কাছে খাবার উপযুক্ত পানি আছে। পানি থেকে নানাবিধ ব্যাকটেরিয়া অথবা জীবাণু মুক্ত করতে পানি বিশুদ্ধ করার ব্যাপারে কোনরূপ ছাড় দেয়া উচিৎ নয়। নিচে দেয়া পদ্ধতিগুলো থেকে জেনে নিন পানি বিশুদ্ধ করার উপায়।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/flu_padding_top"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:text="পানি ফুটানো"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/flu_font_big_big"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/flu_padding_top"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/water_show_1_1"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/textView6"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="17dp"
+                    android:text="যেই পানি পরিশুদ্ধ করতে চান সেটি একটি পাত্রে রাখুন। পাত্রটি একটি স্টোভে রেখে জ্বাল বাড়িয়ে দিন। পানি ফুটলে তা ভেতরে থাকা ব্যাকটেরিয়া এবং অনুজীব মেরে ফেলবে এবং পানিকে খাওয়ার উপযুক্ত করে তুলবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView61"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/textView6"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আপনি যদি কোন জনহীন প্রান্তরে গিয়ে থাকেন তবে পাত্রের পানি ফুটানোর জন্য এক জায়গায় আগুন জ্বালান। আপনার কাছে পানির পাত্র না থাকলে যেকোন অদাহ্য ধারক যেমন টিনের কৌটা ব্যাবহার করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/water_show_1_2"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_top_text_right_to_circle"
+                    android:text="ছোট ছোট বুদবুদ উঠতে শুরু করলে বুঝতে হবে পানি ফুটতে শুরু করেছে, কিন্তু আরো বেশি ফুটাতে থাকুন যতক্ষন না বড়বড় ঘূর্ণায়মান বুদবুদ উঠতে শুরু করে এবং টাইমিং স্টার্ট করুন। ৫ থেকে ১০ মিনিট এই অবস্থায় ফুটতে দিন। যদি সি (সাগর) লেভেল থেকে বেশি উচ্চতায় থেকে থাকেন তবে প্রতি ৩০০ মিটারের জন্য ১ মিনিট বেশি সময় পানি ফুটাবেন। তবে ৫৫০০ মিটারের বেশি উচ্চতায় পানি ফুটালেও তা ব্যাকটেরিয়া অথবা অনুজীবের ওপরে কোন প্রভাব ফেলবে না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView71"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/textView7"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="পানি বিশুদ্ধ করার জন্য ১ - ৫ মিনিট ফুটানোই যথেষ্ট। পানিতে থাকা বেশিরভাগ অনুজীবই এতে মারা পড়বে। বাষ্পের মাধ্যমে বেশ কিছু কেমিকেলও মুক্ত হবে। কিন্তু এই পদ্ধতিতে শক্ত ধাতু জাতীয় পদার্থ মুক্ত হবে না। আর বেশি উচ্চতায় পানি কার্যকর ভাবে ফোটানোর জন্য প্রেশার কুকার ব্যাবহার করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/flu_padding_top"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/water_show_1_3"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image4"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/flu_font_big_big"/>
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image4"
+                    android:layout_marginLeft="0dp"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/textView8"
+                    android:text="পানি ফোটানো হয়ে গেলে সাবধানতার সাথে গড়ম পাত্রটিকে কাপড় দিয়ে ধরে চুলার উপর থেকে নামিয়ে ফেলুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_top_text">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/l_circle_shape_2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="৪"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/flu_font_big_big"/>
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="@dimen/flu_padding_right"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/textView9"
+                android:text="পানিটাকে স্থির হতে দিন। এতে করে পানিতে থাকা ভারী পদার্থগুলি পানির তলায় জমতে থাকবে। তবে পানিটা যদি ট্যাপের হয়ে থাকে এবং আপনি নিশ্চিত থাকেন যে তেমন কোন পদার্থ পানিতে নেই তবে এই ধাপটি বাদ দিতে পারেন।"
+                android:textColor="@drawable/l_text_color_33"
+                android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
