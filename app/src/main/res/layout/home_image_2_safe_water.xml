@@ -56,7 +56,7 @@
                 android:paddingTop="1dp"
                 android:text="পানি ফুটানো"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"
+                android:textSize="@dimen/drawer_title_bar_last_layout"
                 android:textStyle="bold"/>
 
             <TextView
@@ -69,7 +69,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -108,7 +108,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView61"
@@ -167,7 +167,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView71"
@@ -224,7 +224,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView81"
@@ -258,7 +258,7 @@
                 android:paddingBottom="3dp"
                 android:text="৪"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView91"

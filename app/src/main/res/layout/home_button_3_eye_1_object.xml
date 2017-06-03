@@ -59,7 +59,7 @@
                 android:paddingTop="1dp"
                 android:text="নিজে নিজেই পরিষ্কার করা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView32"
@@ -71,7 +71,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -111,7 +111,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one1t2"
@@ -182,7 +182,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one2t2"
@@ -226,7 +226,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one3t2"
@@ -297,7 +297,7 @@
                 android:paddingTop="1dp"
                 android:text="কোন কিছুর সাহায্য নেয়া"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView33"
@@ -309,7 +309,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -348,7 +348,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two1t2"
@@ -418,7 +418,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two2t2"
@@ -476,7 +476,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two3t2"
@@ -546,7 +546,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two4t2"
@@ -589,7 +589,7 @@
                 android:paddingTop="1dp"
                 android:text="বড়/বিপদজনক বস্তু বের করা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView34"
@@ -601,7 +601,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -641,7 +641,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three1t2"
@@ -697,7 +697,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three2t2"
@@ -754,7 +754,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three3t2"

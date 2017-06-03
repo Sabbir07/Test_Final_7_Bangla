@@ -20,6 +20,7 @@
     <dimen name="font_size_internal_buttons">15sp</dimen>
     <dimen name="last_layout_primary_text">15sp</dimen>
     <dimen name="last_layout_secondary_text_blurred">13.5sp</dimen>
+    <dimen name="drawer_title_bar_last_layout">17sp</dimen>
 
 
 
@@ -37,7 +38,6 @@
     <dimen name="flu_padding_left_right_common_2">15dp</dimen>
     <dimen name="flu_padding_right">15dp</dimen>
     <dimen name="flu_padding_left_right_square_icon">5dp</dimen>
-    <dimen name="flu_font_big_big">17sp</dimen>
     <dimen name="flu_font_very_big">30sp</dimen>
     <dimen name="flu_font_big">15sp</dimen>
     <dimen name="text_ceiling">15dp</dimen>

@@ -245,13 +245,13 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                     if (checkSelfPermission(Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
                         Intent i = new Intent(Intent.ACTION_CALL);
-                        String p = "tel:+8801737103656";
+                        String p = "tel:999";
                         i.setData(Uri.parse(p));
                         startActivity(i);
                     }
                 }else {
                     Intent i = new Intent(Intent.ACTION_DIAL);
-                    String p = "tel:+8801737103656";
+                    String p = "tel:999";
                     i.setData(Uri.parse(p));
                     startActivity(i);
                 }

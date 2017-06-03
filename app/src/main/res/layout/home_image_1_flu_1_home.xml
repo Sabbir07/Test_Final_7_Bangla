@@ -40,7 +40,7 @@
                 android:paddingBottom="3dp"
                 android:text="১"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView201"
@@ -72,7 +72,7 @@
                 android:paddingBottom="3dp"
                 android:text="২"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView211"
@@ -116,7 +116,7 @@
                 android:paddingBottom="3dp"
                 android:text="৩"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView311"
@@ -160,7 +160,7 @@
                 android:paddingBottom="3dp"
                 android:text="৪"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView1_11"
@@ -192,7 +192,7 @@
                 android:paddingBottom="3dp"
                 android:text="৫"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView3112"
@@ -238,7 +238,7 @@
                 android:paddingBottom="3dp"
                 android:text="১"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textViewa201"
@@ -269,7 +269,7 @@
                 android:paddingBottom="3dp"
                 android:text="২"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textViewa211"
@@ -314,7 +314,7 @@
                 android:paddingBottom="3dp"
                 android:text="৩"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textViewa311"

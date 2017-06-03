@@ -100,7 +100,7 @@
             android:drawableTint="@drawable/l_drawable_tint_color_1"
             android:gravity="left|center_vertical"
             android:paddingLeft="15dp"
-            android:text="      ঝরের সময়"
+            android:text="      ঝড়ের সময়"
             android:textColor="@drawable/l_button_color_1"
             android:textSize="@dimen/font_size_internal_buttons"/>
 

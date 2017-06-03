@@ -61,7 +61,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -92,7 +92,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView51"
@@ -123,7 +123,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView52"
@@ -154,7 +154,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView53"
@@ -184,7 +184,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView54"
@@ -214,7 +214,7 @@
                 android:gravity="center"
                 android:text="@string/tick_mark"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView55"
@@ -251,7 +251,7 @@
                 android:paddingTop="1dp"
                 android:text="ফ্লু হয়েছে কিনা নিশ্চিত করা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"
+                android:textSize="@dimen/drawer_title_bar_last_layout"
                 android:textStyle="bold"/>
 
             <TextView
@@ -264,7 +264,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -303,7 +303,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView61"
@@ -360,7 +360,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView71"
@@ -411,7 +411,7 @@
                 android:paddingTop="1dp"
                 android:text="প্রাকৃতিক উপায়ে চিকিৎসা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"
+                android:textSize="@dimen/drawer_title_bar_last_layout"
                 android:textStyle="bold"/>
 
             <TextView
@@ -424,7 +424,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
 
@@ -453,7 +453,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView81"
@@ -498,7 +498,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView91"
@@ -553,7 +553,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView101"
@@ -587,7 +587,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView111"
@@ -632,7 +632,7 @@
                     android:paddingBottom="3dp"
                     android:text="৫"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView121"
@@ -687,7 +687,7 @@
                     android:paddingBottom="3dp"
                     android:text="৬"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView131"
@@ -731,7 +731,7 @@
                     android:paddingBottom="3dp"
                     android:text="৭"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView141"
@@ -788,7 +788,7 @@
                     android:paddingBottom="3dp"
                     android:text="৮"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView151"
@@ -840,7 +840,7 @@
                 android:paddingTop="1dp"
                 android:text="মেডিসিনের মাধ্যমে চিকিৎসা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"
+                android:textSize="@dimen/drawer_title_bar_last_layout"
                 android:textStyle="bold"/>
 
             <TextView
@@ -853,7 +853,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -881,7 +881,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView161"
@@ -926,7 +926,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView171"
@@ -995,7 +995,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/textView181"
@@ -1062,7 +1062,7 @@
                 android:gravity="center"
                 android:text="@string/not_to_do"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView201"
@@ -1104,7 +1104,7 @@
                 android:gravity="center"
                 android:text="@string/not_to_do"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView211"
@@ -1146,7 +1146,7 @@
                 android:gravity="center"
                 android:text="@string/not_to_do"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView311"
@@ -1188,7 +1188,7 @@
                 android:gravity="center"
                 android:text="@string/not_to_do"
                 android:textColor="#ffffff"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView1_11"

@@ -57,7 +57,7 @@
                 android:paddingRight="@dimen/padding_of_title_bar"
                 android:text="পানি ফুটানো"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView32"
@@ -69,7 +69,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
 
         </RelativeLayout>
@@ -109,7 +109,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one1t2"
@@ -166,7 +166,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one2t2"
@@ -223,7 +223,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one3t2"
@@ -257,7 +257,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/one4t2"
@@ -313,7 +313,7 @@
                 android:paddingRight="@dimen/padding_of_title_bar"
                 android:text="জনহীন প্রান্তরে পানি বিশুদ্ধকরন যন্ত্র"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView33"
@@ -325,7 +325,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -363,7 +363,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two1t2"
@@ -420,7 +420,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two2t2"
@@ -467,7 +467,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/two3t2"
@@ -510,7 +510,7 @@
                 android:paddingRight="@dimen/padding_of_title_bar"
                 android:text="সৌর পাতন যন্ত্র তৈরি"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView34"
@@ -522,7 +522,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -561,7 +561,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three1t2"
@@ -595,7 +595,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three2t2"
@@ -638,7 +638,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three3t2"
@@ -672,7 +672,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three4t2"
@@ -715,7 +715,7 @@
                     android:paddingBottom="3dp"
                     android:text="৫"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three5t2"
@@ -749,7 +749,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/three6t2"
@@ -804,7 +804,7 @@
                 android:paddingRight="@dimen/padding_of_title_bar"
                 android:text="পানি পরিশোধন যন্ত্র ব্যাবহার করা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView52"
@@ -816,7 +816,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -854,7 +854,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/four1t2"
@@ -888,7 +888,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/four2t2"
@@ -931,7 +931,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/four3t2"
@@ -975,7 +975,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/four4t2"
@@ -1031,7 +1031,7 @@
                 android:paddingRight="@dimen/padding_of_title_bar"
                 android:text="পরিশোধনকারী ট্যাবলেট ব্যাবহার করা"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
             <TextView
                 android:id="@+id/textView62"
@@ -1043,7 +1043,7 @@
                 android:paddingBottom="5dp"
                 android:text="\u25BC"
                 android:textColor="@drawable/l_text_color_triangle"
-                android:textSize="@dimen/flu_font_big_big"/>
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
         </RelativeLayout>
 
         <LinearLayout
@@ -1071,7 +1071,7 @@
                     android:paddingBottom="3dp"
                     android:text="১"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/five1t2"
@@ -1127,7 +1127,7 @@
                     android:paddingBottom="3dp"
                     android:text="২"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/five2t2"
@@ -1161,7 +1161,7 @@
                     android:paddingBottom="3dp"
                     android:text="৩"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/five3t2"
@@ -1204,7 +1204,7 @@
                     android:paddingBottom="3dp"
                     android:text="৪"
                     android:textColor="#ffffff"
-                    android:textSize="@dimen/flu_font_big_big"/>
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
 
                 <TextView
                     android:id="@+id/five4t2"
