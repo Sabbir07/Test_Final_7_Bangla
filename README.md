@@ -1,3 +1,3 @@
 # This is a personal project 
 
-This project is created for educational purposes only.
+This project is created for academical and educational purpose only.
