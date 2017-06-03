@@ -285,6 +285,18 @@
                 android:value="com.sabbir.Test_Final_7_Bangla.Home_button_2_water"/>
         </activity>
 
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_2_water_3_flood"
+                  android:label="বন্যা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_2_water">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_2_water"/>
+        </activity>
+
+
 
 
 

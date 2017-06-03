@@ -96,6 +96,8 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 mButton1.setSelected(false);
                 mButton4.setSelected(false);
                 mButton5.setSelected(false);
+                Intent i = new Intent(view.getContext(), Home_button_2_water_3_flood.class);
+                startActivity(i);
                 //mButton6.setSelected(false);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
