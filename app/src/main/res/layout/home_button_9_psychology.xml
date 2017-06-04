@@ -104,7 +104,7 @@
             android:textColor="@drawable/l_button_color_1"
             android:textSize="@dimen/font_size_internal_buttons"/>
 
-        <Button
+        <!--<Button
             android:id="@+id/obsession"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="match_parent"
@@ -136,7 +136,7 @@
             android:text="      অনিয়মিত ঘুম"
             android:textColor="@drawable/l_button_color_1"
             android:textSize="@dimen/font_size_internal_buttons"/>
-
+-->
 
 
 

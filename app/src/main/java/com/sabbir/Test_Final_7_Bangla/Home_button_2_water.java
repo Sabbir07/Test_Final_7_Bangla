@@ -55,7 +55,7 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
         final Button mButton2 = (Button) findViewById(R.id.boat);
         final Button mButton3 = (Button) findViewById(R.id.flood);
         final Button mButton4 = (Button) findViewById(R.id.storm);
-        final Button mButton5 = (Button) findViewById(R.id.drought);
+        //final Button mButton5 = (Button) findViewById(R.id.drought);
         //final Button mButton6 = (Button) findViewById(R.id.tsunami);
 
 
@@ -67,7 +67,7 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
+                //mButton5.setSelected(false);
                 //mButton6.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_2_water_1_drowning.class);
                 startActivity(i);
@@ -81,7 +81,7 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 mButton1.setSelected(false);
                 mButton3.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
+                //mButton5.setSelected(false);
                 //mButton6.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_2_water_2_boat.class);
                 startActivity(i);
@@ -95,7 +95,7 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 mButton2.setSelected(false);
                 mButton1.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
+                //mButton5.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_2_water_3_flood.class);
                 startActivity(i);
                 //mButton6.setSelected(false);
@@ -109,14 +109,15 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
                 mButton1.setSelected(false);
-                mButton5.setSelected(false);
+                //mButton5.setSelected(false);
                 //mButton6.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_2_water_4_storm.class);
                 startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
-        mButton5.setOnClickListener(new View.OnClickListener(){
+
+        /*mButton5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 view.setSelected(true);
@@ -127,7 +128,8 @@ public class Home_button_2_water extends AppCompatActivity implements View.OnCli
                 //mButton6.setSelected(false);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
-        });
+        });*/
+
         /*mButton6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

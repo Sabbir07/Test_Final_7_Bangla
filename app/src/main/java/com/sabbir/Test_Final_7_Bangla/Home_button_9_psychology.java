@@ -53,8 +53,8 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
         final Button mButton2 = (Button) findViewById(R.id.depression);
         final Button mButton3 = (Button) findViewById(R.id.fear);
         final Button mButton4 = (Button) findViewById(R.id.lonely);
-        final Button mButton5 = (Button) findViewById(R.id.obsession);
-        final Button mButton6 = (Button) findViewById(R.id.sleepless);
+        //final Button mButton5 = (Button) findViewById(R.id.obsession);
+        //final Button mButton6 = (Button) findViewById(R.id.sleepless);
 
 
         //.....also Handling the pressed look of button after getting back to this page.....
@@ -65,8 +65,8 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
-                mButton6.setSelected(false);
+                //mButton5.setSelected(false);
+                //mButton6.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_9_psychology_1_anger.class);
                 startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
@@ -79,8 +79,8 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 mButton1.setSelected(false);
                 mButton3.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
-                mButton6.setSelected(false);
+                //mButton5.setSelected(false);
+                //mButton6.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_9_psychology_2_depression.class);
                 startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
@@ -93,8 +93,8 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 mButton2.setSelected(false);
                 mButton1.setSelected(false);
                 mButton4.setSelected(false);
-                mButton5.setSelected(false);
-                mButton6.setSelected(false);
+                //mButton5.setSelected(false);
+                //mButton6.setSelected(false);
                 overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
@@ -105,11 +105,12 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
                 mButton1.setSelected(false);
-                mButton5.setSelected(false);
-                mButton6.setSelected(false);
+                //mButton5.setSelected(false);
+                //mButton6.setSelected(false);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
+        /*
         mButton5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -134,7 +135,7 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
-
+*/
 
 
         // For container 1
