@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDeepColor"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_9_psychology_4_lonely_cover"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="জীবনের বিভিন্ন সময় সবাই কম বেশি একাকীত্বের স্বীকার হয়ে থাকেন। এই অনুভূতিটি মোটেও সুখকর নয়। কিছু মানুষ অন্য মানুষদের মধ্যে থেকেও নিজেকে একাকী মনে করতে পারেন, আশেপাশের মানুষদের সাথে তিনি একাত্ত্বতা অনুভব করেন না বলে।"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="একাকীত্বের অনুভূতি বুঝতে পারা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/one1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/one1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_1"/>
+
+                <TextView
+                    android:id="@+id/one1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/one1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="একাকীত্ব কাটিয়ে উঠতে প্রথমেই আপনাকে বুঝতে হবে কেনো আপনি এটা অনুভব করছেন। আপনার কি বন্ধুর সংখ্যা খুব কম বলে নাকি অনেক বন্ধু থাকার পরেও কাছের কোন বন্ধু না থাকাটাই আপনার একাকীত্বের কারন!"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <!--<TextView
+                    android:id="@+id/one1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="- প্রতিদিনের জীবনে স্বাভাবিকভাবে কাজ করতে অসমর্থ হওয়া।\n- আপনি একসময় পছন্দ করতেন এমন কাজগুলি উপভোগ করতে অক্ষম হওয়া; যেমন পড়া, ভিডিও গেমিং, চিত্রাঙ্কন ইত্যাদি।\n- অস্থিরতা, ক্লান্তি লাগা, এবং কোন কাজ শেষ করতে অনেক এনার্জির প্রয়োজন হওয়া।\n- মূল্যহীনতা, আত্ম-দোষ এবং আত্মসম্মান বোধের অভাবের অনুভূতি।\n- স্বাভাবিকের চেয়ে বেশি বা কম ঘুম, অথবা অনিদ্রার সম্মুখীন হওয়া।\n- অস্বাভাবিক ওজন বৃদ্ধি বা হ্রাস, অত্যধিক ক্ষুধা অথবা ক্ষুধামন্দা।\n- আত্মঘাতী চিন্তা, মৃত্যু সম্পর্কে চিন্তা, বা আত্মহত্যার প্রচেষ্টা।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+                <!--<TextView
+                    android:id="@+id/one1t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one1t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/one1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আবার কখনো কাউকে দেখে মনে হতে পারে তারা সাতার কাটতে পারছেন না বা কষ্ট হচ্ছে অথচ সাহায্যের জন্য ডাকছেন না, সেক্ষেত্রে এমন হতে পারে যে তার শ্বাস আটকে আসছে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+
+                <ImageView
+                    android:id="@+id/one2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_2"/>
+
+                <TextView
+                    android:id="@+id/one2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/one2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/one2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="জার্নাল লিখুন নিজের অনুভূতি গুলোর ব্যাপারে। এ কাজে প্রতিদিন ২০ মিনিট সময় দিন। আপনি কেমন অনুভব করছেন তা লিখে রাখুন, এটা আপনার মনকে চাপ মুক্ত করবে। কবে আপনি একাকী অনুভব করেছেন, কতক্ষন ধরে ইত্যাদি।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!-- <TextView
+                     android:id="@+id/one2t3"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/one2t2"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/one2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="শরীরে ভিটামিন অথবা মিনারেলের অভাব হলে। থাইরয়েডের সমস্যা, হরমোন ইমব্যালান্সের কারনে।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                 <TextView
+                     android:id="@+id/one2t4"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/one2t3"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/one2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="কিছু ডাক্তারি ঔষধের সাইড ইফেক্ট হিসেবেও বিষন্নতা দেখা দিতে পারে। ঔষধ সেবনের আগে তার লেবেলে লেখা পার্শ্বপ্রতিক্রিয়াগুলি ভালোভাবে পড়ে নিন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                 <TextView
+                     android:id="@+id/one2t5"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/one2t4"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/one2t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="অন্যান্য কিছু অসুস্থতা যেমন  post-traumatic distress disorder, OCD, social phobia, হার্টের অসুখ, ক্যান্সার, স্ট্রোক, এইচআইভি, ডায়বেটিক্স ইত্যাদি অসুখের সাথে বিষন্নতা সহাবস্থান করতে পারে।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+ -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/one3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/one3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_3"/>
+
+                <TextView
+                    android:id="@+id/one3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/one3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/one3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/one3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="মেডিটেশন করুন নিয়মিত। এক্ষেত্রে কোন একটা গ্রুপের সাথে জয়েন করতে পারেন তাহলে আপনার উৎসাহ ধরে রাখতে সহায়তা হবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <!--
+                                <TextView
+                                    android:id="@+id/one3t3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one3t2"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one3t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="লাইব্রেরী থেকে বিষন্নতার ওপরে লেখা বই সংগ্রহ করে পড়ে ফেলুন। অনলাইনে ভালো মানের সাইটগুলোতে ভিজিট করুন এবং তাদের দেয়া বিশেষজ্ঞদের আর্টিকেলগুলি পড়ুন।"
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                                <TextView
+                                    android:id="@+id/one3t4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/one3t3"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/one3t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="পড়াশুনার মাধ্যমে বিষন্নতার নিরাময়কে বলা হয় বিবলিওথেরাপি (bibliotherapy)। এই পদ্ধতিতে বিষন্নতার নিরাময় খুবই কার্যকরী।"
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/one4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+
+                                <ImageView
+                                    android:id="@+id/one4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_9_psychology_2_depression_14"/>
+                -->
+
+                <TextView
+                    android:id="@+id/one4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/one4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/one4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="একজন থেরাপিস্টের সাথে যোগাযোগের ব্যাপারে ভেবে দেখুন। একজন লাইসেন্সধারী থেরাপিস্ট আপনাকে একাকীত্ব অবস্থাতে কি করতে হবে সে ব্যাপারে ভালো পরামর্শ দিতে পারবেন এবং আপনার অবস্থাটি তার অভিজ্ঞতা দিয়ে বুঝিয়ে বলতে পারবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+            <!--
+
+                        <RelativeLayout
+                            android:id="@+id/one5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                           &lt;!&ndash; <ImageView
+                                android:id="@+id/one5i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_2_water_1_drowing_2"/>
+            &ndash;&gt;
+                            <TextView
+                                android:id="@+id/one5t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:paddingBottom="3dp"
+                                android:text="৫"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                            <TextView
+                                android:id="@+id/one5t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one5t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="ডাক্তারের কাছ থেকে প্রেসক্রাইবড মেডিসিন নিয়ে খেতে পারেন। তবে সেই সাথে ভালোভাবে শুনে নেবেন কোন ঔষধের ক্ষেত্রে কি ধরনের পার্শ্বপ্রতিক্রিয়া দেখা দিতে পারে এবং নিয়মিত তার সাথে পরবর্তিতে কোন ধরনের পরিবর্তন চোখে পরলেই যোগাযোগ করবেন।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+
+                            <TextView
+                                android:id="@+id/one5t3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one5t2"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one5t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="আপনি যদি কোন ধরনের ঔষধ নিতে না চান তাহলে সেটা ডাক্তারকে পরিষ্কার করে, যুক্তি দিয়ে বুঝিয়ে বলুন। তাহলে তিনি অন্য কোন ব্যাবস্থার পরামর্শ দিতে পারেন।"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            &lt;!&ndash;
+
+                            <TextView
+                                android:id="@+id/one3t4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one3t3"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one3t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="পড়াশুনার মাধ্যমে বিষন্নতার নিরাময়কে বলা হয় বিবলিওথেরাপি (bibliotherapy)। এই পদ্ধতিতে বিষন্নতার নিরাময় খুবই কার্যকরী।"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            &ndash;&gt;
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/one6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                            <ImageView
+                                android:id="@+id/one6i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_9_psychology_2_depression_16"/>
+
+                            <TextView
+                                android:id="@+id/one6t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one6i"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:paddingBottom="3dp"
+                                android:text="৬"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                            <TextView
+                                android:id="@+id/one6t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one6i"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/one6t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="আপনি যদি চান তাহলে বিকল্প কোন পন্থা অনুসরন করতে পারেন, যেমন ছবি আকা, আকুপাংচার ইত্যাদি। কখনো কখনো এই ধরনের উপায় ভালো কাজে দেয়। এক্ষেত্রে এই ব্যাপারে ভালো জানেন এমন কাউকে খুঁজে নেবার চেষ্টা করুন।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+
+                            <TextView
+                                android:id="@+id/one6t3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one6t2"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one6t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="গান শোনার চেষ্টা করুন, এমন গান শুনুন যেটা আপনার মেজাজ ফিরিয়ে আনতে সাহায্য করবে।"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                            <TextView
+                                android:id="@+id/one6t4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one6t3"
+                                android:layout_marginLeft="0dp"
+                                android:layout_toRightOf="@+id/one6t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                android:text="কোন প্রানী, পোষার অভ্যাস করতে পারেন। স্টাডিতে দেখা গেছে একজন মানুষের ভালো থাকার ওপরে এর একটা ব্যাপক প্রভাব আছে।"
+                                android:textColor="@drawable/l_text_color_60"
+                                android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                        </RelativeLayout>
+            -->
+
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="নিজেকে সান্তনা দেয়া"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/two1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/two1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_4"/>
+
+                <TextView
+                    android:id="@+id/two1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/two1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনাকে বুঝতে হবে যে আপনি একা নন, আপনার আশেপাশের সবাই কখনো না কখনো একাকীত্ব অনুভব করেছেন এবং করেন। তাদের সাথে কথা বলুন, নিজের মনের কথাগুলি খুলে বলুন। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!-- <TextView
+                     android:id="@+id/two1t3"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/two1t2"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/two1t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="প্রতিদিন একটি নির্দিষ্ট সময়ে ঘুমাতে যান এবং ঘুম থেকে উঠুন।  ক্যাফেইন, এলকোহল ত্যাগ করা, ঘুমের আগে ব্যায়াম না করা, শোবার রুম থেকে বিরক্তিকর জিনিস সরিয়ে ফেলা, এবং রুমের তাপমাত্রা আরামদায়ক রাখা আপনার ঘুমের জন্য সহায়ক।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                 <TextView
+                     android:id="@+id/two1t4"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/two1t3"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/two1t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="কিভাবে ঘুমিয়ে পড়তে হয় সে ব্যাপারে পড়াশুনা করতে পারেন। হঠাৎ করে অনিদ্রা মুক্ত হওয়া কঠিন তাই নিজেকে সময় দিন এবং নিয়ম মেনে চলুন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_5"/>
+
+                <TextView
+                    android:id="@+id/two2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/two2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="নতুন কিছু করুন, সামনে চলুন ও একাকীত্ব ভুলে জান। হাঁটুন, বাইক চালান অথবা বই পড়ুন। মানুষের সাথে গল্প করুন কথা বলুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="নিজেকে ব্যস্ত রাখুন। নিজেকে বাড়তি কাজ এবং উদ্যোগের সাথে জড়িত করুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!--<TextView
+                    android:id="@+id/two2t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two2t3"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="নিয়মিত খেলাধুলা করতে পারেন, এতেও প্রচুর ব্যায়াম হবে। কোন একটা খেলার টিমে জয়েন করতে পারেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/two3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+
+                                <ImageView
+                                    android:id="@+id/two3i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_2_water_1_drowing_6"/>
+                -->
+
+                <TextView
+                    android:id="@+id/two3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/two3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনি নিজের সাথেই সামাজিক কর্মকান্ডে যোগ দিতে পারেন। যেমনঃ নিজেকে নিয়ে পছন্দের কোন একটা রেস্টুরেন্টে খেতে গেলেন। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ব্যাপারটা একটু অদ্ভুত লাগতে পারে, এসকল কাজ আমরা সঙ্গিদের সাথে করে অভ্যস্ত; তবে এমন করাটা আপনার জন্যে ফলপ্রসূ হতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/two4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/two4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_6"/>
+
+                <TextView
+                    android:id="@+id/two4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/two4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার যদি বন্ধুদের সাথে সম্পর্ক টিকিয়ে রাখতে কষ্ট হয় তাহলে গৃহপালিত কোন প্রানী পুষতে পারেন। এতে কারো সাথে সম্পর্ক গড়ে তোলার অভ্যাস তৈরি হবে আপনার মধ্যে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/two4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/two4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/two4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="তবে আগে নিশ্চিত হন যে আপনি আপনার পোষা প্রানীটির যত্ন প্রতিদিন নেবার জন্য তৈরি কিনা।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+            <!--
+                        <RelativeLayout
+                            android:id="@+id/two5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                            <ImageView
+                                android:id="@+id/two5i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_9_psychology_2_depression_25"/>
+
+                            <TextView
+                                android:id="@+id/two5t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/two5i"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:paddingBottom="3dp"
+                                android:text="৫"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                            <TextView
+                                android:id="@+id/two5t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/two5i"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/two5t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="আপনার বন্ধুদেরকে জানতে দিন যে আপনি বিষন্ন এবং তাদের সাহায্য আপনার প্রয়োজন। আপনি যদি না জানান তাহলে আপনাকে সাহায্য করা তাদের জন্যে অনেক কঠিন কাজ হবে।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/two6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/flu_padding_image_top">
+
+                            <ImageView
+                                android:id="@+id/two6i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:paddingTop="@dimen/inside_image_padding_top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/home_button_9_psychology_2_depression_26"/>
+
+                            <TextView
+                                android:id="@+id/two6t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/two6i"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/l_circle_shape_2"
+                                android:gravity="center"
+                                android:paddingBottom="3dp"
+                                android:text="৬"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                            <TextView
+                                android:id="@+id/two6t2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/two6i"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_toRightOf="@+id/two6t1"
+                                android:paddingRight="@dimen/flu_padding_right"
+                                android:text="হাসিখুশি মানুষের সাথে মিশুন, তাদের পাশে থাকুন এবং তাদের সাথে যতটা বেশি পারেন সময় কাটানোর চেষ্টা করুন। এমন মানুষের সাথে কথা বলুন যারা আত্মবিশ্বাসী এবং নিজেদের জীবনে সুখী। তাদের কাছ থেকে শেখার চেষ্টা করুন।"
+                                android:textColor="@drawable/l_text_color_33"
+                                android:textSize="@dimen/last_layout_primary_text"/>
+                        </RelativeLayout>-->
+
+        </LinearLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="সামাজিকতা বাড়ানো"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+
+            <RelativeLayout
+                android:id="@+id/three1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/three1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_7"/>
+
+                <TextView
+                    android:id="@+id/three1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/three1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="সামাজিক কর্মকান্ডের পরিমান বাড়ান। যেমনঃ কোন খেলার দলে যোগ দিন, ক্লাসে জয়েন করুন, অথবা স্বেচ্ছাসেবক হিসেবে কোন সামাজিক কাজে যোগ দিন। এসব কাজ আপনাকে সহজেই নতুন বন্ধু তৈরি করতে সাহায্য করবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!--  <ImageView
+                      android:id="@+id/three2i"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:adjustViewBounds="true"
+                      android:paddingTop="@dimen/inside_image_padding_top"
+                      android:scaleType="centerCrop"
+                      android:src="@drawable/home_button_9_psychology_2_depression_32"/>
+  -->
+                <TextView
+                    android:id="@+id/three2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/three2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="নিজেকে অন্যদের সাথে এগিয়ে গিয়ে কথা বলার ব্যাপারে চ্যালেঞ্জ করুন। জিজ্ঞেস করুন তিনি আপনার সাথে গল্প করতে চান কিনা কিংবা কফি খেতে যেতে চান কিনা। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="কাউকে আপনার ব্যাপারে আগ্রহী দেখতে চাইলে প্রথমে আপনাকেই তাদের ব্যাপারে আগ্রহ দেখাতে হবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_8"/>
+
+                <TextView
+                    android:id="@+id/three3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/three3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার পরিবারের অন্য সদস্যদের সাথে বেশি সময় পার করুন। কারো সাথে সম্পর্ক খারাপ থাকলে সেটা ঠিক করার উদ্যোগ নিন। যেমন তাদেরকে বাসায় দাওয়াত দিন অথবা কফি খেতে ডাকুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!--<TextView
+                    android:id="@+id/three3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ছোড়ার সময় ব্যাক্তির কাঁধ বরাবর ছুড়বেন। তিনি দড়ি ধরবার পর আস্তে আস্তে তাকে পাড়ের দিকে টেনে আনবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/three4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/three4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_9"/>
+
+                <TextView
+                    android:id="@+id/three4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/three4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="সমালোচনা কম করুন এবং প্রশংসা বেশি করুন, যাতে আপনার সংগ তাদের কাছে বিরক্তিকর হয়ে উঠতে না পারে। "
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="হালকাভাবে বলতে পারেন যে তার সোয়েটারটা সুন্দর হয়েছে, কিংবা তার ব্যক্তিত্ব আপনার কাছে ভালো লাগে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!-- <TextView
+                     android:id="@+id/three4t4"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/three4t3"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/three4t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="নিয়মিত খেলাধুলা করতে পারেন, এতেও প্রচুর ব্যায়াম হবে। কোন একটা খেলার টিমে জয়েন করতে পারেন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+             -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/three5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!--
+                                <ImageView
+                                    android:id="@+id/three4i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_9_psychology_4_lonely_9"/>
+
+                -->
+                <TextView
+                    android:id="@+id/three5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/three5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/three5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="অনলাইন গ্রুপে জয়েন করতে পারেন। কখনো কখনো এটা বাস্তবে মানুষের সাথে মিশতে যাবার চেয়ে সহজ কাজ। তবে মনে রাখতে হবে মানুষের সাথে সরাসরি মেলামেশার বিকল্প এটা হতে পারে না।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/three5t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/three5t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/three5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="অনলাইনে অনেক খারাপ মানুষও থাকে, যারা তাদের প্রকৃত রূপ আপনার কাছে গোপন রেখে আপনার সাথে মিশতে পারে এবং ক্ষতি করার চেষ্টা করতে পারে। তাই সাবধান ও সতর্ক থাকবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+                <!-- <TextView
+                     android:id="@+id/three4t4"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/three4t3"
+                     android:layout_marginLeft="0dp"
+                     android:layout_toRightOf="@+id/three4t1"
+                     android:paddingRight="@dimen/flu_padding_right"
+                     android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                     android:text="নিয়মিত খেলাধুলা করতে পারেন, এতেও প্রচুর ব্যায়াম হবে। কোন একটা খেলার টিমে জয়েন করতে পারেন।"
+                     android:textColor="@drawable/l_text_color_60"
+                     android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+             -->
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:paddingTop="1dp"
+                android:text="নির্জনতা উপভোগ করা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/four1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/four1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_10"/>
+
+                <TextView
+                    android:id="@+id/four1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="একাকীত্ব আর নিজে থেকে বেছে নেয়া নির্জনতার মধ্যে পার্থক্য বুঝতে শিখুন। একাকীত্ব হলো একা থাকতে খারাপ লাগা আর নিজে থেকে বেছে নেয়া নির্জনতা ও একাকী অবস্থা হলো উপভোগের ব্যাপার, এটার মধ্যে খারাপ কিছু নেই।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                <!--
+                                <TextView
+                                    android:id="@+id/four1t3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/four1t2"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_toRightOf="@+id/four1t1"
+                                    android:paddingRight="@dimen/flu_padding_right"
+                                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                                    android:text="আপনার বিষন্ন অবস্থার একটা নাম দিন। যেমনঃ উইন্সটন চার্চিল তার বিষন্নতার নাম রেখেছিলেন কালো কুকুর। তার অবস্থার একটা নাম দেবার মাধ্যমে সেটা নিয়ন্ত্রন করতে পারতেন। এটা আপনিও করতে পারেন, যেমনঃ -আমার দিনগুলো খারাপ যায়, আমি একজন বিরক্তিকর মানুষ-; এটা না বলে বলতে পারেন যে -আমার কালো কুকুর, আজকের দিনটাই খারাপ করে দিছে।-"
+                                    android:textColor="@drawable/l_text_color_60"
+                                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/four2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <!-- <ImageView
+                     android:id="@+id/four2i"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:adjustViewBounds="true"
+                     android:paddingTop="@dimen/inside_image_padding_top"
+                     android:scaleType="centerCrop"
+                     android:src="@drawable/home_button_2_water_1_drowing_10"/>
+ -->
+                <TextView
+                    android:id="@+id/four2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="অন্যদের বেশি সময় দিতে গিয়ে আমরা অনেক সময় নিজেরদেরকেই সময় দিতে ভুলে যাই। তাই কখনো যদি একাকী হতে পারেন তাহলে সেই সময়টা নিজেকে খুশি রাখতে ব্যয় করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/four3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/four3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_11"/>
+
+                <TextView
+                    android:id="@+id/four3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="সবাই যখন নিজেদের লাইফে খুব বিজি হয়ে যায় তখন ব্যায়াম করা বা জিমে যাওয়াটা বাদ পরে যায়। যদি আপনার ক্ষেত্রে এমনটা হয়ে থাকে কিংবা অন্যদের সাথে কম দেখা সাক্ষাত হয় তাহলে সেই বাড়তি সময়টা জিমে কাটানোর চেষ্টা করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/four3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/four3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="এভাবে হয়তো জিমে আপনার কিছু বন্ধু জুটে যেতে পারে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/four4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/four4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_9_psychology_4_lonely_12"/>
+
+                <TextView
+                    android:id="@+id/four4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="নতুন কিছু শেখার চেষ্টা করুন যেমনঃ নতুন কোন রান্না, ছবি আঁকা, মিইজিকাল ইন্সট্রুমেন্ট বাজানো, নাচ শেখা ইত্যাদি। এগুলো আপনার একাকীত্ব কমাতে সাহায্য করবে এবং এগুলো গ্রুপে একসাথে শিখতে পারবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!--<TextView
+                    android:id="@+id/four4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/four4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিক্টিম এবং আপনার মাঝে সবসময় একটা নিরাপদ দূরত্ব বজায় রাখুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/four5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+                <!--
+                                <ImageView
+                                    android:id="@+id/four5i"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:adjustViewBounds="true"
+                                    android:paddingTop="@dimen/inside_image_padding_top"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_button_9_psychology_2_depression_45"/>
+
+                             -->
+                <TextView
+                    android:id="@+id/four5t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৫"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four5t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four5t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="আপনার বড় কোন স্বপ্নের পেছনে কাজ করুন। যেটার পেছনে আগে সময় দেননি এখন একাকীত্বের অজুহাতে কাজ শুরু করে দিন। হতে পারে সেটাই আপনার জন্য আরো ভালো কিছু বয়ে আনবে। যেমনঃ হয়ত কোন বই লেখা কিংবা মুভি তৈরি করা ইত্যাদি।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <!--<TextView
+                    android:id="@+id/four4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/four4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিক্টিম এবং আপনার মাঝে সবসময় একটা নিরাপদ দূরত্ব বজায় রাখুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>-->
+            </RelativeLayout>
+
+        <!--      <RelativeLayout
+                android:id="@+id/four6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                &lt;!&ndash;
+                <ImageView
+                    android:id="@+id/four6i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_1_drowing_12"/>
+
+                &ndash;&gt;
+                <TextView
+                    android:id="@+id/four6t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৬"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/four6t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/four6t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="একবার যদি আপনি বিষন্নতায় আক্রান্ত হন তাহলে আবারো আপনি ভবিষ্যতে এর দ্বারা আক্রান্ত হতে পারেন। তাই লক্ষনের দিকে খেয়াল রাখুন যে আপনি বিষন্নতায় আক্রান্ত হতে যাচ্ছেন কিনা। যদি হন তাহলে দ্রুত আপনার সাইক্রিয়াটিস্টের, ডাক্তারের অথবা থেরাপিস্টের সাথে যোগাযোগ করুন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                &lt;!&ndash;<TextView
+                    android:id="@+id/four4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/four4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/four4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="ভিক্টিম এবং আপনার মাঝে সবসময় একটা নিরাপদ দূরত্ব বজায় রাখুন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>&ndash;&gt;
+            </RelativeLayout>-->
+
+        </LinearLayout>
+
+
+        <!--<RelativeLayout
+            android:id="@+id/relative5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_filled"
+            android:paddingBottom="@dimen/flu_padding_drawer_bottom"
+            android:paddingLeft="@dimen/flu_padding_left_right_common_2"
+            android:paddingRight="@dimen/flu_padding_left_right_common_2"
+            android:paddingTop="@dimen/flu_padding_drawer_top">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingTop="1dp"
+                android:paddingRight="@dimen/padding_of_title_bar"
+                android:text="উদ্ধারের পরে ভিক্টিমের দেখাশোনা"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/l_rectangle_round_corner_filled"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="\u25BC"
+                android:textColor="@drawable/l_text_color_triangle"
+                android:textSize="@dimen/drawer_title_bar_last_layout"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <RelativeLayout
+                android:id="@+id/five1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/five1i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_1_drowing_13"/>
+
+                <TextView
+                    android:id="@+id/five1t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five1i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="১"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/five1t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five1i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/five1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="৯৯৯ এ কল দিন, এবং ভিক্টিমের শ্বাস প্রশ্বাস চালু আছে কিনা খেয়াল করুন। হাতের উল্টা পিঠে অথবা গলার পাশে হাত দিয়ে পালস চেক করুন। ১০ সেকেন্ড ধরে পালস চেক করবেন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+                &lt;!&ndash;
+                <TextView
+                    android:id="@+id/five1t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five1t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/five1t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আয়োডিন এবং ক্লোরিন ট্যাবলেট মূলত একই কাজ করে। পানির তাপমাত্রা ২১ ডিগ্রী সেলসিয়াস বা তারচেয়ে বেশি হলে এই ট্যাবলেট গুলি সবচেয়ে ভালো ফল দেয়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+                 &ndash;&gt;
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/five2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/five2i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_1_drowing_14"/>
+
+                <TextView
+                    android:id="@+id/five2t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five2i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="২"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/five2t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five2i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/five2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="যদি চেক করে ভিক্টিমের পালস না পান তাহলে CPR দেয়া শুরু করুন। বয়স্ক এবং বাচ্চাদের জন্য, বুকের মাঝখানে আপনার হাত উপুর করে অথবা এক হাতের ওপরে অন্য হাত রাখুন। এবার প্রতি ৬০ সেকেন্ডে একশ বার এই রেটে মোট ৩০ বার বুকে চাপ দিন। চাপ দিয়ে ২ ইঞ্চি পরিমান নামাবেন। এবং দ্বিতীয় বার চাপ দেবার আগে বুকটাকে পুরোপুরি ওপরে উঠে আসার জন্য সময় দেবেন। সেই সাথে চেক করবেন যে ভিক্টিম শ্বাস নিতে শুরু করেছেন কিনা।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/five2t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five2t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/five2t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="আর ভিক্টিম যদি একেবারে শিশু হয়ে থাকে তাহলে বুকের হাড়ের ওপরে দুই আঙ্গুল রাখবেন এবং চাপ দেবেন। দেড় ইঞ্চি পর্যন্ত চাপ দিয়ে নামাবেন।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/five3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+
+                <ImageView
+                    android:id="@+id/five3i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_button_2_water_1_drowing_15"/>
+
+                <TextView
+                    android:id="@+id/five3t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five3i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৩"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/five3t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five3i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/five3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="ভিক্টিম যদি এর পরেও শ্বাস নিতে শুরু না করেন এবং আপনার CPR এর ট্রেইনিং নেয়া থাকে, সেক্ষেত্রে তাকে মুখ দিয়ে শ্বাস দিতে যাবেন তাছাড়া নয়। ভিক্টিমের মাথাটা পেছন দিকে বাঁকিয়ে থুতনি উচু করে ধরুন। দু আঙ্গুল দিয়ে নাক চেপে ধরে ভিক্টিমের মুখ আপনার মুখ দিয়ে কাভার করুন বা ঢেকে ফেলুন এবং ২ বার ১ সেকেন্ড ধরে শ্বাস দিন। খেয়াল রাখবেন যাতে ভিক্টিমের বুক ফুলে ওঠে। ২ বার করে শ্বাস দেবার পর আগের মতো ৩০ বার বুকে চাপ দিন।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+
+                <TextView
+                    android:id="@+id/five3t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five3t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/five3t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="এই পদ্ধতি রিপিট করতে থাকুন যতক্ষননা ভিক্টিম শ্বাস নিতে শুরু করেন অথবা প্রফেশনাল টিমের সাহায্য উপস্থিত না হয়।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+
+            &lt;!&ndash;
+            <RelativeLayout
+                android:id="@+id/five4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/flu_padding_image_top">
+
+                <ImageView
+                    android:id="@+id/five4i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/inside_image_padding_top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_image_2_safe_water_image_12"/>
+
+                <TextView
+                    android:id="@+id/five4t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five4i"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/l_circle_shape_2"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="৪"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/drawer_title_bar_last_layout"/>
+
+                <TextView
+                    android:id="@+id/five4t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five4i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/five4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:text="পানিতে ট্যাবলেটকে পুরোপুরি মিশে যেতে সময় দিন। পানি খাবার উপযুক্ত হতে ৩০ মিনিট অপেক্ষা করুন, এই সময়ের মধ্যে ট্যাবলেট পানিতে থাকা ব্যাকটেরিয়া গুলোকে মেরে ফেলবে।"
+                    android:textColor="@drawable/l_text_color_33"
+                    android:textSize="@dimen/last_layout_primary_text"/>
+
+                <TextView
+                    android:id="@+id/five4t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/five4t2"
+                    android:layout_marginLeft="0dp"
+                    android:layout_toRightOf="@+id/five4t1"
+                    android:paddingRight="@dimen/flu_padding_right"
+                    android:paddingTop="@dimen/padding_second_third_small_textView_top"
+                    android:text="মনে রাখতে হবে ঠান্ডা পানিতে ট্যাবলেট গুলির কার্যক্ষমতা কমে যায়। পানির তাপমাত্রা যদি ৪ ডিগ্রী সেলসিয়াস হয়ে থাকে তবে পানিতে মিশে যাবার পর পানি খাবার উপযুক্ত হবার জন্য এক ঘন্টা অপেক্ষা করতে হবে।"
+                    android:textColor="@drawable/l_text_color_60"
+                    android:textSize="@dimen/last_layout_secondary_text_blurred"/>
+            </RelativeLayout>
+            &ndash;&gt;
+        </LinearLayout>
+-->
+
+
+        <!--
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                    -->
+
+    </LinearLayout>
+</ScrollView>

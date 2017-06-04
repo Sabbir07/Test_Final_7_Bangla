@@ -109,6 +109,8 @@ public class Home_button_9_psychology extends AppCompatActivity implements View.
                 mButton1.setSelected(false);
                 //mButton5.setSelected(false);
                 //mButton6.setSelected(false);
+                Intent i = new Intent(view.getContext(), Home_button_9_psychology_4_lonely.class);
+                startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
