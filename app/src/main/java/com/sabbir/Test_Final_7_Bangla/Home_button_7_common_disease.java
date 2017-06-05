@@ -78,8 +78,8 @@ public class Home_button_7_common_disease extends AppCompatActivity {
                 mButton10.setSelected(false);
                 mButton11.setSelected(false);
                 mButton12.setSelected(false);
-                //Intent i = new Intent(view.getContext(), Home_button_1_fire_1_burnt.class);
-                //startActivity(i);
+                Intent i = new Intent(view.getContext(), Home_button_7_common_disease_2_cold.class);
+                startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });

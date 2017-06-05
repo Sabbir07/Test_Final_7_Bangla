@@ -448,6 +448,17 @@
                 android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
         </activity>
 
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_7_common_disease_2_cold"
+                  android:label="ঠান্ডা লাগা"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.Home_button_7_common_disease">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.Home_button_7_common_disease"/>
+        </activity>
+
 
 
 
