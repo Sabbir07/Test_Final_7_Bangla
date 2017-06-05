@@ -52,8 +52,8 @@ public class Home_button_5_accidents extends AppCompatActivity{
 
         //.....For button clicks.....
         final Button mButton1 = (Button) findViewById(R.id.senseless);
-        final Button mButton2 = (Button) findViewById(R.id.broken_bone);
-        final Button mButton3 = (Button) findViewById(R.id.cut);
+        final Button mButton2 = (Button) findViewById(R.id.flu);
+        final Button mButton3 = (Button) findViewById(R.id.cold);
         final Button mButton4 = (Button) findViewById(R.id.electric_shock);
         final Button mButton5 = (Button) findViewById(R.id.throat);
         final Button mButton6 = (Button) findViewById(R.id.ear_problem);
@@ -95,8 +95,8 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 mButton8.setSelected(false);
                 mButton9.setSelected(false);
                 mButton10.setSelected(false);
-                //Intent i = new Intent(view.getContext(), Home_button_1_fire_1_burnt.class);
-                //startActivity(i);
+                Intent i = new Intent(view.getContext(), Home_image_1_flu.class);
+                startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
@@ -113,6 +113,8 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 mButton8.setSelected(false);
                 mButton9.setSelected(false);
                 mButton10.setSelected(false);
+                Intent i = new Intent(view.getContext(), Home_button_7_common_disease_2_cold.class);
+                startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });

@@ -199,7 +199,8 @@ public class MainActivity extends AppCompatActivity
         //mButton3.setText(setSpannableString(text3, 0, text3.length())); // আগুন ৫ ঘর !
         String text4 = "জীবজন্তুর আক্রমণ";
         mButton4.setText(setSpannableString(text4, 0, text4.length())); // আগুন ৫ ঘর !
-        String text5 = "সাধারণ দুর্ঘটনা ও করণীয়";
+        //String text5 = "সাধারণ দুর্ঘটনা ও করণীয়";
+        String text5 = "দুর্ঘটনা ও অসুস্থতা";
         mButton5.setText(setSpannableString(text5, 0, text5.length())); // আগুন ৫ ঘর !
         //String text6 = "দৈনন্দিন কাজে সতর্কতা";
         //mButton6.setText(setSpannableString(text6, 0, text6.length())); // আগুন ৫ ঘর !

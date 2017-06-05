@@ -96,6 +96,49 @@
             android:textSize="@dimen/font_size_internal_buttons"/>
 
         <Button
+            android:id="@+id/flu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/flu1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ফ্লু/ইনফ্লুয়েঞ্জা"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+        <Button
+            android:id="@+id/cold"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="@dimen/second_layout_button_dif_0.75"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/l_button_design_1"
+            android:drawableLeft="@drawable/cold1"
+            android:drawableTint="@drawable/l_drawable_tint_color_1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="      ঠান্ডা কফ/সর্দি কাশি"
+            android:textColor="@drawable/l_button_color_1"
+            android:textSize="@dimen/font_size_internal_buttons"/>
+
+
+
+
+
+
+
+
+
+       <!-- <Button
             android:id="@+id/broken_bone"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="match_parent"
@@ -127,7 +170,7 @@
             android:paddingLeft="15dp"
             android:text="      কোথাও কেটে গেলে"
             android:textColor="@drawable/l_button_color_1"
-            android:textSize="@dimen/font_size_internal_buttons"/>
+            android:textSize="@dimen/font_size_internal_buttons"/>-->
 
         <Button
             android:id="@+id/electric_shock"
