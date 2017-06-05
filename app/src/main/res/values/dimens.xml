@@ -53,6 +53,13 @@
     <dimen name="padding_second_third_small_textView_top">4dp</dimen>
     <dimen name="padding_top_text_right_to_circle">2dp</dimen>
 
+
+
+
+    <dimen name="emergency_layout_button_side_space">10dp</dimen>
+    <dimen name="emergency_layout_button_side_space_half">5dp</dimen>
+
+
     <integer name="duration">250</integer>
 
 </resources>

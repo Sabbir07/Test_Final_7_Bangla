@@ -436,6 +436,21 @@
 
 
 
+        <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_6_emergecy_number"
+                  android:label="ইমার্জেন্সি নাম্বার"
+                  android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sabbir.Test_Final_7_Bangla.MainActivity"/>
+        </activity>
+
+
+
+
         <activity android:name="com.sabbir.Test_Final_7_Bangla.Home_button_7_common_disease"
                   android:label="স্বাধারন রোগ ও পরামর্শ"
                   android:parentActivityName="com.sabbir.Test_Final_7_Bangla.MainActivity">

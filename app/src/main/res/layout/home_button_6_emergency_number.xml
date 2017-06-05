@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorWhite"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="জীবনের বিভিন্ন সময় সবাই কম বেশি একাকীত্বের স্বীকার হয়ে থাকেন। এই অনুভূতিটি মোটেও সুখকর নয়। কিছু মানুষ অন্য মানুষদের মধ্যে থেকেও নিজেকে একাকী মনে করতে পারেন, আশেপাশের মানুষদের সাথে তিনি একাত্ত্বতা অনুভব করেন না বলে।"
+            android:textAlignment="center"
+            android:textColor="@drawable/l_text_color_120"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:layout_marginLeft="@dimen/emergency_layout_button_side_space"
+            android:layout_marginRight="@dimen/emergency_layout_button_side_space"
+            android:background="@drawable/border_shadow_button_under"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="সতর্কতা"
+            android:textSize="@dimen/font_size_home_page"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="@dimen/emergency_layout_button_side_space"
+            android:layout_marginRight="@dimen/emergency_layout_button_side_space"
+            android:background="@drawable/border_shadow_bottom_text_layout"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="@dimen/flu_padding_right"
+            android:paddingTop="15dp"
+            android:text="জীবনের বিভিন্ন সময় সবাই কম বেশি একাকীত্বের স্বীকার হয়ে থাকেন। এই অনুভূতিটি মোটেও সুখকর নয়। কিছু মানুষ অন্য মানুষদের মধ্যে থেকেও নিজেকে একাকী মনে করতে "
+            android:textAlignment="center"
+            android:textColor="@drawable/l_text_color_120"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:layout_marginRight="@dimen/emergency_layout_button_side_space"
+            android:layout_marginLeft="@dimen/emergency_layout_button_side_space">
+
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/help_desk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="৯৯৯\nজাতীয় হেল্প ডেস্ক"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/help_desk_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/help_desk"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"/>
+
+
+
+
+
+            <Button
+                android:id="@+id/ambulance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:text="১০৩\nএম্বুলেন্স সার্ভিস"
+                android:textSize="@dimen/font_size_home_page"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/ambulance_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_below="@+id/ambulance"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+
+
+
+            <Button
+                android:id="@+id/fire_station"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/help_desk_call"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="@dimen/emergency_layout_button_side_space"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="১০২\nফায়ার সার্ভিস"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/fire_station_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/fire_station"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"/>
+
+
+
+            <Button
+                android:id="@+id/disaster"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ambulance_call"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="@dimen/emergency_layout_button_side_space"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:text="১০৯৪১\nদুর্যোগ বার্তা"
+                android:textSize="@dimen/font_size_home_page"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/disaster_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_below="@+id/disaster"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+
+
+
+            <Button
+                android:id="@+id/rab"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/fire_station_call"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="@dimen/emergency_layout_button_side_space"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="১০১\nর‍্যাব ডেস্ক"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/rab_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/rab"
+                android:layout_marginRight="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"/>
+
+
+
+
+            <Button
+                android:id="@+id/police"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/disaster_call"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="@dimen/emergency_layout_button_side_space"
+                android:background="@drawable/border_shadow_button"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp"
+                android:drawableTop="@drawable/buttonimage1_1"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:text="১০০\nপুলিশ ডেস্ক"
+                android:textSize="@dimen/font_size_home_page"
+                android:textColor="@color/backgroundDeepColor"/>
+
+            <Button
+                android:id="@+id/police_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@id/strut"
+                android:layout_below="@+id/police"
+                android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border_shadow_button_under"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:text="কল করুন"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

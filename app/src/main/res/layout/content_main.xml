@@ -178,7 +178,7 @@
                 android:textColor="@color/frontButtonTextColor"/>-->
 
             <!--Disease-->
-            <Button
+            <!--<Button
                 android:id="@+id/button7"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="0dp"
@@ -194,6 +194,29 @@
                 android:drawableTint="@drawable/l_drawable_tint_color_front_button"
                 android:paddingTop="50dp"
                 android:drawableTop="@drawable/buttonimage7_1"
+                android:foreground="@drawable/ripple"
+                android:gravity="top|center_horizontal"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_size_home_page"
+                android:textColor="@color/frontButtonTextColor"/>-->
+
+            <!--Emergency Call-->
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="185dp"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button4"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginRight="0.25dp"
+                android:layout_marginTop="0.75dp"
+                android:background="@drawable/l_button_design_1_front_layout"
+                android:drawablePadding="10dp"
+                android:drawableTint="@drawable/l_drawable_tint_color_front_button"
+                android:paddingTop="50dp"
+                android:drawableTop="@drawable/buttonimage6_1_2"
                 android:foreground="@drawable/ripple"
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"

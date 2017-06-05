@@ -134,16 +134,19 @@ public class MainActivity extends AppCompatActivity
             }
         });
         */
+
+        //common disease
         Button mButton7 = (Button) findViewById(R.id.button7);
         mButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 view.startAnimation(buttonClick);
-                Intent i = new Intent(view.getContext(), Home_button_7_common_disease.class);
+                Intent i = new Intent(view.getContext(), Home_button_6_emergecy_number.class);
                 startActivity(i);
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
+
         //Fever
         /*
         Button mButton8 = (Button) findViewById(R.id.button8);
@@ -157,6 +160,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
         */
+
         Button mButton9 = (Button) findViewById(R.id.button9);
         mButton9.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,6 +171,7 @@ public class MainActivity extends AppCompatActivity
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
+
         /*
         Button mButton10 = (Button) findViewById(R.id.button10);
         mButton10.setOnClickListener(new View.OnClickListener() {
@@ -204,7 +209,8 @@ public class MainActivity extends AppCompatActivity
         mButton5.setText(setSpannableString(text5, 0, text5.length())); // আগুন ৫ ঘর !
         //String text6 = "দৈনন্দিন কাজে সতর্কতা";
         //mButton6.setText(setSpannableString(text6, 0, text6.length())); // আগুন ৫ ঘর !
-        String text7 = "সাধারণ রোগ ও পরামর্শ";
+        //String text7 = "সাধারণ রোগ ও পরামর্শ";
+        String text7 = "ইমার্জেন্সি নাম্বার";
         mButton7.setText(setSpannableString(text7, 0, text7.length())); // আগুন ৫ ঘর !
         //String text8 = "বিভিন্ন ধরনের জ্বর";
         //mButton8.setText(setSpannableString(text8, 0, text8.length())); // আগুন ৫ ঘর !
