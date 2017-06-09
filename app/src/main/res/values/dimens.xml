@@ -58,7 +58,8 @@
 
     <dimen name="emergency_layout_button_side_space">10dp</dimen>
     <dimen name="emergency_layout_button_side_space_half">5dp</dimen>
-
+    <dimen name="emergency_layout_button_corner_radius">10dp</dimen>
+    <dimen name="emergency_layout_button_image_size">40dp</dimen>
 
     <integer name="duration">250</integer>
 
