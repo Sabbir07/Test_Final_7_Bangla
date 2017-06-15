@@ -4,7 +4,7 @@
     android:id="@+id/scrollview1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/l_rectangle_shape_main_layout"
+    android:background="@color/backgroundDeepColor"
     android:orientation="vertical"
     android:scrollbars="none">
 
@@ -27,6 +27,9 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:background="@drawable/l_rectangle_round_corner_container"
+            android:paddingBottom="15dp"
             android:paddingLeft="15dp"
             android:paddingRight="@dimen/flu_padding_right"
             android:paddingTop="15dp"
@@ -39,7 +42,7 @@
             android:id="@+id/relative1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/flu_padding_image_top"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:background="@drawable/l_rectangle_round_corner_filled"
             android:paddingBottom="@dimen/flu_padding_drawer_bottom"
             android:paddingLeft="@dimen/flu_padding_left_right_common_2"
@@ -75,7 +78,9 @@
             android:id="@+id/container1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
             android:orientation="vertical"
             android:paddingBottom="15dp">
 
@@ -364,7 +369,7 @@
             android:id="@+id/relative2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:background="@drawable/l_rectangle_round_corner_filled"
             android:paddingBottom="@dimen/flu_padding_drawer_bottom"
             android:paddingLeft="@dimen/flu_padding_left_right_common_2"
@@ -400,7 +405,9 @@
             android:id="@+id/container2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
             android:orientation="vertical"
             android:paddingBottom="15dp">
 
@@ -664,7 +671,7 @@
             android:id="@+id/relative3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/flu_padding_top_small"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:background="@drawable/l_rectangle_round_corner_filled"
             android:paddingBottom="@dimen/flu_padding_drawer_bottom"
             android:paddingLeft="@dimen/flu_padding_left_right_common_2"
@@ -700,7 +707,9 @@
             android:id="@+id/container3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:animateLayoutChanges="false"
+            android:background="@drawable/l_rectangle_round_corner_container"
             android:orientation="vertical"
             android:paddingBottom="15dp">
 
@@ -888,8 +897,8 @@
         </LinearLayout>
 
 
-        <TextView
+       <!-- <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"/>-->
     </LinearLayout>
 </ScrollView>
