@@ -66,7 +66,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="@dimen/emergency_layout_button_side_space"
             android:layout_marginLeft="@dimen/emergency_layout_button_side_space">
 
@@ -125,7 +125,7 @@
                 android:layout_alignLeft="@id/strut"
                 android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
                 android:layout_marginTop="0dp"
-                android:background="@drawable/border_shadow_button_2"
+                android:background="@drawable/border_shadow_button_3"
                 android:drawablePadding="10dp"
                 android:drawableTint="@drawable/l_drawable_tint_color_front_button"
                 android:paddingTop="40dp"
@@ -204,7 +204,7 @@
                 android:layout_alignLeft="@id/strut"
                 android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
                 android:layout_marginTop="@dimen/emergency_layout_button_side_space"
-                android:background="@drawable/border_shadow_button_2"
+                android:background="@drawable/border_shadow_button_3"
                 android:drawablePadding="10dp"
                 android:drawableTint="@drawable/l_drawable_tint_color_front_button"
                 android:paddingTop="40dp"
@@ -284,7 +284,7 @@
                 android:layout_alignLeft="@id/strut"
                 android:layout_marginLeft="@dimen/emergency_layout_button_side_space_half"
                 android:layout_marginTop="@dimen/emergency_layout_button_side_space"
-                android:background="@drawable/border_shadow_button_2"
+                android:background="@drawable/border_shadow_button_3"
                 android:drawablePadding="10dp"
                 android:drawableTint="@drawable/l_drawable_tint_color_front_button"
                 android:paddingTop="40dp"
