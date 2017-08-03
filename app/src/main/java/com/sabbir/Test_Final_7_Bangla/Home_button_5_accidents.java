@@ -53,12 +53,12 @@ public class Home_button_5_accidents extends AppCompatActivity{
         //.....For button clicks.....
         final Button mButton1 = (Button) findViewById(R.id.senseless);
         final Button mButton2 = (Button) findViewById(R.id.flu);
-        final Button mButton3 = (Button) findViewById(R.id.cold);
+        final Button mButton3 = (Button) findViewById(R.id.cold);/*
         final Button mButton4 = (Button) findViewById(R.id.electric_shock);
         final Button mButton5 = (Button) findViewById(R.id.throat);
         final Button mButton6 = (Button) findViewById(R.id.ear_problem);
         final Button mButton7 = (Button) findViewById(R.id.quicksand);
-        final Button mButton8 = (Button) findViewById(R.id.earthquake);
+        final Button mButton8 = (Button) findViewById(R.id.earthquake);*/
         final Button mButton9 = (Button) findViewById(R.id.object);
         final Button mButton10 = (Button) findViewById(R.id.call);
 
@@ -70,11 +70,11 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 view.setSelected(true);
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
-                mButton4.setSelected(false);
+                /*mButton4.setSelected(false);
                 mButton5.setSelected(false);
                 mButton6.setSelected(false);
                 mButton7.setSelected(false);
-                mButton8.setSelected(false);
+                mButton8.setSelected(false);*/
                 mButton9.setSelected(false);
                 mButton10.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_5_accidents_1_unconscious.class);
@@ -87,12 +87,12 @@ public class Home_button_5_accidents extends AppCompatActivity{
             public void onClick(View view) {
                 view.setSelected(true);
                 mButton1.setSelected(false);
-                mButton3.setSelected(false);
+                mButton3.setSelected(false);/*
                 mButton4.setSelected(false);
                 mButton5.setSelected(false);
                 mButton6.setSelected(false);
                 mButton7.setSelected(false);
-                mButton8.setSelected(false);
+                mButton8.setSelected(false);*/
                 mButton9.setSelected(false);
                 mButton10.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_image_1_flu.class);
@@ -105,12 +105,12 @@ public class Home_button_5_accidents extends AppCompatActivity{
             public void onClick(View view) {
                 view.setSelected(true);
                 mButton2.setSelected(false);
-                mButton1.setSelected(false);
+                mButton1.setSelected(false);/*
                 mButton4.setSelected(false);
                 mButton5.setSelected(false);
                 mButton6.setSelected(false);
                 mButton7.setSelected(false);
-                mButton8.setSelected(false);
+                mButton8.setSelected(false);*/
                 mButton9.setSelected(false);
                 mButton10.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_7_common_disease_2_cold.class);
@@ -118,6 +118,7 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
+/*
         mButton4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -198,6 +199,7 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 //overridePendingTransition(R.anim.right_to, R.anim.left);
             }
         });
+*/
         //Object in eye
         mButton9.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -205,12 +207,14 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 view.setSelected(true);
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
+                mButton1.setSelected(false);
+/*
                 mButton4.setSelected(false);
                 mButton5.setSelected(false);
-                mButton1.setSelected(false);
                 mButton7.setSelected(false);
                 mButton8.setSelected(false);
                 mButton6.setSelected(false);
+*/
                 mButton10.setSelected(false);
                 Intent i = new Intent(view.getContext(), Home_button_3_eye_1_object.class);
                 startActivity(i);
@@ -224,12 +228,14 @@ public class Home_button_5_accidents extends AppCompatActivity{
                 mButton10.startAnimation(buttonClick);
                 mButton2.setSelected(false);
                 mButton3.setSelected(false);
+                mButton1.setSelected(false);
+/*
                 mButton4.setSelected(false);
                 mButton5.setSelected(false);
-                mButton1.setSelected(false);
                 mButton7.setSelected(false);
                 mButton8.setSelected(false);
                 mButton6.setSelected(false);
+*/
                 mButton9.setSelected(false);
                 /*
                 //...To go to call page then call
