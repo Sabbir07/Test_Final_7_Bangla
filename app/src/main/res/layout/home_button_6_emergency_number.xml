@@ -15,24 +15,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_button_6_emergency_number_cover"/>
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:paddingBottom="15dp"
             android:paddingLeft="15dp"
             android:paddingRight="@dimen/flu_padding_right"
             android:paddingTop="15dp"
-            android:text="জীবনের বিভিন্ন সময় সবাই কম বেশি একাকীত্বের স্বীকার হয়ে থাকেন। এই অনুভূতিটি মোটেও সুখকর নয়। কিছু মানুষ অন্য মানুষদের মধ্যে থেকেও নিজেকে একাকী মনে করতে পারেন, আশেপাশের মানুষদের সাথে তিনি একাত্ত্বতা অনুভব করেন না বলে।"
-            android:textAlignment="center"
+            android:text="যেকোন ইমার্জেন্সী পরিস্থিতিতে, আপনি বা আপনার আশেপাশের কেউ যদি প্রয়োজন মনে করেন তবে নিম্নে উল্লেখিত নাম্বারগুলিতে (বর্নিত সার্ভিস পেতে) সরাসরি যোগাযোগ করুন।"
             android:textColor="@drawable/l_text_color_120"/>
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/end_layout_margin_top_padding"
             android:layout_marginLeft="@dimen/emergency_layout_button_side_space"
             android:layout_marginRight="@dimen/emergency_layout_button_side_space"
             android:background="@drawable/border_shadow_top_text_layout_2"
@@ -58,7 +63,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="@dimen/flu_padding_right"
             android:paddingTop="15dp"
-            android:text="জীবনের বিভিন্ন সময় সবাই কম বেশি একাকীত্বের স্বীকার হয়ে থাকেন। এই অনুভূতিটি মোটেও সুখকর নয়। কিছু মানুষ অন্য মানুষদের মধ্যে থেকেও নিজেকে একাকী মনে করতে "
+            android:text="অপ্রয়োজনে কল দেবেন না। এসকল নাম্বারে অপ্রয়োজনে অথবা খারাপ উদ্দেশ্যে কল দেয়াটা দন্ডনীয় অপরাধ হিসেবে বিবেচিত হবে।"
             android:textAlignment="center"
             android:textColor="@drawable/l_text_color_120"/>
 
