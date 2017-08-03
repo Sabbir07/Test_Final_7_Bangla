@@ -371,12 +371,12 @@ public class MainActivity extends AppCompatActivity
             intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(filePath)));
             startActivity(Intent.createChooser(intent, "Share this app via"));
 
-        } else if (id == R.id.app_info) {
+        } /*else if (id == R.id.app_info) {
             Intent i = new Intent(MainActivity.this, Navigation_6_about.class);
             startActivity(i);
             overridePendingTransition(R.anim.right_to, R.anim.left);
 
-        } else if (id == R.id.more_apps) {
+        } */else if (id == R.id.more_apps) {
             //.....Opens the google play store page for "first aid" apps, Internet is needed.....
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=first%20aid&c=apps&hl=en"));
             startActivity(intent);

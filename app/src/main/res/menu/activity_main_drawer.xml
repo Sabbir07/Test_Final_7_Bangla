@@ -35,10 +35,13 @@
                 android:id="@+id/share"
                 android:icon="@drawable/app_share"
                 android:title="শেয়ার করুন"/>
+<!--
             <item
                 android:id="@+id/app_info"
                 android:icon="@drawable/app_info"
                 android:title="অ্যাপটি সম্পর্কে জানুন"/>
+-->
+
             <item
                 android:id="@+id/more_apps"
                 android:icon="@drawable/more_apps"
