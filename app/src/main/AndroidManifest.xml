@@ -41,7 +41,7 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.sabbir.Test_Final_7_Bangla.MainActivity"
-            android:label="ফার্স্ট এইড বাংলা"
+            android:label="ফার্স্ট এইড"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

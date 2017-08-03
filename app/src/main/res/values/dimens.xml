@@ -17,6 +17,7 @@
 
     <!--collecting all fonts here-->
     <dimen name="font_size_home_page">15sp</dimen>
+    <dimen name="font_size_emergency_number_buttons">14sp</dimen>
     <dimen name="font_size_internal_buttons">15sp</dimen>
     <dimen name="last_layout_primary_text">15sp</dimen>
     <dimen name="last_layout_secondary_text_blurred">13.5sp</dimen>
@@ -60,6 +61,7 @@
     <dimen name="emergency_layout_button_side_space_half">5dp</dimen>
     <dimen name="emergency_layout_button_corner_radius">10dp</dimen>
     <dimen name="emergency_layout_button_image_size">40dp</dimen>
+    <dimen name="emergency_layout_lower_calling_button_height">40dp</dimen>
 
     <integer name="duration">250</integer>
 

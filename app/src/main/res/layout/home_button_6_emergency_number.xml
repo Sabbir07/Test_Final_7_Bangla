@@ -76,6 +76,8 @@
                 android:layout_height="0dp"
                 android:layout_centerHorizontal="true"/>
 
+
+
             <Button
                 android:id="@+id/help_desk"
                 android:layout_width="0dp"
@@ -91,16 +93,16 @@
                 android:paddingBottom="30dp"
                 android:drawableTop="@drawable/help_line1"
                 android:gravity="top|center_horizontal"
-                android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="৯৯৯\nজাতীয় হেল্প ডেস্ক"
-                android:textColor="@color/backgroundDeepColor"/>
+                android:textColor="@color/backgroundDeepColor"
+                android:textStyle="normal"/>
 
 
             <Button
                 android:id="@+id/help_desk_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentLeft="true"
                 android:layout_alignRight="@id/strut"
                 android:layout_below="@+id/help_desk"
@@ -108,10 +110,10 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
                 android:textColor="@color/colorWhite"
-                android:textStyle="bold"/>
+                android:textStyle="normal"/>
 
 
 
@@ -134,13 +136,13 @@
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"
                 android:text="১০৩\nএম্বুলেন্স সার্ভিস"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:textColor="@color/backgroundDeepColor"/>
 
             <Button
                 android:id="@+id/ambulance_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentRight="true"
                 android:layout_alignLeft="@id/strut"
                 android:layout_below="@+id/ambulance"
@@ -148,9 +150,9 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textColor="@color/colorWhite"/>
 
 
@@ -173,14 +175,14 @@
                 android:drawableTop="@drawable/fire_station_21"
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="১০২\nফায়ার সার্ভিস"
                 android:textColor="@color/backgroundDeepColor"/>
 
             <Button
                 android:id="@+id/fire_station_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentLeft="true"
                 android:layout_alignRight="@id/strut"
                 android:layout_below="@+id/fire_station"
@@ -188,10 +190,10 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
                 android:textColor="@color/colorWhite"
-                android:textStyle="bold"/>
+                android:textStyle="normal"/>
 
 
 
@@ -213,13 +215,13 @@
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"
                 android:text="১০৯৪১\nদুর্যোগ বার্তা"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:textColor="@color/backgroundDeepColor"/>
 
             <Button
                 android:id="@+id/disaster_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentRight="true"
                 android:layout_alignLeft="@id/strut"
                 android:layout_below="@+id/disaster"
@@ -227,9 +229,9 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textColor="@color/colorWhite"/>
 
 
@@ -252,14 +254,16 @@
                 android:drawableTop="@drawable/rab1"
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="১০১\nর‍্যাব ডেস্ক"
                 android:textColor="@color/backgroundDeepColor"/>
+
+
 
             <Button
                 android:id="@+id/rab_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentLeft="true"
                 android:layout_alignRight="@id/strut"
                 android:layout_below="@+id/rab"
@@ -267,10 +271,10 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
                 android:textColor="@color/colorWhite"
-                android:textStyle="bold"/>
+                android:textStyle="normal"/>
 
 
 
@@ -293,13 +297,13 @@
                 android:gravity="top|center_horizontal"
                 android:textAllCaps="false"
                 android:text="১০০\nপুলিশ ডেস্ক"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:textColor="@color/backgroundDeepColor"/>
 
             <Button
                 android:id="@+id/police_call"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/emergency_layout_lower_calling_button_height"
                 android:layout_alignParentRight="true"
                 android:layout_alignLeft="@id/strut"
                 android:layout_below="@+id/police"
@@ -307,9 +311,9 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_shadow_button_under"
                 android:textAllCaps="false"
-                android:textSize="@dimen/font_size_home_page"
+                android:textSize="@dimen/font_size_emergency_number_buttons"
                 android:text="কল করুন"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textColor="@color/colorWhite"/>
 
 
