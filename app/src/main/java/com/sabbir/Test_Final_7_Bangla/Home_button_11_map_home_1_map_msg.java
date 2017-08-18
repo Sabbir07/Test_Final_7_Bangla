@@ -103,12 +103,12 @@ public class Home_button_11_map_home_1_map_msg extends FragmentActivity
                     }
                 });
 
-                alert.setNeutralButton("বাবাকে পাঠান", new DialogInterface.OnClickListener() {
+                alert.setNeutralButton("৯৯৯ নম্বরে পাঠান", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        final String phoneNumber0 = "01762868159";
+                        final String phoneNumber0 = "999";
                         AlertDialog.Builder alert2 = new AlertDialog.Builder(Home_button_11_map_home_1_map_msg.this);
 
-                        alert2.setTitle("বাবার নাম্বারে কোওর্ডিনেট পাঠান");
+                        alert2.setTitle("৯৯৯ নাম্বারে কোওর্ডিনেট পাঠান");
                         alert2.setMessage("মোবাইল নাম্বার:  " + phoneNumber0);
 
                         alert2.setPositiveButton("ঠিক আছে", new DialogInterface.OnClickListener() {
