@@ -3,10 +3,6 @@
     package="com.sabbir.Test_Final_7_Bangla" >
 
 
-
-
-
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.SEND_SMS"/>
@@ -21,15 +17,6 @@
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
-
-
-
-
-
-
-
-
-
 
 
 
