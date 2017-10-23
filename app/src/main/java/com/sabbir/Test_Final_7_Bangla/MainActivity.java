@@ -246,7 +246,10 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    //.....Representing the slideshow of two images of fire.....
+
+    //..
+    //.....Representing the slideshow of two images of fire
+    //..
     public void nextImage() {
         image1.setImageResource(imageArray[currentIndex]);
         currentIndex++;
@@ -303,7 +306,10 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+
+    //
     //.....Making the important texts of button's bold.....
+    //
     public SpannableString setSpannableString(String textString, int start, int end) {
 
         SpannableString spanString = new SpannableString(textString);
@@ -312,8 +318,11 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    //........This handles click on the drawer button items........
 
+
+    //
+    //........This handles click on the drawer button items........
+    //
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -390,13 +399,6 @@ public class MainActivity extends AppCompatActivity
 
 
 
-
-
-
-
-
-
-
     //............Menu item selection activity, top right icon............
 
     @Override
@@ -413,19 +415,25 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        //no inspection SimplifiableIfStatement
+        if (id == R.id.search) {
+            Intent i = new Intent(MainActivity.this, Search.class);
+            startActivity(i);
+            //overridePendingTransition(R.anim.right_to, R.anim.left);
+        }
+
         if (id == R.id.exit1) {
             moveTaskToBack(true); //left does not properly works without it. !
             android.os.Process.killProcess(android.os.Process.myPid());
             System.exit(1);
             return true;
         }
-
+/*
         if (id == R.id.about) {
             Intent i = new Intent(MainActivity.this, Navigation_6_about.class);
             startActivity(i);
             overridePendingTransition(R.anim.right_to, R.anim.left);
-        }
+        }*/
 
         if (id == R.id.share) {
             //.....To close the drawer after click.....

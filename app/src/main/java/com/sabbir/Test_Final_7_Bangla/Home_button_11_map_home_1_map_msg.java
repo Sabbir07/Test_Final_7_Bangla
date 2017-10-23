@@ -6,6 +6,7 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,8 +32,8 @@ import static com.sabbir.Test_Final_7_Bangla.R.id.map;
 /**
  * Created by Sabbir on 028  28 03 17  Mar.
  */
-
-public class Home_button_11_map_home_1_map_msg extends FragmentActivity
+//FragmentActivity already extended by appCompatActivity, so it will be covered !
+public class Home_button_11_map_home_1_map_msg extends AppCompatActivity
         implements GooglePlayServicesClient.ConnectionCallbacks,
         com.google.android.gms.location.LocationListener,
         GooglePlayServicesClient.OnConnectionFailedListener {
@@ -307,12 +308,14 @@ public class Home_button_11_map_home_1_map_msg extends FragmentActivity
     }
 
 
+    /*
+    // this one is particularly for top-right menu list items // three dots
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
-    }
+    }*/
 
 
     //This arrow is not showing because action bar is not there !
