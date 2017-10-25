@@ -7,8 +7,9 @@ android {
         applicationId "com.sabbir.Test_Final_7_Bangla"
         minSdkVersion 16
 
-        //23 or 24(previously was given, latest) will have to check permission while the app is
-        //running
+        //23 or 24(previously was given, latest) will have to check permission
+        //while the app is running
+        //TargetSdk can be lower than or equal to the compile Sdk (but not the opposite)
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"

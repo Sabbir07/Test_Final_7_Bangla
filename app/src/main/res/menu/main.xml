@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
 
     <item android:id="@+id/search"
-        android:title="সার্চ করুন"
+        android:title="খোঁজ করুন"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+        app:showAsAction="withText"
+        android:icon="@android:drawable/ic_menu_search"/>
 
     <item android:id="@+id/share"
           android:title="শেয়ার করুন"
           android:orderInCategory="100"
-          app:showAsAction="never" />
+        app:showAsAction="withText"
+        android:icon="@android:drawable/ic_menu_search" />
 <!--
 
     <item android:id="@+id/about"
@@ -22,7 +26,6 @@
 
     <item android:id="@+id/exit1"
         android:title="প্রস্থান"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
+        android:orderInCategory="100"/>
 
 </menu>
